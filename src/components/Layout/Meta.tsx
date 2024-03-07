@@ -1,12 +1,12 @@
 import Head from 'next/head'
 
 const Meta = ({ 
-  title = "Unge Iværksættere",
-  keywords = "Iværksætteri Unge Ungeiværksættere ",
-  description = "For ofte bliver unges idéer ikke til virkelighed, derfor samler vi unge iværksættere.",
+  title = "Gazella Team",
+  keywords = "Software With Impact",
+  description = "Software With Impact",
   icon = "/logo-white.png",
   banner = "/seo/banner.png",
-  url = "https://ungeivaerksattere.dk"
+  url = "https://gazellateam.com"
 }: { title?: string, keywords?: string, description?: string, icon?: string, banner?: string, url?: string }) => {
 
   return (
@@ -25,7 +25,7 @@ const Meta = ({
       <title key="title">{title}</title>
 
       <meta property='og:title' content={title} key="og:title"/>
-      <meta property='og:site_name' content="Unge Iværksættere" key="og:site_name"/>
+      <meta property='og:site_name' content="Gazella Team" key="og:site_name"/>
       <meta property="og:url" content={url} key="og:url"/>
       <meta property='og:description' content={description} key="og:description"/>
       <meta property="og:type" content="website" key="og:type"/>

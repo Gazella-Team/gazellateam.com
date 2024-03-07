@@ -1,88 +1,41 @@
-import { Mail, Phone } from "lucide-react";
-import Link from "next/link";
+import Link from "next/link"
 
-const ITEMS: {
-    title: string;
-    links: {
-        title: string;
-        href?: string;
-    }[]
-}[] = [
-    {
-        title: 'Frivillig organisation',
-        links: [
-            {
-                title: 'Unge Iværksættere',
-            },
-            {
-                title: 'CVR: 42846406',
-                href: 'https://datacvr.virk.dk/enhed/virksomhed/42846406?fritekst=unge%20iv%C3%A6rks%C3%A6ttere'
-            }
-        ]
-    },
-    {
-        title: "Links",
-        links: [
-            { title: 'Podcast', href: 'https://open.spotify.com/show/154B6QakpSESlOKiFkiDyk' },
-            { title: 'Facebook', href: 'https://www.facebook.com/ungeivaerksaettere' },
-            { title: 'Instagram', href: 'https://www.instagram.com/ivaerksaettere/' },
-        ]
-    }
-]
-export default function Footer(){
+export default function Footer() {
     return (
-        <div>
-            <footer className="p-4 bg-gray-100 sm:p-8">
-                <div className="mx-auto max-w-screen-xl">
-                    <div className="md:flex md:gap-10 md:justify-between">
-                        <div className="mb-6 md:mb-0">
-                            <Link href="/" className="flex items-center">
-                                <img src="/logo.png" className="mr-3 h-8" alt="FlowBite Logo" />
-                                <span className="self-center text-2xl font-semibold whitespace-nowrap">Unge Iværksættere</span>
-                            </Link>
-                            <p className="mt-6 text-sm text-gray-500">For ofte bliver unges idéer ikke til virkelighed, derfor samler vi unge iværksættere.</p>
-                        </div>
-                        <div className="flex w-full justify-end">
-                            <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+        <section className="py-[100px] pb-[60px] bg-third text-main flex items-center">
+            <div className="w-[94%] mx-auto flex flex-col justify-between gap-[70px]">
+                <div className="grid grid-cols-2">
+                    <div>
+                    <div className="flex items-center mb-[40px]">
+                <div className="bg-white rounded-full p-[4px]">
+                    <img className="w-[60px] rounded-full" src="/team/lasseosmann.webp"></img>
+                </div>
+                <div className="bg-white rounded-full p-[4px] ml-[-20px]">
+                    <img className="w-[60px] rounded-full" src="/team/simonmaribo.webp"></img>
+                </div>
+                <div className="bg-white rounded-full p-[4px] ml-[-20px]">
+                    <img className="w-[60px] rounded-full" src="/team/miklonborg.webp"></img>
+                </div>
 
-                                {
-                                    ITEMS.map((item, index) => (
-                                        <div key={index}>
-                                            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">{item.title}</h2>
-                                            <ul className="text-gray-600">
-                                                {
-                                                    item.links.map((link, index) => (
-                                                        <li key={index} className={`mb-4 ${link.href ? "hover:underline" : ""}`}>
-                                                            {
-                                                                link.href ? (
-                                                                    <Link href={link.href}>{link.title}</Link>
-                                                                )
-                                                                : (
-                                                                    <span>{link.title}</span>
-                                                                )
-                                                            }
-                                                        </li>
-                                                    ))
-                                                }
-                                            </ul>
-                                        </div>
-                                    ))
-                                }
-                            </div>
-                        </div>
+            </div>
+                        <h1 className="text-[24px] mb-[4px] font-[300]">Do you have a project in mind?</h1>
+                        <p className="font-[200] mb-[50px]">We&apos;d love to discuss your coming project</p>
+                        <Link className="border-[2px] font-[300] border-main px-[20px] py-[10px] rounded-full hover:bg-main hover:text-white transition-all" href={"/contact"}>Let&apos;s talk</Link>
                     </div>
-                    <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
-                    <div className="sm:flex sm:items-center sm:justify-between">
-                        <span className="text-sm text-gray-500 sm:text-center ">© {new Date().getFullYear()} <a href="https://ungeivarksaettere.dk" className="hover:underline">Unge Iværksættere</a>.
-                        </span>
-                        <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-                            <Link href={'/kontakt'} className="text-gray-500 hover:text-gray-900">
-                                <Mail size={20}/>
-                            </Link>
-                        </div>
+                    <div>
+
                     </div>
                 </div>
-            </footer>
-        </div>
+
+                <div className="text-gray-600 flex items-center justify-between">
+                    <p className="font-[200]">© {new Date().getFullYear()} Gazella Team</p>
+                    <div className="flex items-center gap-[30px] font-[200]">
+                        <Link href={"/partners"}>Partners</Link>
+                        <Link href={"/learning"}>Learning</Link>
+                        <Link href={"/Privacy policy"}>Privacy Policy</Link>
+                    </div>
+                </div>
+            </div>
+        </section>
     )
 }
