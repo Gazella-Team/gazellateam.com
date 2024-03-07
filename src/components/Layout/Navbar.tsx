@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
     return (
-        <nav className="h-[85px] fixed bg-white w-full flex items-center">
+        <nav className="h-[85px] fixed bg-white w-full flex items-center z-[999]">
             <div className="w-[96%] mx-auto flex items-center justify-between">
                 <Link href={"/"}>
                     <img className="w-[50px]" src="/logos/logofill.svg"></img>
