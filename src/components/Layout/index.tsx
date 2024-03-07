@@ -6,11 +6,6 @@ import localFont from "next/font/local"
 const GazellaTeamFont = localFont({
     src: [
       {
-        path: '../fonts/stolzl_bold.otf',
-        weight: '500',
-        style: 'normal',
-      },
-      {
         path: '../Fonts/stolzl_medium.otf',
         weight: '400',
         style: 'normal',
