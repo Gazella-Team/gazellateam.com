@@ -48,7 +48,7 @@ export default function Work() {
 const CaseCard = (props:any) => {
     return (
         <Reveal>
-        <Link href={props.Obj.link} className="h-[600px] w-full rounded-[14px] bg-center bg-cover flex flex-col justify-end" style={{backgroundImage: `linear-gradient(rgba(5, 29, 64, 0), rgba(5, 29, 64, 0.8)), url(${props.Obj.caseImage})`}}>
+        <Link href={props.Obj.link} className="h-[600px] lazy w-full rounded-[14px] bg-center bg-cover flex flex-col justify-end" style={{backgroundImage: `linear-gradient(rgba(5, 29, 64, 0), rgba(5, 29, 64, 0.8)), url(${props.Obj.caseImage})`}}>
 
             <div className="text-white p-[30px]">
                 <div>
