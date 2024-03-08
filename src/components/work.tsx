@@ -4,8 +4,8 @@ import { useState } from "react"
 
 const casesData = [
     {company: "Spaak Technologies", caseDescription: "Udvikling af Vid&Sans – nyt videnskabeligt medie fra Århus Universitetsforlag.", caseImage: "/spaak.png", tag:["Integrations", "Web", "Data"], link: "/spaak"},
-    {company: "Centox Web App", caseDescription: "Planmates is a mobile app, made to make planning new events and plans with your friends easier", caseImage: "/bgs/app.png", tag:"Web", link: "/work/cases/centox"},
-    {company: "Planmates App", caseDescription: "Planmates is a mobile app, made to make planning new events and plans with your friends easier", caseImage: "/work.png", tag:"App", link: "/work/cases/planmates"},
+    {company: "Pandoras Box", caseDescription: "Planmates is a mobile app, made to make planning new events and plans with your friends easier", caseImage: "/bgs/app.png", tag:"Web", link: "/work/cases/centox"},
+    {company: "COAD", caseDescription: "Planmates is a mobile app, made to make planning new events and plans with your friends easier", caseImage: "/work.png", tag:"App", link: "/work/cases/planmates"},
     {company: "Organic Masterclass", caseDescription: "Udvikling af Vid&Sans – nyt videnskabeligt medie fra Århus Universitetsforlag.", caseImage: "/work.png", tag:"Web", link: "/work/cases/organicmasterclass"},
 ]
 

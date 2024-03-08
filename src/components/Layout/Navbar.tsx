@@ -24,6 +24,9 @@ export default function Navbar() {
                         <Link className="hover:text-gray-600" href={"/products"}>
                         Products we build
                         </Link>
+                        <Link className="hover:text-gray-600" href={"/contact"}>
+                        Contact
+                        </Link>
                     </div>
                     <div>
                         <div className="flex items-center font-[200] gap-[6px]">

@@ -36,7 +36,7 @@ const memberData = [
 export default function Members() {
   return (
     <section className="py-[100px] pt-[00px]">
-      <div className="w-[95%] mx-auto max-w-[1100px] lg:w-[90%]">
+      <div className="w-[95%] mx-auto  lg:w-[90%]">
         <div className="grid grid-cols-4 gap-x-[20px] gap-y-[50px] members:grid-cols-3 membersSm:grid-cols-2 membersSmallest:grid-cols-1">
           {memberData.map((v, index) => (
             <MemberCard count={index} key={v} Obj={v} />
@@ -56,7 +56,7 @@ const MemberCard = (props: any) => {
         <img
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
-          className="aspect-w-1 w-[170px] aspect-h-1 object-cover object-top mb-[20px] transition-all rounded-full"
+          className="aspect-w-1 aspect-h-1 object-cover object-top mb-[20px] transition-all rounded-[14px]"
           src={isHovered ? props.Obj.secondImageUrl : props.Obj.imageUrl}
         ></img>
 
