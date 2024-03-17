@@ -17,6 +17,9 @@ module.exports = {
       },
       colors: {
         main: "#051D40"
+      },
+      maxWidth: {
+        main: "1400px"
       }
     },
   },

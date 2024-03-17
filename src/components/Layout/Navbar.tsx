@@ -3,26 +3,23 @@ import Link from "next/link";
 export default function Navbar() {
     return (
         <nav className="h-[85px] fixed bg-white w-full flex items-center z-[999]">
-            <div className="w-[96%] mx-auto flex items-center justify-between">
+            <div className="w-[94%] max-w-[1500px] mx-auto flex items-center justify-between">
                 <Link href={"/"}>
-                    <img className="w-[50px]" src="/logos/logofill.svg"></img>
+                    <img className="w-[90px]" src="/logos/gazellateamlogowhitebg.svg"></img>
                 </Link>
                 <div className="flex items-center gap-[30px]">
                     <div className="text-main text-[15px] flex items-center gap-[24px] font-[200]">
-                        <Link className="hover:text-gray-600" href={"/services/app-development"}>
-                        Development
+                        <Link className="hover:text-gray-600" href={"/products"}>
+                        What we&apos;re building
                         </Link>
-                        <Link className="hover:text-gray-600" href={"/no-code/webflow"}>
-                        No-code Services
+                        <Link className="hover:text-gray-600" href={"/consulting"}>
+                        Consulting
                         </Link>
                         <Link className="hover:text-gray-600" href={"/cases"}>
-                        Cases
+                        Clients
                         </Link>
                         <Link className="hover:text-gray-600" href={"/people"}>
                         People
-                        </Link>
-                        <Link className="hover:text-gray-600" href={"/products"}>
-                        Products we build
                         </Link>
                         <Link className="hover:text-gray-600" href={"/contact"}>
                         Contact

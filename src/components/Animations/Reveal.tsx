@@ -19,12 +19,12 @@ export const Reveal = ({ children }: Props) => {
     <div ref={ref}>
       <motion.div
         variants={{
-          hidden: { opacity: 0, y:15,},
-          visible: { opacity: 1, y:0},
+          hidden: { opacity: 0,},
+          visible: { opacity: 1,},
         }}
         initial="hidden"
         animate={mainControls}
-        transition={{ duration: 0.3, delay: 0, ease:[0.1, 0.7, 0.8, 1] }}
+        transition={{ duration: 0.3, delay: 0}}
       >
         {children}
       </motion.div>

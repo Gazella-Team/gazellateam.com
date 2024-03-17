@@ -6,6 +6,7 @@ const casesData = [
     {company: "Spaak Technologies", caseDescription: "Udvikling af Vid&Sans – nyt videnskabeligt medie fra Århus Universitetsforlag.", caseImage: "/spaak.png", tag:["Integrations", "Web", "Data"], link: "/spaak"},
     {company: "Pandoras Box", caseDescription: "Planmates is a mobile app, made to make planning new events and plans with your friends easier", caseImage: "/bgs/app.png", tag:"Web", link: "/work/cases/centox"},
     {company: "COAD", caseDescription: "Planmates is a mobile app, made to make planning new events and plans with your friends easier", caseImage: "/work.png", tag:"App", link: "/work/cases/planmates"},
+    {company: "Scalender", caseDescription: "Planmates is a mobile app, made to make planning new events and plans with your friends easier", caseImage: "/work.png", tag:"App", link: "/work/cases/planmates"},
     {company: "Organic Masterclass", caseDescription: "Udvikling af Vid&Sans – nyt videnskabeligt medie fra Århus Universitetsforlag.", caseImage: "/work.png", tag:"Web", link: "/work/cases/organicmasterclass"},
 ]
 
@@ -36,9 +37,8 @@ export default function Work() {
                     </div>
                 </Reveal>
             </div>
-            
     */}
-            <div className="w-[94%] mx-auto grid grid-cols-2 gap-[25px] max-w-main">
+            <div className="w-[94%] mx-auto grid grid-cols-1 xl:grid-cols-2 gap-[25px] max-w-main">
                 {currentCategory === "All" ? casesData.map(v => <CaseCard key={v} Obj={v} />):tagFilter().map(v => <CaseCard key={v} Obj={v} />)}
             </div>
         </section>

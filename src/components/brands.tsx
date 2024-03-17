@@ -2,7 +2,7 @@ import Link from "next/link"
 import { Reveal } from "./Animations/Reveal"
 
 const brandsData = [
-    {company: "ToolBird", caseDescription: "The all-in-one toolkit for your SaaS, providing all the features you need to start, scale and run a profitable product - all in one platform.", caseImage: "/products/toolbird.svg", tag:["web", "UI/UX", "seo"], link: "/work/cases/coad"},
+    {company: "ToolBird", caseDescription: "The all-in-one toolkit for your SaaS, providing all the features you need to start, scale and run a profitable product - all in one platform.", caseImage: "/products/toolbird.svg", tag:["web", "UI/UX", "seo"], link: "/toolbird"},
     {company: "Centox", caseDescription: "Planmates is a mobile app, made to make planning new events and plans with your friends easier", caseImage: "/products/centox.svg", tag:["web-app", "design", "frontend"], link: "/work/cases/centox"},
 ]
 

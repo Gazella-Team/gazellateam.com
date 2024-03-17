@@ -2,8 +2,8 @@ import Link from "next/link"
 
 export default function Footer() {
     return (
-        <section className="py-[100px] pb-[60px] bg-third text-main flex items-center">
-            <div className="w-[94%] mx-auto flex flex-col justify-between gap-[70px]">
+        <section className="py-[100px] pb-[60px] bg-third text-main flex items-center border-t-[1px]">
+            <div className="w-[94%] max-w-main mx-auto flex flex-col justify-between gap-[70px]">
                 <div className="grid grid-cols-2">
                     <div>
                     <div className="flex items-center mb-[40px]">
