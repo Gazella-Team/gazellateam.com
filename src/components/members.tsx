@@ -5,14 +5,14 @@ import { useState } from "react";
 const memberData = [
   {
     name: "Lasse Osmann",
-    position: "Founder & Developer",
+    position: "Founder",
     imageUrl: "/team/lasseosmann.webp",
     secondImageUrl: "/team/lasseosmann.webp",
     linkedIn: "https://www.linkedin.com/in/lasse-osmann-%F0%9F%91%8B-1b6ab9243/"
   },
   {
     name: "Simon Maribo",
-    position: "Co-Founder & Developer",
+    position: "Co-Founder",
     imageUrl: "/team/simonmaribo.webp",
     secondImageUrl: "/team/simonmaribo.webp",
     linkedIn: "https://www.linkedin.com/in/simonmaribo/"
@@ -56,7 +56,7 @@ const MemberCard = (props: any) => {
         <img
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
-          className="aspect-w-1 aspect-h-1 object-cover object-top mb-[20px] transition-all rounded-[14px]"
+          className="aspect-w-1 aspect-h-1 object-cover object-top mb-[20px] transition-all rounded-[14px] filter grayscale"
           src={isHovered ? props.Obj.secondImageUrl : props.Obj.imageUrl}
         ></img>
 
