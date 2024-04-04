@@ -4,7 +4,7 @@ export default function SecondHero(props:any) {
     return (
         <section className="py-[100px]">
             {props.founders &&  <Reveal>
-            <div className="flex items-center justify-center mb-[40px]">
+            <div className="flex items-center w-[94%] max-w-[1300px] mx-auto mb-[40px]">
                 <div className="bg-white rounded-full p-[4px]">
                     <img className="w-[70px] rounded-full" src="/team/lasseosmann.webp"></img>
                 </div>
@@ -16,12 +16,12 @@ export default function SecondHero(props:any) {
                 </div>
             </div>
             </Reveal>}
-            <div className="w-[100%] max-w-[1200px] mx-auto">
+            <div className="w-[94%]  max-w-[1300px] mx-auto">
                 <Reveal>
                     <h1 className="font-[200] text-[60px] leading-[70px] text-main mb-[20px]">{props.heading}</h1>
                 </Reveal>
                 <Reveal>
-                    <p className="font-[100] text-[20px] text-gray-600">{props.description}</p>
+                    <p className="font-[100] text-[20px] max-w-[1160px] text-gray-600">{props.description}</p>
                 </Reveal>
             </div>
         </section>
