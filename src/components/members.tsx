@@ -27,7 +27,7 @@ const memberData = [
   {
     name: "Malte Pedersen",
     position: "Lead Manager",
-    imageUrl: "/team/miklonborg.webp",
+    imageUrl: "/emptymember.webp",
     secondImageUrl: "/team/miklonborg.webp",
     linkedIn: "https://www.linkedin.com/in/malte-pedersen-2689772ab/"
   },
@@ -61,7 +61,7 @@ const MemberCard = (props: any) => {
         ></img>
 
         <h1 className="text-[20px] font-[300] text-main">{props.Obj.name}</h1>
-        <p className="text-gray-600 font-[200]">{props.Obj.position}</p>
+        <p className="text-gray-600 font-[100]">{props.Obj.position}</p>
       </div>
     </Link>
     </Reveal>

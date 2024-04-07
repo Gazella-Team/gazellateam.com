@@ -3,31 +3,6 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import localFont from "next/font/local"
 
-const GazellaTeamFont = localFont({
-    src: [
-      {
-        path: '../Fonts/stolzl_medium.otf',
-        weight: '400',
-        style: 'normal',
-      },
-      {
-        path: '../Fonts/stolzl_regular.otf',
-        weight: '300',
-        style: 'normal',
-      },
-      {
-        path: '../Fonts/stolzl_book.otf',
-        weight: '200',
-        style: 'normal',
-      },
-      {
-        path: '../Fonts/stolzl_light.otf',
-        weight: '100',
-        style: 'normal',
-      },
-    ],
-  })
-
 export default function Layout({
   className,
   children,
@@ -39,7 +14,7 @@ export default function Layout({
     <div className="flex flex-col justify-between min-h-screen">
       <div>
         <Meta />
-        <div className={GazellaTeamFont.className}>
+        <div>
             <div className={`${className}`}>
             <Meta />
             <Navbar />

@@ -12,15 +12,12 @@ export default function Navbar() {
                     <img className="w-[90px]" src="/logos/gazellateamlogowhitebg.svg"></img>
                 </Link>
                 <div className="hidden items-center gap-[30px] md:flex">
-                    <div className="text-main text-[15px] flex items-center gap-[24px] font-[200]">
+                    <div className="text-main text-[15px] flex items-center gap-[24px] font-[400]">
                         <Link className="hover:text-gray-600" href={"/products"}>
                         What we&apos;re building
                         </Link>
                         <Link className="hover:text-gray-600" href={"/consulting"}>
                         Consulting
-                        </Link>
-                        <Link className="hover:text-gray-600" href={"/cases"}>
-                        Clients
                         </Link>
                         <Link className="hover:text-gray-600" href={"/people"}>
                         People
@@ -30,7 +27,7 @@ export default function Navbar() {
                         </Link>
                     </div>
                     <div>
-                        <div className="flex items-center font-[200] gap-[6px]">
+                        <div className="flex items-center font-[400] gap-[6px]">
                         <Link className="hover:text-gray-600" href={"/products"}>
                         DK
                         </Link>
@@ -60,9 +57,6 @@ export default function Navbar() {
                         </Link>
                         <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/consulting"}>
                         Consulting
-                        </Link>
-                        <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/cases"}>
-                        Clients
                         </Link>
                         <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/people"}>
                         People
