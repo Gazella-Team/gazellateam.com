@@ -9,15 +9,12 @@ export default function Navbar() {
                 <nav className="h-[85px] fixed bg-white w-full flex items-center z-[999]">
             <div className="w-[94%] max-w-[1500px] mx-auto flex items-center justify-between">
                 <Link href={"/"}>
-                    <img className="w-[90px]" src="/logos/gazellateamlogowhitebg.svg"></img>
+                    <img className="w-[80px]" src="/logos/gazellateamlogowhitebg.svg"></img>
                 </Link>
                 <div className="hidden items-center gap-[30px] md:flex">
-                    <div className="text-main text-[15px] flex items-center gap-[24px] font-[400]">
+                    <div className="text-main text-[15px] flex items-center gap-[24px] font-[200]">
                         <Link className="hover:text-gray-600" href={"/products"}>
                         What we&apos;re building
-                        </Link>
-                        <Link className="hover:text-gray-600" href={"/consulting"}>
-                        Consulting
                         </Link>
                         <Link className="hover:text-gray-600" href={"/people"}>
                         People
@@ -27,7 +24,7 @@ export default function Navbar() {
                         </Link>
                     </div>
                     <div>
-                        <div className="flex items-center font-[400] gap-[6px]">
+                        <div className="flex items-center font-[200] gap-[6px]">
                         <Link className="hover:text-gray-600" href={"/products"}>
                         DK
                         </Link>
@@ -54,9 +51,6 @@ export default function Navbar() {
                 <div className="w-[94%] font-[300] mx-auto flex flex-col text-xl gap-3 text-main">
                         <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/products"}>
                         What we&apos;re building
-                        </Link>
-                        <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/consulting"}>
-                        Consulting
                         </Link>
                         <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/people"}>
                         People

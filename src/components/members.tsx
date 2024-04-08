@@ -28,7 +28,7 @@ const memberData = [
     name: "Malte Pedersen",
     position: "Lead Manager",
     imageUrl: "/emptymember.webp",
-    secondImageUrl: "/team/miklonborg.webp",
+    secondImageUrl: "/emptymember.webp",
     linkedIn: "https://www.linkedin.com/in/malte-pedersen-2689772ab/"
   },
 ];
@@ -37,7 +37,7 @@ export default function Members() {
   return (
     <section className="py-[100px] pt-[00px]">
       <div className="w-[95%] mx-auto max-w-main lg:w-[90%]">
-        <div className="grid grid-cols-4 gap-x-[20px] gap-y-[50px] members:grid-cols-3 membersSm:grid-cols-2 membersSmallest:grid-cols-1">
+        <div className="grid grid-cols-1 gap-x-[20px] gap-y-[50px] md:grid-cols-2 xl:grid-cols-4">
           {memberData.map((v, index) => (
             <MemberCard count={index} key={v} Obj={v} />
           ))}
@@ -52,7 +52,7 @@ const MemberCard = (props: any) => {
   return (
     <Reveal>
           <Link target="_blank" href={props.Obj.linkedIn} className="hover:opacity-70 transition-all">
-      <div className="text-center flex flex-col items-center">
+      <div className="flex flex-col">
         <img
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
@@ -61,7 +61,7 @@ const MemberCard = (props: any) => {
         ></img>
 
         <h1 className="text-[20px] font-[300] text-main">{props.Obj.name}</h1>
-        <p className="text-gray-600 font-[100]">{props.Obj.position}</p>
+        <p className="text-gray-600 font-[200]">{props.Obj.position}</p>
       </div>
     </Link>
     </Reveal>

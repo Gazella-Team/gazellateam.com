@@ -5,10 +5,10 @@ export default function Hero() {
         <section className="py-[100px]">
             <div className="w-[90%] mx-auto max-w-[660px]">
                 <Reveal>
-                    <h1 className="text-[54px] font-[500] leading-[110%] mb-[50px]">Software with impact, by Gazella Team.</h1>
+                    <h1 className="text-[54px] font-[300] leading-[110%] mb-[50px]">Software with impact, by Gazella Team.</h1>
                 </Reveal>
                 <Reveal>
-                <p className="font-[300] text-[18px] text-gray-600">Tiny Rhino is a technical product agency that has been at the forefront of innovation for over 7 years. We are proud to have delivered many innovate solutions to a range of clients from a variety of industries, driven by a passion for new and innovative technology.
+                <p className="font-[200] text-[18px] text-gray-600">Tiny Rhino is a technical product agency that has been at the forefront of innovation for over 7 years. We are proud to have delivered many innovate solutions to a range of clients from a variety of industries, driven by a passion for new and innovative technology.
 <br></br><br></br>
 At Tiny Rhino, we focus on creating solutions that not only address hard problems but also have a positive impact on society. We thrive on tackling challenges in education and developing products that make a difference.
 <br></br><br></br>

@@ -3,6 +3,8 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import localFont from "next/font/local"
 
+
+
 export default function Layout({
   className,
   children,

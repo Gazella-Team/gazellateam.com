@@ -2,10 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    overflow-x: hidden;
+@font-face {
+    font-family: 'MainFont';
+    src: url('/Fonts/stolzl_light.otf') format('opentype');
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'MainFont';
+    src: url('/Fonts/stolzl_book.otf') format('opentype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'MainFont';
+    src: url('/Fonts/stolzl_regular.otf') format('opentype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'MainFont';
+    src: url('/Fonts/stolzl_medium.otf') format('opentype');
+    font-weight: 400; /* Medium weight */
+}
+@font-face {
+    font-family: 'MainFont';
+    src: url('/Fonts/stolzl_bold.otf') format('opentype');
+    font-weight: 500;
 }
 
-* {
-    font-family: "Inter"
+/* Use the font */
+body {
+    font-family: 'MainFont', sans-serif;
+    
 }
