@@ -18,7 +18,7 @@ export default function SecondHero(props:any) {
             </Reveal>}
             <div className="w-[94%]  max-w-[1300px] mx-auto">
                 <Reveal>
-                    <h1 className="font-[500] text-[40px] md:text-[50px] xl:text-[60px] leading-[110%] text-main mb-[20px]">{props.heading}</h1>
+                    <h1 className="font-[500] text-[40px] tracking-tight md:text-[50px] xl:text-[60px] leading-[110%] text-main mb-[20px]">{props.heading}</h1>
                 </Reveal>
                 <Reveal>
                     <p className="font-[300] text-[16px] md:text-[18px] xl:text-[18px] leading-[170%] max-w-[1160px] text-gray-600">{props.description}</p>
