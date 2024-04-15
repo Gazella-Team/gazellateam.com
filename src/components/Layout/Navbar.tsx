@@ -13,6 +13,9 @@ export default function Navbar() {
                 </Link>
                 <div className="hidden items-center gap-[30px] md:flex">
                     <div className="text-main text-[15px] flex items-center gap-[24px] font-[200]">
+                        <Link className="hover:text-gray-600" href={"/consulting"}>
+                        Consulting
+                        </Link>
                         <Link className="hover:text-gray-600" href={"/products"}>
                         What we&apos;re building
                         </Link>
@@ -49,6 +52,9 @@ export default function Navbar() {
             }
           `}</style>
                 <div className="w-[94%] font-[300] mx-auto flex flex-col text-xl gap-3 text-main">
+                        <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/consulting"}>
+                        Consulting
+                        </Link>
                         <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/products"}>
                         What we&apos;re building
                         </Link>
