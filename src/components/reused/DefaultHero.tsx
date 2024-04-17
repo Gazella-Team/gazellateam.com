@@ -1,6 +1,6 @@
 import { Reveal } from "../Animations/Reveal";
 
-export default function SecondHero(props:any) {
+export default function DefaultHero(props:any) {
     return (
         <section className="py-[100px]">
             {props.founders &&  <Reveal>

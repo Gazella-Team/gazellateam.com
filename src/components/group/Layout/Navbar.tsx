@@ -11,7 +11,7 @@ export default function Navbar() {
         <nav className="h-[135px] fixed bg-white w-full flex flex-col z-[999]">
             <div className="bg-main text-white h-[50px] flex items-center justify-center">
                 <div className="w-[94%] max-w-[1500px] flex items-center justify-end">
-                    <Link href={"/group"} className="text-xs font-[200] px-3 py-1 border border-gray-700 rounded-full">Gazella Team Group</Link>
+                    <Link href={"/"} className="text-xs font-[200] px-3 py-1 border border-gray-700 rounded-full">Gazella Team Consulting</Link>
                 </div>
             </div>
             <div className="w-[94%] flex-1 max-w-[1500px] mx-auto flex items-center justify-between">
@@ -20,7 +20,7 @@ export default function Navbar() {
                 </Link>
                 <div className="hidden items-center gap-[30px] md:flex">
                     <div className="text-main text-[15px] flex items-center gap-[24px] font-[200]">
-                        <Link className="hover:text-gray-600" href={"/products"}>
+                        <Link className="hover:text-gray-600" href={"/group/projects"}>
                         What we&apos;re building
                         </Link>
                         <Link className="hover:text-gray-600" href={"/people"}>

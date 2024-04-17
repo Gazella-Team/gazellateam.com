@@ -1,9 +1,12 @@
-import Layout from "@/components/Layout";
+import Layout from "@/components/group/Layout";
 import Hero from "@/components/group/hero";
+import Projects from "@/components/group/projects";
+import DefaultHero from "@/components/reused/DefaultHero";
 
-export default function Projects() {
+export default function ProjectsPage() {
   return (
     <Layout>
-      <Hero />
+      <DefaultHero heading="Building the damn future" description="nig" founders={true} />
+      <Projects />
     </Layout>
 )}
