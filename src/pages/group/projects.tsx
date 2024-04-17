@@ -1,9 +1,9 @@
 import Layout from "@/components/Layout";
-import GroupHero from "@/components/group/GroupHero";
+import Hero from "@/components/group/hero";
 
 export default function Projects() {
   return (
     <Layout>
-      <GroupHero />
+      <Hero />
     </Layout>
 )}

@@ -1,7 +1,7 @@
 import { Reveal } from "../Animations/Reveal";
 
 
-export default function GroupHero() {
+export default function Hero() {
     return (
         <section className="py-[100px]">
             <div className="w-[90%] mx-auto max-w-[660px]">
