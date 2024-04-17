@@ -21,9 +21,6 @@ export default function Navbar() {
                 <div className="hidden items-center gap-[30px] md:flex">
                     <div className="text-main text-[15px] flex items-center gap-[24px] font-[200]">
                         <Link className="hover:text-gray-600" href={"/products"}>
-                        Services
-                        </Link>
-                        <Link className="hover:text-gray-600" href={"/products"}>
                         Cases
                         </Link>
                         <Link className="hover:text-gray-600" href={"/people"}>
@@ -52,7 +49,7 @@ export default function Navbar() {
         </nav>
         {menuClicked ? (
             
-              <div className="flex md:hidden fixed w-full bg-white top-[85px] bottom-0 py-[30px] z-20 overflow-auto">
+              <div className="flex md:hidden fixed w-full bg-white top-[85px] bottom-0 py-[135px] z-20 overflow-auto">
               <style jsx>{`
             ::-webkit-scrollbar {
               display: none;

@@ -15,7 +15,7 @@ export default function Navbar() {
                 </div>
             </div>
             <div className="w-[94%] flex-1 max-w-[1500px] mx-auto flex items-center justify-between">
-                <Link href={"/"}>
+                <Link href={"/group"}>
                     <img className="w-[80px]" src="/logos/gazellateamlogowhitebg.svg"></img>
                 </Link>
                 <div className="hidden items-center gap-[30px] md:flex">
@@ -49,7 +49,7 @@ export default function Navbar() {
         </nav>
         {menuClicked ? (
             
-              <div className="flex md:hidden fixed w-full bg-white top-[85px] bottom-0 py-[30px] z-20 overflow-auto">
+              <div className="flex md:hidden fixed w-full bg-white top-[85px] bottom-0 py-[135px] z-20 overflow-auto">
               <style jsx>{`
             ::-webkit-scrollbar {
               display: none;

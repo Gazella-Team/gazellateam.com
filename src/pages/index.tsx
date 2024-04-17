@@ -8,6 +8,5 @@ export default function Home() {
   return (
     <Layout>
       <Hero />
-      <GraphicDisplay image="/bgs/app.png" />
     </Layout>
 )}
