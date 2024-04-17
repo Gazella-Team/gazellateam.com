@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
 
-export default function Navbar() {
+export default function GroupNavbar() {
     const currentPath = useRouter().pathname
     const [menuClicked, setMenuClicked] = useState(false)
     return (
@@ -20,9 +20,6 @@ export default function Navbar() {
                 </Link>
                 <div className="hidden items-center gap-[30px] md:flex">
                     <div className="text-main text-[15px] flex items-center gap-[24px] font-[200]">
-                        <Link className="hover:text-gray-600" href={"/consulting"}>
-                        Consulting
-                        </Link>
                         <Link className="hover:text-gray-600" href={"/products"}>
                         What we&apos;re building
                         </Link>
