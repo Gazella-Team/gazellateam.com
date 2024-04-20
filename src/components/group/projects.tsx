@@ -6,7 +6,7 @@ export default function Projects() {
     return (
         <section className="mb-24">
             <div className="w-[94%] mx-auto max-w-[800px] flex flex-col gap-6">
-                {projectData.map((v, index) => <ProjectCard Obj={v} />)}
+                {projectData.map((v, index) => <ProjectCard key={v} Obj={v} />)}
             </div>
         </section>
     )

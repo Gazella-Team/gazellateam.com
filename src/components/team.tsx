@@ -12,7 +12,7 @@ export default function Team() {
     return (
         <section className="pb-24">
             <div className="w-[94%] gap-6 mx-auto max-w-[1300px] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
-                {teamData.map((v, index) => <TeamMemberCard Obj={v} />)}
+                {teamData.map((v, index) => <TeamMemberCard key={v} Obj={v} />)}
             </div>
         </section>
     )
