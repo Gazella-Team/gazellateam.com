@@ -1,8 +1,11 @@
+import { Reveal } from "./Animations/Reveal"
+import Link from "next/link"
+
 const teamData = [
     {name:"Lasse Osmann", title:"Founder", image:"/team/lasseosmann.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/"},
-    {name:"Lasse Osmann", title:"Founder", image:"/team/simonmaribo.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/"},
-    {name:"Lasse Osmann", title:"Founder", image:"/team/lasseosmann.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/"},
-    {name:"Lasse Osmann", title:"Founder", image:"/team/simonmaribo.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/"},
+    {name:"Simon Maribo", title:"Co-Founder", image:"/team/simonmaribo.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/"},
+    {name:"Mik Lønborg", title:"Head of Sales", image:"/team/miklonborg.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/"},
+    {name:"Malte Pedersen", title:"Lead Manager", image:"/team/emptymember.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/"},
 ]
 
 export default function Team() {
@@ -17,12 +20,14 @@ export default function Team() {
 
 function TeamMemberCard(props:any) {
     return (
-        <div className="flex flex-col gap-6">
-            <img className="rounded-xl" src={props.Obj.image}></img>
-            <div>
-                <h2 className="font-[300]">{props.Obj.name}</h2>
-                <p className="font-[200]">{props.Obj.title}</p>
-            </div>
-        </div>
+        <Reveal>
+            <Link target="_blank" href={props.Obj.linkedIn} className="flex flex-col gap-6">
+                <img className="rounded-xl" src={props.Obj.image}></img>
+                <div>
+                    <h2 className="font-[300]">{props.Obj.name}</h2>
+                    <p className="font-[200] text-sm">{props.Obj.title}</p>
+                </div>
+            </Link>
+        </Reveal>
     )
 }
