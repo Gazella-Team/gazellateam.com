@@ -2,8 +2,8 @@ import { Reveal } from "./Animations/Reveal"
 import Link from "next/link"
 
 const teamData = [
-    {name:"Lasse Osmann", title:"Founder", image:"/team/lasseosmann.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/"},
-    {name:"Simon Maribo", title:"Co-Founder", image:"/team/simonmaribo.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/"},
+    {name:"Lasse Osmann", title:"Founder & Developer", image:"/team/lasseosmann.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/"},
+    {name:"Simon Maribo", title:"Co-Founder & Developer", image:"/team/simonmaribo.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/"},
     {name:"Mik Lønborg", title:"Head of Sales", image:"/team/miklonborg.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/"},
     {name:"Malte Pedersen", title:"Lead Manager", image:"/team/emptymember.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/"},
 ]

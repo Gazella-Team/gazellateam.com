@@ -1,9 +1,13 @@
 import { Reveal } from "./Animations/Reveal";
+import TpWidget from "./TpWidget";
 
 export default function Hero() {
     return (
-        <section className="py-[100px]">
+        <section className="py-[60px]">
             <div className="w-[90%] mx-auto max-w-[660px]">
+                <Reveal>
+                    <TpWidget />
+                </Reveal>
                 <Reveal>
                     <h1 className="text-[54px] font-[300] leading-[110%] mb-[50px]">Elevating your business with custom software</h1>
                 </Reveal>

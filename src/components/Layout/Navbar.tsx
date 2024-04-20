@@ -1,4 +1,4 @@
-import { Menu } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
@@ -20,8 +20,14 @@ export default function Navbar() {
                 </Link>
                 <div className="hidden items-center gap-[30px] md:flex">
                     <div className="text-main text-[15px] flex items-center gap-[24px] font-[200]">
+                        <Link className="hover:text-gray-600" href={"/services"}>
+                        Services
+                        </Link>
                         <Link className="hover:text-gray-600" href={"/people"}>
                         People
+                        </Link>
+                        <Link className="hover:text-gray-600" href={"/people"}>
+                        Blog
                         </Link>
                         <Link className="hover:text-gray-600" href={"/contact"}>
                         Contact
@@ -40,7 +46,10 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className="flex md:hidden">
-                <svg onClick={() => setMenuClicked(!menuClicked)} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-8 h-8"> <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" /> </svg>
+                    {menuClicked ?<X size={26} onClick={() => setMenuClicked(!menuClicked)} />
+                    :
+                    <svg onClick={() => setMenuClicked(!menuClicked)} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-8 h-8"> <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" /> </svg>
+                }
                 </div>
             </div>
         </nav>
