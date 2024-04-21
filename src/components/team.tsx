@@ -25,7 +25,7 @@ function TeamMemberCard(props:any) {
                 <img className="rounded-xl" src={props.Obj.image}></img>
                 <div>
                     <h2 className="font-[300]">{props.Obj.name}</h2>
-                    <p className="font-[200] text-sm">{props.Obj.title}</p>
+                    <p className="font-[200] text-sm text-gray-600">{props.Obj.title}</p>
                 </div>
             </Link>
         </Reveal>
