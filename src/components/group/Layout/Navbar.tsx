@@ -23,9 +23,6 @@ export default function Navbar() {
                         <Link className="hover:text-gray-600" href={"/group/projects"}>
                         What we&apos;re building
                         </Link>
-                        <Link className="hover:text-gray-600" href={"/people"}>
-                        Partners
-                        </Link>
                         <Link className="hover:text-gray-600" href={"/contact"}>
                         Contact
                         </Link>
@@ -56,14 +53,8 @@ export default function Navbar() {
             }
           `}</style>
                 <div className="w-[94%] font-[300] mx-auto flex flex-col text-xl gap-3 text-main">
-                        <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/consulting"}>
-                        Consulting
-                        </Link>
-                        <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/products"}>
+                        <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/group/projects"}>
                         What we&apos;re building
-                        </Link>
-                        <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/people"}>
-                        People
                         </Link>
                         <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/contact"}>
                         Contact
