@@ -32,3 +32,7 @@ body {
     font-family: 'MainFont', sans-serif;
     overflow-x: hidden;
 }
+
+* {
+    color: #051D40;
+}

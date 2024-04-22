@@ -1,3 +1,4 @@
+import { Users } from "lucide-react";
 import { Reveal } from "./Animations/Reveal";
 import TpWidget from "./TpWidget";
 
@@ -5,6 +6,14 @@ export default function Hero() {
     return (
         <section className="py-[60px]">
             <div className="w-[90%] mx-auto max-w-[660px]">
+                <Reveal>
+                    <div className="border rounded-full px-2 py-1 inline-block mb-6">
+                        <div className="flex items-center gap-2">
+                            <Users size={18} />
+                            <p className="font-[200] text-sm">Limited spots</p>
+                        </div>
+                    </div>
+                </Reveal>
                 <Reveal>
                     <h1 className="text-[54px] font-[300] leading-[110%] mb-[50px]">Gratis SEO analyse til ambitiøse firmaer</h1>
                 </Reveal>
