@@ -9,7 +9,7 @@ export default function Hero() {
                     <TpWidget />
                 </Reveal>
                 <Reveal>
-                    <h1 className="text-[54px] font-[300] leading-[110%] mb-[50px]">Elevating your business with custom software</h1>
+                    <h1 className="text-[54px] font-[300] leading-[110%] mb-[50px]">offer</h1>
                 </Reveal>
                 <Reveal>
                 <p className="font-[200] text-[18px] text-gray-600">Tiny Rhino is a technical product agency that has been at the forefront of innovation for over 7 years. We are proud to have delivered many innovate solutions to a range of clients from a variety of industries, driven by a passion for new and innovative technology.
