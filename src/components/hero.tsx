@@ -6,10 +6,7 @@ export default function Hero() {
         <section className="py-[60px]">
             <div className="w-[90%] mx-auto max-w-[660px]">
                 <Reveal>
-                    <TpWidget />
-                </Reveal>
-                <Reveal>
-                    <h1 className="text-[54px] font-[300] leading-[110%] mb-[50px]">offer</h1>
+                    <h1 className="text-[54px] font-[300] leading-[110%] mb-[50px]">Gratis SEO analyse til ambitiøse firmaer</h1>
                 </Reveal>
                 <Reveal>
                 <p className="font-[200] text-[18px] text-gray-600">Tiny Rhino is a technical product agency that has been at the forefront of innovation for over 7 years. We are proud to have delivered many innovate solutions to a range of clients from a variety of industries, driven by a passion for new and innovative technology.
