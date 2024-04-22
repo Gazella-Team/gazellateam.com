@@ -15,7 +15,7 @@ export default function Hero() {
                     <div className="border rounded-full px-2 py-1 inline-block mb-6">
                         <div className="flex items-center gap-2 font-[200] text-sm">
                             <Users size={18} />
-                            <p>Limited spots</p>
+                            <p>9 spots left</p>
                             <p>|</p>
                             <p className="bg-main rounded-full text-white px-2">21d 13t 24m 34s</p>
                         </div>
