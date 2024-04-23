@@ -23,6 +23,9 @@ export default function Navbar() {
                         <Link className="hover:text-gray-600" href={"/services"}>
                         Services
                         </Link>
+                        <Link className="hover:text-gray-600" href={"/cases"}>
+                        Cases
+                        </Link>
                         <Link className="hover:text-gray-600" href={"/people"}>
                         People
                         </Link>
@@ -34,7 +37,7 @@ export default function Navbar() {
                         </Link>
                         <div className="flex items-center gap-1">
                             <Link className="hover:text-gray-600" href={"/for-agencies"}>
-                            For Agencies
+                            Free SEO
                             </Link>
                             <div className="bg-[#e9f4ff] text-[#0060f2] px-2 rounded-full text-sm">
                                 new
