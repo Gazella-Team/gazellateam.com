@@ -22,14 +22,14 @@ export default function Hero() {
                     </div>
                 </Reveal>
                 <Reveal>
-                    <h1 className="font-[300] text-5xl leading-[110%] mb-[50px] sm:text-[54px] ">Get a free SEO analysis of your current web-page</h1>
+                    <h1 className="font-[300] text-5xl leading-[110%] mb-[50px] sm:text-[54px] ">Premium offer: Get a free SEO analysis of your website</h1>
                 </Reveal>
                 <Reveal>
                     <div className="border rounded-xl px-2 py-1 inline-block mb-10 sm:rounded-full">
                         <div className="flex flex-col items-left gap-2 font-[200] text-sm sm:flex-row sm:items-center">
                             <div className="flex items-center gap-2">
                                 <Users size={18} />
-                                <p>30 spots left</p>
+                                <p>15 spots left</p>
                             </div>
                             <p className="hidden sm:flex">|</p>
                             <CountdownTimer />
