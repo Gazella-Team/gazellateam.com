@@ -1,9 +1,16 @@
 import React, { useState, useEffect } from "react";
 
-const CountdownTimer = () => {
-  const calculateTimeLeft = () => {
+interface TimeLeft {
+  days: number;
+  hours: number;
+  minutes: number;
+  seconds: number;
+}
+
+const CountdownTimer: React.FC = () => {
+  const calculateTimeLeft = (): TimeLeft => {
     const difference = +new Date("2024-05-28") - +new Date();
-    let timeLeft = {};
+    let timeLeft: TimeLeft = { days: 0, hours: 0, minutes: 0, seconds: 0 };
 
     if (difference > 0) {
       timeLeft = {
@@ -25,18 +32,18 @@ const CountdownTimer = () => {
     }, 1000);
 
     return () => clearTimeout(timer);
-  });
+  }, [calculateTimeLeft]);
 
-  const timerComponents = [];
+  const timerComponents: JSX.Element[] = [];
 
   Object.keys(timeLeft).forEach((interval) => {
-    if (!timeLeft[interval]) {
+    if (!timeLeft[interval as keyof TimeLeft]) {
       return;
     }
 
     timerComponents.push(
       <span className="text-white" key={interval}>
-        {timeLeft[interval]} {interval}{" "}
+        {timeLeft[interval as keyof TimeLeft]} {interval}{" "}
       </span>
     );
   });

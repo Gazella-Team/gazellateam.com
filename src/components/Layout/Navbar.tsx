@@ -16,8 +16,8 @@ export default function Navbar() {
                     <Link className="text-sm font-[300] hidden md:block" href={"https://gazellateam.com/"}>
                         hey@gazellateam.com
                     </Link>
-                    <Link className="bg-main text-white px-4 py-2 rounded-full text-sm font-[300]" href={"gazellateam.com"}>
-                        Learn more
+                    <Link target="_blank" className="bg-main text-white px-4 py-2 rounded-full text-sm font-[300]" href={"https://gazellateam.com/"}>
+                        Visit Gazella Team
                     </Link>
                 </div>
             </div>
