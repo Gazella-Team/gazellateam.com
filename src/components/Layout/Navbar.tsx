@@ -1,4 +1,3 @@
-import { Menu, X } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/router";
@@ -13,26 +12,13 @@ export default function Navbar() {
                 <Link href={"/"}>
                     <img className="w-[80px]" src="/logos/gazellateamlogowhitebg.svg"></img>
                 </Link>
-                <div className="hidden items-center gap-[30px] md:flex">
-                    <div className="text-main text-[15px] flex items-center gap-[24px] font-[200]">
-                    </div>
-                    <div>
-                        <div className="flex items-center font-[200] gap-[6px]">
-                        <Link className="hover:text-gray-600" href={"/products"}>
-                        DK
-                        </Link>
-                        <p>|</p>
-                        <Link className="hover:text-gray-600" href={"/products"}>
-                        EN
-                        </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="flex md:hidden">
-                    {menuClicked ?<X size={26} onClick={() => setMenuClicked(!menuClicked)} />
-                    :
-                    <svg onClick={() => setMenuClicked(!menuClicked)} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-8 h-8"> <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" /> </svg>
-                }
+                <div className="flex items-center gap-4">
+                    <Link className="text-sm font-[300] hidden md:block" href={"https://gazellateam.com/"}>
+                        hey@gazellateam.com
+                    </Link>
+                    <Link className="bg-main text-white px-4 py-2 rounded-full text-sm font-[300]" href={"gazellateam.com"}>
+                        Learn more
+                    </Link>
                 </div>
             </div>
         </nav>

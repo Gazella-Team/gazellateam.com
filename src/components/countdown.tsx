@@ -1,58 +1,55 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
-type TargetDate = string;
-
-interface Props {
-  targetDate: TargetDate;
-}
-
-const Countdown: React.FC<Props> = ({ targetDate }) => {
+const CountdownTimer = () => {
   const calculateTimeLeft = () => {
-    const difference = +new Date(targetDate) - +new Date();
-    let timeLeft = {
-      days: 0,
-      hours: 0,
-      minutes: 0,
-      seconds: 0,
-    };
+    const difference = +new Date("2024-05-28") - +new Date();
+    let timeLeft = {};
 
     if (difference > 0) {
       timeLeft = {
         days: Math.floor(difference / (1000 * 60 * 60 * 24)),
         hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-        minutes: Math.floor((difference / 1000 / 60) % 60),
-        seconds: Math.floor((difference / 1000) % 60),
+        minutes: Math.floor((difference / (1000 * 60)) % 60),
+        seconds: Math.floor((difference / 1000) % 60)
       };
     }
 
     return timeLeft;
   };
 
-  const [time, setTime] = useState(calculateTimeLeft());
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setTime(calculateTimeLeft());
+      setTimeLeft(calculateTimeLeft());
     }, 1000);
 
     return () => clearTimeout(timer);
   });
 
-  const formatTimeUnit = (unit: number) => {
-    return unit.toString().padStart(2, '0');
-  };
+  const timerComponents = [];
+
+  Object.keys(timeLeft).forEach((interval) => {
+    if (!timeLeft[interval]) {
+      return;
+    }
+
+    timerComponents.push(
+      <span className="text-white" key={interval}>
+        {timeLeft[interval]} {interval}{" "}
+      </span>
+    );
+  });
 
   return (
-    <div>
-      <h2>Countdown Timer</h2>
-      <div>
-        {time.days > 0 && <span>{formatTimeUnit(time.days)} days </span>}
-        {time.hours > 0 && <span>{formatTimeUnit(time.hours)} hours </span>}
-        {time.minutes > 0 && <span>{formatTimeUnit(time.minutes)} minutes </span>}
-        {time.seconds > 0 && <span>{formatTimeUnit(time.seconds)} seconds </span>}
-      </div>
+    <div className="bg-main rounded-full text-white px-2">
+      {timerComponents.length ? (
+        timerComponents
+      ) : (
+        <span className="text-white">Countdown finished!</span>
+      )}
     </div>
   );
 };
 
-export default Countdown;
+export default CountdownTimer;
