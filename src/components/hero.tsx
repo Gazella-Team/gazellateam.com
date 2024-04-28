@@ -40,7 +40,7 @@ export default function Hero() {
                     <p className="font-[200] text-[18px] text-gray-600">Tiny Rhino is a technical product agency that has been at the forefront of innovation for over 7 years. We are proud to have delivered many innovate solutions to a range of clients from a variety of industries, driven by a passion for new and innovative technology</p>
                 </Reveal>
                 <Reveal>
-                    <div className="my-14 grid grid-cols-2 font-[300] max-w-[350px] gap-x-10 gap-y-4">
+                    <div className="my-14 grid grid-cols-2 font-[300] max-w-[320px] gap-x-10 gap-y-4">
                         <div className="flex items-center gap-2">
                             <Check />
                             <h2>360 analysis</h2>

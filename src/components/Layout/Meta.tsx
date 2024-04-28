@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 const Meta = ({ 
-  title = "Gazella Team",
+  title = "Limitet offer: Free SEO analysis",
   keywords = "Software With Impact",
   description = "Software With Impact",
   icon = "/seo/favicon.png",
