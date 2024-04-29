@@ -37,30 +37,30 @@ export default function Hero() {
                     </div>
                 </Reveal>
                 <Reveal>
-                    <p className="font-[200] text-[18px] text-gray-600">Tiny Rhino is a technical product agency that has been at the forefront of innovation for over 7 years. We are proud to have delivered many innovate solutions to a range of clients from a variety of industries, driven by a passion for new and innovative technology</p>
+                    <p className="font-[200] text-[18px] text-gray-600">Search Engine Optimization (SEO) is essential for any business seeking organic leads and customers. With the correct setup, your business is likely to get more customers and acquire a more recognizable brand over time. We have made a limited offer, were we offer 15 ambitious companies a free seo analysis including:</p>
                 </Reveal>
                 <Reveal>
-                    <div className="my-14 grid grid-cols-2 font-[300] max-w-[320px] gap-x-10 gap-y-4">
+                    <div className="my-14 grid grid-cols-2 font-[300] max-w-[450px] gap-x-10 gap-y-4">
                         <div className="flex items-center gap-2">
                             <Check />
-                            <h2>360 analysis</h2>
+                            <h2>Website Audit</h2>
                         </div>
                         <div className="flex items-center gap-2">
                             <Check />
-                            <h2>360 analysis</h2>
+                            <h2>Keyword Research</h2>
                         </div>
                         <div className="flex items-center gap-2">
                             <Check />
-                            <h2>360 analysis</h2>
+                            <h2>Competitor Analysis</h2>
                         </div>
                         <div className="flex items-center gap-2">
                             <Check />
-                            <h2>360 analysis</h2>
+                            <h2>Improvement plan</h2>
                         </div>
                     </div>
                 </Reveal>
                 <Reveal>
-                    <p className="font-[200] text-[18px] text-gray-600">Tiny Rhino is a technical product agency that has been at the forefront of innovation for over 7 years. We are proud to have delivered many innovate solutions to a range of clients from a variety of industries, driven by a passion for new and innovative technology<br></br><br></br>Tiny Rhino is a technical product agency that has been at the forefront of innovation for over 7 years. We are proud to have delivered many innovate solutions to a range of clients from a variety of industries, driven by a passion for new and innovative technology</p>
+                    <p className="font-[200] text-[18px] text-gray-600">Over the span of 7 days, we will look into your current SEO-setup, find points to optimize, and conclude with a complete report, on how you and your business can get more organic leads and conversions on your website over time. Spots are limited.</p>
                 </Reveal>
                 <Reveal>
                     <div className="flex items-center gap-3 mt-14">
