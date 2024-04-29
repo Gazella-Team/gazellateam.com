@@ -37,7 +37,7 @@ export default function Hero() {
                     </div>
                 </Reveal>
                 <Reveal>
-                    <p className="font-[200] text-[18px] text-gray-600">Search Engine Optimization (SEO) is essential for any business seeking organic leads and customers. With the correct setup, your business is likely to get more customers and acquire a more recognizable brand over time. We have made a limited offer, were we offer 15 ambitious companies a free seo analysis including:</p>
+                    <p className="font-[200] text-[18px] text-gray-600">Search Engine Optimization (SEO) is essential for any business seeking organic leads and customers. With the correct setup, your business is likely to get more customers and acquire a more recognizable brand over time. We have made a limited offer, where we offer 15 ambitious companies a free seo analysis including:</p>
                 </Reveal>
                 <Reveal>
                     <div className="my-14 grid grid-cols-2 font-[300] max-w-[450px] gap-x-10 gap-y-4">
