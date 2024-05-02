@@ -12,11 +12,11 @@ export default function Hero() {
                     <h1 className="text-[54px] font-[300] leading-[110%] mb-[50px]">Elevating your business with custom software</h1>
                 </Reveal>
                 <Reveal>
-                <p className="font-[200] text-[18px] text-gray-600">Tiny Rhino is a technical product agency that has been at the forefront of innovation for over 7 years. We are proud to have delivered many innovate solutions to a range of clients from a variety of industries, driven by a passion for new and innovative technology.
+                <p className="font-[200] text-[18px] text-gray-600">Gazella Team Consulting is a digital agency based in Copenhagen, passionate about software and product design that provides value. For us, software is not just code, but a tool that can be shaped to serve a purpose in many social- and business related areas.
 <br></br><br></br>
-At Tiny Rhino, we focus on creating solutions that not only address hard problems but also have a positive impact on society. We thrive on tackling challenges in education and developing products that make a difference.
+The core value of our work is turning visitors into customers with great customer journey, building workflows and automated processes that save time, and building unique applications that solve modern problems. We make sure our solution is aligned with your vision.
 <br></br><br></br>
-What sets us apart is our commitment to providing complete product solutions for our clients. We don&apos;t just offer development services; we also provide guidance on milestones, implementation strategies, and selecting the right platforms and service providers. We understand that success goes beyond coding - it requires a comprehensive approach.
+What makes our services different is our approach to working with tech in different industries.
 <br></br><br></br>
 Collaboration is at the core of our work. We partner closely with our clients to understand their goals and challenges, ensuring that our solutions align with their vision. Together, we leverage our technical expertise and strategic guidance to deliver exceptional outcomes.
 <br></br><br></br>
