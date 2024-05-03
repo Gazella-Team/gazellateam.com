@@ -1,11 +1,12 @@
+import { useState } from "react"
 import { Reveal } from "./Animations/Reveal"
 import Link from "next/link"
 
 const teamData = [
-    {name:"Lasse Osmann", title:"Founder & Developer", image:"/team/lasseosmann.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/"},
-    {name:"Simon Maribo", title:"Co-Founder & Developer", image:"/team/simonmaribo.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/"},
-    {name:"Mik Lønborg", title:"Head of Sales", image:"/team/miklonborg.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/"},
-    {name:"Malte Pedersen", title:"Lead Manager", image:"/team/emptymember.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/"},
+    {name:"Lasse Osmann", title:"Founder & Developer", image:"/team/lasseosmann.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/", funImage:"/team/emptymember.webp"},
+    {name:"Simon Maribo", title:"Co-Founder & Developer", image:"/team/simonmaribo.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/", funImage:"/team/simonmaribo02.webp"},
+    {name:"Mik Lønborg", title:"Head of Sales", image:"/team/miklonborg.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/", funImage:"/team/miklonborg02.webp"},
+    {name:"Malte Pedersen", title:"Lead Manager", image:"/team/emptymember.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/", funImage:"/team/lasseosmann02.webp"},
 ]
 
 export default function Team() {
@@ -19,10 +20,11 @@ export default function Team() {
 }
 
 function TeamMemberCard(props:any) {
+    const [imageHovered, setImageHovered] = useState(false)
     return (
         <Reveal>
             <Link target="_blank" href={props.Obj.linkedIn} className="flex flex-col gap-6">
-                <img className="rounded-xl" src={props.Obj.image}></img>
+                <img onMouseEnter={() => setImageHovered(true)} onMouseLeave={() => setImageHovered(false)}  className="rounded-xl transition-all" src={imageHovered ? props.Obj.funImage:props.Obj.image}></img>
                 <div>
                     <h2 className="font-[300]">{props.Obj.name}</h2>
                     <p className="font-[200] text-sm text-gray-600">{props.Obj.title}</p>
