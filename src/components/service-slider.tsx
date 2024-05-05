@@ -15,7 +15,7 @@ export default function ServiceSlider() {
           >
             {serviceData.map((v) => (
               <Slider.Slide key={v}>
-                <div className="px-4 flex items-center justify-center w-[200px]">
+                <div className="flex items-center justify-center">
                   <p className="font-[200] text-gray-400">{v}</p>
                 </div>
               </Slider.Slide>
