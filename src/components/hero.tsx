@@ -1,5 +1,7 @@
+import Link from "next/link";
 import { Reveal } from "./Animations/Reveal";
 import TpWidget from "./TpWidget";
+import ServiceSlider from "./service-slider";
 
 export default function Hero() {
     return (
@@ -13,10 +15,17 @@ export default function Hero() {
                         <h1 className="text-7xl font-[300] leading-[110%] mb-[20px]">Custom software development for companies</h1>
                     </Reveal>
                     <Reveal>
-                        <p className="text-xl text-gray-600 font-[200] leading-[150%] mb-[50px]">AI-agenter er intelligente løsninger, der består af en stor sprogmodel (LLM), som vi kender fra ChatGPT, og som har adgang til værktøjer. Agenten kan.</p>
+                        <p className="text-xl text-gray-600 font-[200] leading-[150%] mb-[40px]">AI-agenter er intelligente løsninger, der består af en stor sprogmodel (LLM), som vi kender fra ChatGPT, og som har adgang til værktøjer. Agenten kan.</p>
+                    </Reveal>
+                    <Reveal>
+                        <div className="flex items-center gap-4 mb-[60px]">
+                            <Link className="bg-main text-white rounded-full px-7 py-2 text-sm font-[300] border-2 border-main" href={"/contact"}>Services</Link>
+                            <Link className="bg-white text-main rounded-full px-7 py-2 text-sm font-[300] border-2 border-main hover:bg-main hover:text-white transition-all" href={"/contact"}>Services</Link>
+                        </div>
                     </Reveal>
                 </div>
             </div>
+            <ServiceSlider />
         </section>
 
     )
