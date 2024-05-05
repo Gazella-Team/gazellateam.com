@@ -1,5 +1,5 @@
 import { Reveal } from "../Animations/Reveal";
-
+//
 export default function DefaultHero(props:any) {
     return (
         <section className="py-[100px]">
