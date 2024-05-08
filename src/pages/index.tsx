@@ -11,7 +11,5 @@ export default function Home() {
   return (
     <Layout>
       <Hero />
-      <Video />
-      <Cases />
     </Layout>
 )}

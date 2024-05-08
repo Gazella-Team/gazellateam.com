@@ -1,6 +1,6 @@
 import Slider from "react-infinite-logo-slider";
 
-const serviceData = ["User Experience", "App Development", "Web Development", "Customer Journey", "Future Design", "Conversions"]
+const serviceData = ["User Experience", "App Development", "Web Development", "Customer Journey", "Future Design", "Conversions", "E-Commerce"]
 
 export default function ServiceSlider() {
     return (
