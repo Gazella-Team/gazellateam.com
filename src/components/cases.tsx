@@ -10,7 +10,7 @@ export default function Cases() {
     return (
         <section className="pb-24">
             <div>
-                <h1 className="text-xl mb-4">Work we're proud of</h1>
+                <h1 className="text-xl mb-4">Work were proud of</h1>
             </div>
             <div className="w-[94%] gap-6 mx-auto max-w-[1300px] grid md:grid-cols-1 xl:grid-cols-2">
                 {caseData.map((v, index) => <CaseCard key={v.heading} Obj={v} />)}
