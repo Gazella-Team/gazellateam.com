@@ -1,6 +1,6 @@
 import { Reveal } from "../Animations/Reveal";
 
-
+//
 export default function Hero() {
     return (
         <section className="py-[100px] bg-[url(/bgs/line.svg)] bg-cover bg-center">
