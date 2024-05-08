@@ -2,7 +2,7 @@ import { Reveal } from "./Animations/Reveal";
 
 export default function Services() {
     return (
-        <section className="py-[100px]">
+        <section className="py-[100px] bg-[url(/bgs/line.svg)] bg-cover bg-center">
             <div className="w-[90%] mx-auto max-w-[660px]">
                 <Reveal>
                     <h1 className="text-[54px] font-[300] leading-[110%] mb-[70px]">Custom development for any project</h1>
@@ -19,7 +19,7 @@ export default function Services() {
                     <div className="mb-14 flex flex-col gap-4">
                         <h2 className="text-2xl font-[300] text-main">Mobile App Development</h2>
                         <p className="font-[200] text-[18px] text-gray-600">
-                            The future is mobile. We specialize in native cross-platform app development, to deliver 
+                            The future is mobile. We specialize in native cross-platform app development, to deliver unique mobile experiences for both iOS and Anroid. 
                         </p>
                     </div>
                 </Reveal>
@@ -27,7 +27,7 @@ export default function Services() {
                     <div className="mb-14 flex flex-col gap-4">
                         <h2 className="text-2xl font-[300] text-main">Design & User Experience</h2>
                         <p className="font-[200] text-[18px] text-gray-600">
-                            A software without user-friendly design and an easy-to-navigate user experience is nothing.
+                            A software without user-friendly design and an easy-to-navigate user experience is nothing. When working on a project, we ensure to design, test and implement a unique design along with a structured user experince, based on your target audience.
                         </p>
                     </div>
                 </Reveal>

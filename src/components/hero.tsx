@@ -25,7 +25,6 @@ export default function Hero() {
                     </Reveal>
                 </div>
             </div>
-            <ServiceSlider />
         </section>
 
     )
