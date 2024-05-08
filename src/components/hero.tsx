@@ -20,7 +20,7 @@ export default function Hero() {
                     <Reveal>
                         <div className="flex items-center gap-4 mb-[60px]">
                             <Link className="bg-main text-white rounded-full px-7 py-2 text-sm font-[300] border-2 border-main" href={"/contact"}>Contact us</Link>
-                            <Link className="bg-white text-main rounded-full px-7 py-2 text-sm font-[300] border-2 border-main hover:bg-main hover:text-white transition-all" href={"/contact"}>Learn more</Link>
+                            <Link className="bg-white text-main rounded-full px-7 py-2 text-sm font-[300] border-2 border-main hover:bg-main hover:text-white transition-all" href={"/services"}>Learn more</Link>
                         </div>
                     </Reveal>
                 </div>

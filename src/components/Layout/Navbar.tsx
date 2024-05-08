@@ -26,9 +26,6 @@ export default function Navbar() {
                         <Link className="hover:text-gray-600" href={"/people"}>
                         People
                         </Link>
-                        <Link className="hover:text-gray-600" href={"/people"}>
-                        Blog
-                        </Link>
                         <Link className="hover:text-gray-600" href={"/contact"}>
                         Contact
                         </Link>
@@ -39,17 +36,6 @@ export default function Navbar() {
                             <div className="bg-[#e9f4ff] text-[#0060f2] px-2 rounded-full text-sm">
                                 new
                             </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="flex items-center font-[200] gap-[6px]">
-                        <Link className="hover:text-gray-600" href={"/products"}>
-                        DK
-                        </Link>
-                        <p>|</p>
-                        <Link className="hover:text-gray-600" href={"/products"}>
-                        EN
-                        </Link>
                         </div>
                     </div>
                 </div>

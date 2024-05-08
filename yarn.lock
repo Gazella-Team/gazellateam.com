@@ -19,25 +19,25 @@
   dependencies:
     regenerator-runtime "^0.13.11"
 
-"@calcom/embed-core@1.3.3":
-  version "1.3.3"
-  resolved "https://registry.npmjs.org/@calcom/embed-core/-/embed-core-1.3.3.tgz"
-  integrity sha512-bz7S9cvz1JMVWFcJI+dvoOQd5F63YzdQ5gOp1vunob5idje7PoYfiTf6ncMSVeX6vsrJA1oVFD07JMxuYt/d+A==
+"@calcom/embed-core@1.4.0":
+  version "1.4.0"
+  resolved "https://registry.npmjs.org/@calcom/embed-core/-/embed-core-1.4.0.tgz"
+  integrity sha512-2UKrUZkyyS0JxSj0uMNKk5JZ7wmdGNw4ki2K8pW71LnNxe52d7r//jtsRvJ2tJuQdrh+XRdbFy35SrmEjCFrAw==
 
-"@calcom/embed-react@^1.3.2":
-  version "1.3.2"
-  resolved "https://registry.npmjs.org/@calcom/embed-react/-/embed-react-1.3.2.tgz"
-  integrity sha512-tya/NJQJs0g70RLeeKtfhzF8vX7RzwwWTxlXCojCthuqKdMbx/8WEwZsdDzuJ8OjbPEiLiV3ImO2rgRRftZxNw==
+"@calcom/embed-react@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.npmjs.org/@calcom/embed-react/-/embed-react-1.4.0.tgz"
+  integrity sha512-ZHiTYbNk3GVUAUaGClS/GcYSoaHMRtx0OvzjpXDMCo8Up+v9cj4V8b3zb3vmAaJQsYpheVCwdmaZiB20L/WxHA==
   dependencies:
-    "@calcom/embed-core" "1.3.3"
-    "@calcom/embed-snippet" "1.1.3"
+    "@calcom/embed-core" "1.4.0"
+    "@calcom/embed-snippet" "1.2.0"
 
-"@calcom/embed-snippet@1.1.3":
-  version "1.1.3"
-  resolved "https://registry.npmjs.org/@calcom/embed-snippet/-/embed-snippet-1.1.3.tgz"
-  integrity sha512-whtpkc54btyIIDfCXsCP7BN8wE3GGgh8cTX5JiprvbcHaej+OEUcuMuhMcLlBersMADwGENpFrlB6AhSJfEA/Q==
+"@calcom/embed-snippet@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/@calcom/embed-snippet/-/embed-snippet-1.2.0.tgz"
+  integrity sha512-GbqxIkhKDdVafyEovz95HvMONIxcyF3CSFIadOpKtKXnRPkro95V8vIIJWqRVm+eYpCYOCSjXPt31iMpFiA/6A==
   dependencies:
-    "@calcom/embed-core" "1.3.3"
+    "@calcom/embed-core" "1.4.0"
 
 "@emotion/is-prop-valid@^0.8.2":
   version "0.8.8"

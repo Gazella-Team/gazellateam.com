@@ -23,20 +23,9 @@ export default function Navbar() {
                         <Link className="hover:text-gray-600" href={"/group/projects"}>
                         What we&apos;re building
                         </Link>
-                        <Link className="hover:text-gray-600" href={"/contact"}>
+                        <Link className="hover:text-gray-600" href={"/group/contact"}>
                         Contact
                         </Link>
-                    </div>
-                    <div>
-                        <div className="flex items-center font-[200] gap-[6px]">
-                        <Link className="hover:text-gray-600" href={"/products"}>
-                        DK
-                        </Link>
-                        <p>|</p>
-                        <Link className="hover:text-gray-600" href={"/products"}>
-                        EN
-                        </Link>
-                        </div>
                     </div>
                 </div>
                 <div className="flex md:hidden">
@@ -56,7 +45,7 @@ export default function Navbar() {
                         <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/group/projects"}>
                         What we&apos;re building
                         </Link>
-                        <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/contact"}>
+                        <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/group/contact"}>
                         Contact
                         </Link>
                 </div>

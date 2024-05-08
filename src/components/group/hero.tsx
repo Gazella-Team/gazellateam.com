@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Reveal } from "../Animations/Reveal";
 
 //
@@ -16,7 +17,7 @@ export default function Hero() {
                     <h1 className="text-[54px] font-[300] leading-[110%] mb-[50px]">Software with impact, by Gazella Team</h1>
                 </Reveal>
                 <Reveal>
-                <p className="font-[200] text-[18px] text-gray-600">Tiny Rhino is a technical product agency that has been at the forefront of innovation for over 7 years. We are proud to have delivered many innovate solutions to a range of clients from a variety of industries, driven by a passion for new and innovative technology.
+                <p className="font-[200] text-[18px] text-gray-600 mb-[50px]">Tiny Rhino is a technical product agency that has been at the forefront of innovation for over 7 years. We are proud to have delivered many innovate solutions to a range of clients from a variety of industries, driven by a passion for new and innovative technology.
 <br></br><br></br>
 At Tiny Rhino, we focus on creating solutions that not only address hard problems but also have a positive impact on society. We thrive on tackling challenges in education and developing products that make a difference.
 <br></br><br></br>
@@ -29,6 +30,12 @@ Throughout our journey, we have had the privilege of working with diverse client
 
 If you are seeking a technical product agency that not only provides development solutions but also offers comprehensive guidance and a focus on societal impact, look no further than Tiny Rhino. Let&apos;s collaborate and create innovative solutions that shape the future.</p>
                 </Reveal>
+                <Reveal>
+                        <div className="flex items-center gap-4 mb-[60px]">
+                            <Link className="bg-main text-white rounded-full px-7 py-2 text-sm font-[300] border-2 border-main" href={"/group/contact"}>Contact us</Link>
+                            <Link className="bg-white text-main rounded-full px-7 py-2 text-sm font-[300] border-2 border-main hover:bg-main hover:text-white transition-all" href={"/group/projects"}>View projects</Link>
+                        </div>
+                    </Reveal>
             </div>
         </section>
 

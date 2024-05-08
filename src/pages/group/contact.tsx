@@ -1,7 +1,6 @@
-import Layout from "@/components/Layout";
 import CalEmbed from "@/components/cal";
+import Layout from "@/components/group/Layout";
 import SecondHero from "@/components/reused/DefaultHero";
-import Cal from "@calcom/embed-react";
 
 export default function Contact() {
     return (

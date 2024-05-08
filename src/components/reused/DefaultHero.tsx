@@ -21,7 +21,7 @@ export default function DefaultHero(props:any) {
                     <h1 className="font-[200] text-[40px] tracking-tight md:text-[50px] xl:text-[50px] leading-[110%] text-main mb-[20px]">{props.heading}</h1>
                 </Reveal>
                 <Reveal>
-                    <p className="font-[200] mx-auto text-[16px] md:text-[18px] xl:text-[18px] leading-[150%] max-w-[600px] text-gray-600">{props.description}</p>
+                    <p className="font-[200] mx-auto text-[16px] md:text-[18px] xl:text-[18px] leading-[150%] max-w-[400px] md:max-w-[600px] text-gray-600">{props.description}</p>
                 </Reveal>
             </div>
         </section>
