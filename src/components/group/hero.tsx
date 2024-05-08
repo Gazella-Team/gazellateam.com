@@ -3,8 +3,15 @@ import { Reveal } from "../Animations/Reveal";
 
 export default function Hero() {
     return (
-        <section className="py-[100px]">
+        <section className="py-[100px] bg-[url(/bgs/line.svg)] bg-cover bg-center">
             <div className="w-[90%] mx-auto max-w-[660px]">
+                <Reveal>
+                    <div className="flex items-center mb-10">
+                        <img className="w-20 rounded-full border border-gray-600/10" src="/team/lasseosmann.webp"></img>
+                        <img className="w-20 rounded-full border border-gray-600/10 ml-[-20px]" src="/team/simonmaribo.webp"></img>
+                        <img className="w-20 rounded-full border border-gray-600/10 ml-[-20px]" src="/team/miklonborg.webp"></img>
+                    </div>
+                </Reveal>
                 <Reveal>
                     <h1 className="text-[54px] font-[300] leading-[110%] mb-[50px]">Software with impact, by Gazella Team</h1>
                 </Reveal>
