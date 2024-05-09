@@ -35,7 +35,7 @@ export default function Services() {
                     <div className="flex flex-col gap-4">
                         <h2 className="text-2xl font-[300] text-main">Shopify Ecommerce Development</h2>
                         <p className="font-[200] text-[18px] text-gray-600">
-                            Having a conversion-optimized setup for your webshop is essential for optimal results. By implementing a unique brand identiy along with conversion-optimized pages and seamless checkout flows, we're able to maximize the potential of any webshop. 
+                            Having a conversion-optimized setup for your webshop is essential for optimal results. By implementing a unique brand identiy along with conversion-optimized pages and seamless checkout flows, we&apos;re able to maximize the potential of any webshop. 
                         </p>
                     </div>
                 </Reveal>
