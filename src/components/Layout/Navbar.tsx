@@ -43,7 +43,7 @@ export default function Navbar() {
                         </div>
                     </div>
                 </div>
-                <div className="flex md:hidden">
+                <div className="flex md:hidden cursor-pointer">
                     {menuClicked ?<X size={26} onClick={() => setMenuClicked(!menuClicked)} />
                     :
                     <svg onClick={() => setMenuClicked(!menuClicked)} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-8 h-8"> <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" /> </svg>
@@ -60,18 +60,25 @@ export default function Navbar() {
             }
           `}</style>
                 <div className="w-[94%] font-[300] mx-auto flex flex-col text-xl gap-3 text-main">
-                        <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/consulting"}>
-                        Consulting
+                <div className="text-main text-4xl flex font-[300] flex-col justify-center gap-[24px]">
+                        <Link className="hover:text-gray-600" href={"/services"}>
+                        Services
                         </Link>
-                        <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/products"}>
-                        What we&apos;re building
-                        </Link>
-                        <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/people"}>
+                        <Link className="hover:text-gray-600" href={"/people"}>
                         People
                         </Link>
-                        <Link onClick={() => setMenuClicked(false)} className="hover:text-gray-600" href={"/contact"}>
+                        <Link className="hover:text-gray-600" href={"/contact"}>
                         Contact
                         </Link>
+                        <div className="flex items-center gap-3">
+                            <Link target="_blank" className="hover:text-gray-600" href={"https://usegazella.com/"}>
+                            Monthly offer
+                            </Link>
+                            <div className="bg-[#e9f4ff] text-[#0060f2] px-2 rounded-full text-sm">
+                                new
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 
               </div>

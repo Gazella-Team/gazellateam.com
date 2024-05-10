@@ -12,10 +12,10 @@ export default function Hero() {
                         <TpWidget />
                     </Reveal>
                     <Reveal>
-                        <h1 className="text-7xl font-[300] leading-[110%] mb-[20px]">Custom software development for companies</h1>
+                        <h1 className="text-4xl md:text-7xl font-[300] leading-[110%] mb-[20px]">Custom software development for companies</h1>
                     </Reveal>
                     <Reveal>
-                        <p className="text-xl text-gray-600 font-[200] leading-[150%] mb-[50px]">We help companies of all sizes sell more, build worlflows and launch innovative ideas through tailormade software development.</p>
+                        <p className="text-lg md:text-xl text-gray-600 font-[200] leading-[150%] mb-[50px]">We help companies of all sizes sell more, build worlflows and launch innovative ideas through tailormade software development.</p>
                     </Reveal>
                     <Reveal>
                         <div className="flex items-center gap-4 mb-[60px]">
