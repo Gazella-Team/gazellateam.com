@@ -2,6 +2,7 @@ import Meta from "./Meta";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import localFont from "next/font/local"
+import Script from "next/script";
 
 
 
@@ -15,6 +16,7 @@ export default function Layout({
   return (
     <div className="flex flex-col justify-between min-h-screen">
       <div>
+        <Script src="https://api.toolbird.io/js/script.js" strategy="lazyOnload" data-domain="gazellateam.com"/>
         <Meta />
         <div>
             <div className={`${className}`}>
