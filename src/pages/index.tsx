@@ -6,6 +6,7 @@ import GraphicDisplay from "@/components/GraphicDisplay";
 import ServiceSlider from "@/components/service-slider";
 import Video from "@/components/video";
 import Cases from "@/components/cases";
+import VideoPlayer from "@/components/video";
 
 export default function Home() {
   return (
