@@ -26,7 +26,7 @@ export default function Hero() {
                     </Reveal>
                 </div>
                 <div className="flex items-center justify-end">
-                    <VideoPlayer thumbnail="/thumbnail.png" />
+                    <VideoPlayer videoSrc="/videos/vsl.mp4" thumbnail="/thumbnail.png" />
                 </div>
             </div>
         </section>
