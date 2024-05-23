@@ -7,8 +7,8 @@ import VideoPlayer from "./video";
 export default function Hero() {
     return (
         <section className="py-[60px] bg-[url(/bgs/line.svg)] bg-cover bg-center">
-            <div className="w-[90%] mx-auto max-w-3xl xl:max-w-[1360px] flex flex-col xl:gap-10 xl:flex-row xl:items-center justify-between">
-                <div>
+            <div className="w-[90%] mx-auto flex flex-col justify-center max-w-2xl xl:max-w-[1360px] ">
+                <div className="flex flex-col items-center">
                     <Reveal>
                         <TpWidget />
                     </Reveal>
@@ -26,7 +26,7 @@ export default function Hero() {
                     </Reveal>
                 </div>
                 <div className="flex items-center justify-end">
-                    <VideoPlayer videoSrc="/videos/vsl.mp4" thumbnail="/thumbnail.png" />
+                    <VideoPlayer />
                 </div>
             </div>
         </section>

@@ -6,32 +6,39 @@ interface VideoPlayerProps {
   videoSrc: string;
 }
 
-const VideoPlayer: React.FC<VideoPlayerProps> = ({ thumbnail, videoSrc }) => {
-  const [isPlaying, setIsPlaying] = useState(false);
+import React, { useEffect } from 'react';
 
-  const handlePlay = () => {
-    setIsPlaying(true);
-  };
+const WistiaEmbed = () => {
+  useEffect(() => {
+    const script1 = document.createElement('script');
+    script1.src = 'https://fast.wistia.com/embed/medias/9j67mfrz2c.jsonp';
+    script1.async = true;
+    document.body.appendChild(script1);
+
+    const script2 = document.createElement('script');
+    script2.src = 'https://fast.wistia.com/assets/external/E-v1.js';
+    script2.async = true;
+    document.body.appendChild(script2);
+
+    return () => {
+      document.body.removeChild(script1);
+      document.body.removeChild(script2);
+    };
+  }, []);
 
   return (
-    <div className="relative w-full max-w-3xl mx-auto">
-      {!isPlaying ? (
-        <div className="relative cursor-pointer" onClick={handlePlay}>
-          <img src={thumbnail} alt="Video Thumbnail" className="w-full rounded-3xl" />
-          <button
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-50 text-white rounded-full w-16 h-16 flex items-center justify-center"
-          >
-            ▶
-          </button>
+    <div className='flex items-center justify-center'>
+      <div className="wistia_responsive_padding w-[1000px]">
+        <div className="wistia_responsive_wrapper">
+          <div className="wistia_embed wistia_async_9j67mfrz2c seo=true videoFoam=true">
+            <div className="wistia_swatch" style={{  opacity: 0, overflow: 'hidden',  transition: 'opacity 200ms', }}>
+              <img src="https://fast.wistia.com/embed/medias/9j67mfrz2c/swatch"  alt="" aria-hidden="true" />
+            </div>
+          </div>
         </div>
-      ) : (
-        <video className="w-full rounded-3xl" controls autoPlay>
-          <source src={videoSrc} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-      )}
+      </div>
     </div>
   );
 };
 
-export default VideoPlayer;
+export default WistiaEmbed;
