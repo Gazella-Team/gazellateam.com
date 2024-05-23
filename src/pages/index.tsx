@@ -1,16 +1,13 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import Layout from "@/components/Layout";
 import Hero from "@/components/hero";
-import GraphicDisplay from "@/components/GraphicDisplay";
-import ServiceSlider from "@/components/service-slider";
-import Video from "@/components/video";
-import Cases from "@/components/cases";
 import VideoPlayer from "@/components/video";
 
 export default function Home() {
   return (
     <Layout>
       <Hero />
+      <div className="w-[86%] rounded-2xl mb-24 mx-auto max-w-5xl">
+        <VideoPlayer />
+      </div>
     </Layout>
 )}
