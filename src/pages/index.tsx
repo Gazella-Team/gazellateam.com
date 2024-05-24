@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout>
       <Hero />
-      <div className="w-[86%] rounded-2xl mb-24 mx-auto max-w-5xl">
+      <div className="w-[86%] rounded-2xl mb-20 mx-auto max-w-5xl">
         <VideoPlayer />
       </div>
     </Layout>
