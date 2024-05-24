@@ -9,7 +9,7 @@ export default function Navbar() {
     return (
         <>
         <nav className="h-[135px] fixed bg-white w-full flex flex-col z-[999]">
-            <div className="bg-main text-white h-[50px] flex items-center justify-center">
+            <div className="bg-main text-white h-[30px] flex items-center justify-center">
                 {
                     /*
                 <div className="w-[94%] max-w-[1500px] flex items-center justify-end">
