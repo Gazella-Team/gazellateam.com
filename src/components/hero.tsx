@@ -13,11 +13,13 @@ export default function Hero() {
                         </div>
                     </Reveal>
                     <Reveal>
-                        <h1 className="text-4xl md:text-6xl font-[300] mx-auto leading-[110%] max-w-5xl mb-[20px]">Custom software development for companies looking to grow</h1>
+                        <h1 className="text-4xl md:text-6xl font-[300] mx-auto leading-[110%] max-w-5xl mb-[40px]">Custom software development for companies looking to grow</h1>
                     </Reveal>
-                    <Reveal>
-                        <p className="text-lg md:text-xl text-gray-600 mx-auto font-[200] max-w-5xl leading-[150%] mb-[50px]">We help companies of all sizes sell more, build worlflows and launch innovative ideas through tailormade software development.</p>
-                    </Reveal>
+                    <div className="max-w-5xl mx-auto">
+                        <Reveal>
+                            <p className="text-lg md:text-xl text-gray-600 max-w-3xl font-[200] leading-[150%] mb-[80px]">We help companies of all sizes sell more, build workflows and launch innovative ideas through tailormade software development.</p>
+                        </Reveal>
+                    </div>
                     <Reveal>
                         <div className="flex mx-auto max-w-5xl justify-end items-center gap-4 mb-[60px]">
                             <Link className="bg-main text-white rounded-full px-7 py-2 text-xs md:text-sm font-[300] border-2 border-main" href={"/contact"}>Contact us</Link>
