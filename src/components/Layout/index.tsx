@@ -22,10 +22,10 @@ export default function Layout({
             <div className={`${className}`}>
             <Meta />
             <Navbar />
-            <div className="pt-[135px] text-main">
+            <div className="pt-[135px] flex flex-col justify-between min-h-screen text-main">
                 {children}
+                <Footer />
             </div>
-            <Footer />
             </div>
         </div>
       </div>
