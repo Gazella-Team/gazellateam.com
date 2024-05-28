@@ -17,7 +17,7 @@ export default function Hero() {
                     </Reveal>
                     <div className="max-w-5xl mx-auto">
                         <Reveal>
-                            <p className="text-lg md:text-xl text-gray-600 max-w-3xl font-[200] leading-[150%] mb-[80px]">We help companies of all sizes sell more, build workflows and launch innovative ideas through tailormade software development.</p>
+                            <p className="text-lg md:text-xl text-gray-600 max-w-5xl w-[70%] font-[200] leading-[150%] mb-[80px]">We help companies of all sizes sell more, build workflows and launch innovative ideas through tailormade software development.</p>
                         </Reveal>
                     </div>
                     <Reveal>
