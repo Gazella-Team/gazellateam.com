@@ -2,7 +2,7 @@ import { Reveal } from "../Animations/Reveal";
 
 export default function DefaultHero(props:any) {
     return (
-        <section className="py-[100px]">
+        <section className="py-[100px] pb-[70px]">
             {props.founders &&  <Reveal>
             <div className="flex items-center justify-center w-[94%] max-w-[1300px] mx-auto mb-[40px]">
                 <div className="bg-white rounded-full p-[4px]">
