@@ -5,7 +5,7 @@ import Team from "@/components/team";
 export default function People() {
     return (
         <Layout>
-            <SecondHero heading="Meet the team" description="A small team, with global ambitions. Put faces to the team, who everyday strives to elevate software, build solutions and make a difference for partners worldwide." />
+            <SecondHero heading="Meet the team" description="We are dedicated to ensuring environmental responsibility is at the core of our operations. Our commitment is this." />
             <Team />
         </Layout>
     )
