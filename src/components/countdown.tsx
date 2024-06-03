@@ -9,7 +9,7 @@ interface TimeLeft {
 
 const CountdownTimer: React.FC = () => {
   const calculateTimeLeft = (): TimeLeft => {
-    const difference = +new Date("2024-05-28") - +new Date();
+    const difference = +new Date("2024-06-28") - +new Date();
     let timeLeft: TimeLeft = { days: 0, hours: 0, minutes: 0, seconds: 0 };
 
     if (difference > 0) {
