@@ -27,6 +27,7 @@ export default function Navbar() {
                         <Link className="hover:text-gray-600" href={"/services"}>
                         Services
                         </Link>
+
                         <Link className="hover:text-gray-600" href={"/people"}>
                         People
                         </Link>

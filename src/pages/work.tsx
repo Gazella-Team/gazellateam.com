@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import SecondHero from "@/components/reused/DefaultHero";
 import CaseComponent from "@/components/cases"
+import Team from "@/components/team";
 
 export default function Cases() {
     return (
