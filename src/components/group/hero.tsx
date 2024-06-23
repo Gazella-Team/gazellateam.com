@@ -4,7 +4,7 @@ import { Reveal } from "../Animations/Reveal";
 //
 export default function Hero() {
     return (
-        <section className="py-[100px] bg-[url(/bgs/line.svg)] bg-cover bg-center">
+        <section className="py-12 bg-[url(/bgs/line.svg)] bg-cover bg-center">
             <div className="w-[90%] mx-auto max-w-[660px]">
                 <Reveal>
                     <div className="flex items-center mb-10">

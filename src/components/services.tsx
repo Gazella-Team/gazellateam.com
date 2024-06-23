@@ -2,7 +2,7 @@ import { Reveal } from "./Animations/Reveal";
 
 export default function Services() {
     return (
-        <section className="py-[100px] bg-[url(/bgs/line.svg)] bg-cover bg-center">
+        <section className="py-12 bg-[url(/bgs/line.svg)] bg-cover bg-center">
             <div className="w-[90%] mx-auto max-w-[660px]">
                 <Reveal>
                     <h1 className="text-[54px] font-[300] leading-[110%] mb-[70px]">Custom development for any project</h1>

@@ -1,12 +1,18 @@
+import Link from "next/link";
 import { Reveal } from "../Animations/Reveal";
 
 
 export default function Projects() {
     return (
-        <section className="py-[100px]">
+        <section className="py-12">
             <div className="w-[90%] mx-auto max-w-[660px]">
+                <div className="inline-block mb-10">
+                    <div className="px-4 py-2 text-sm border font-[300] border-gray-600/10 rounded-full shadow-sm select-none flex items-center gap-4 bg-white">
+                        <h2>What we're building</h2>
+                    </div>
+                </div>
                 <Reveal>
-                    <h1 className="text-[54px] font-[300] leading-[110%] mb-[50px]">Building ToolBird: The all-in-one toolbox for SaaS developers</h1>
+                    <h1 className="text-[54px] font-[300] leading-[110%] mb-[50px]">Portfolio Projects</h1>
                 </Reveal>
                 <Reveal>
                 <p className="font-[200] text-[18px] text-gray-600">Tiny Rhino is a technical product agency that has been at the forefront of innovation for over 7 years. We are proud to have delivered many innovate solutions to a range of clients from a variety of industries, driven by a passion for new and innovative technology.
