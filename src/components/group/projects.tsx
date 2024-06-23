@@ -8,7 +8,7 @@ export default function Projects() {
             <div className="w-[90%] mx-auto max-w-[660px]">
                 <div className="inline-block mb-10">
                     <div className="px-4 py-2 text-sm border font-[300] border-gray-600/10 rounded-full shadow-sm select-none flex items-center gap-4 bg-white">
-                        <h2>What we're building</h2>
+                        <h2>What we&apos;re building</h2>
                     </div>
                 </div>
                 <Reveal>
