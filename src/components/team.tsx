@@ -24,7 +24,7 @@ function TeamMemberCard(props:any) {
     return (
         <Reveal>
             <Link target="_blank" href={props.Obj.linkedIn} className="flex flex-col gap-6">
-                <img onMouseEnter={() => setImageHovered(true)} onMouseLeave={() => setImageHovered(false)}  className="rounded-xl transition-all" src={imageHovered ? props.Obj.image:props.Obj.image}></img>
+                <img onMouseEnter={() => setImageHovered(true)} onMouseLeave={() => setImageHovered(false)}  className="rounded-xl border border-gray-600/10 transition-all" src={imageHovered ? props.Obj.image:props.Obj.image}></img>
                 <div>
                     <h2 className="font-[300]">{props.Obj.name}</h2>
                     <p className="font-[200] text-sm text-gray-600">{props.Obj.title}</p>

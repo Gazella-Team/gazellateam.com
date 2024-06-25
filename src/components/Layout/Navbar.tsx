@@ -8,15 +8,9 @@ export default function Navbar() {
     const [menuClicked, setMenuClicked] = useState(false)
     return (
         <>
-        <nav className="h-[135px] fixed bg-white w-full flex flex-col z-[999]">
-            <div className="bg-main text-white h-[30px] flex items-center justify-center">
-                {
-                    /*
-                <div className="w-[94%] max-w-[1500px] flex items-center justify-end">
-                    <Link href={"/group"} className="text-xs font-[200] px-3 py-1 border border-gray-700 rounded-full">Gazella Team Group {">"}</Link>
-                </div>
-                    */
-                }
+        <nav className="h-[80px] md:h-[135px] fixed bg-white w-full flex flex-col z-[999]">
+            <div className="bg-main hidden md:flex text-white h-[30px] items-center justify-center">
+               <p className="text-xs font-[200]">Limited offer: Get a free conversion performance audit of your website. <span><Link className="underline" href={"/contact"}>Apply here</Link></span></p>
             </div>
             <div className="w-[94%] flex-1 max-w-[1500px] mx-auto flex items-center justify-between">
                 <Link href={"/"}>
