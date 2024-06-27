@@ -3,8 +3,8 @@ import { Reveal } from "./Animations/Reveal";
 export default function Services() {
     return (
         <section className="py-12 bg-cover bg-center flex flex-col items-end">
-            <div className="w-[94%] max-w-2xl mx-auto flex flex-col items-end">
-                <div className="mr-auto">
+            <div className="w-[94%] md:w-[70%] mx-auto flex flex-col items-end">
+                <div className="max-w-2xl">
                     <Reveal>
                         <div className="mb-14 flex flex-col gap-4">
                             <h2 className="text-2xl font-[300] text-main">Web Development</h2>
