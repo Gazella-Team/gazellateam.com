@@ -3,8 +3,8 @@ import { Reveal } from "./Animations/Reveal"
 import { url } from "inspector"
 
 const portfolioData = [
-    {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/portfolio/toolbird.webp", link:"/minecraft-buzz-auctions", owned:true},
-    {heading:"Minecraft Buzz Auctions", description: "Seamless platform for slot bidding for minecraft servers", image:"/portfolio/toolbird.webp", link:"/minecraft-buzz-auctions"},
+    {heading:"Toolbird", description: "Seamless platform for slot bidding for minecraft servers", image:"/portfolio/toolbird.webp", link:"/minecraft-buzz-auctions", owned:true},
+    {heading:"minecraft.buzz", description: "Seamless platform for slot bidding for minecraft servers", image:"/portfolio/toolbird.webp", link:"/minecraft-buzz-auctions"},
     {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/portfolio/toolbird.webp", link:"/minecraft-buzz-auctions"},
 ]
 

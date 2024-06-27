@@ -10,7 +10,7 @@ export default function Portfolio() {
     return (
         <Layout>
             <Meta title={`Portfolio - Gazella Team`} />
-            <PageIntro heading="Portfolio" description="Read more about the projects we've built for clients, and the projects we build internally." />
+            <PageIntro heading="Selected work" description="Read more about the projects we've built for clients, and the projects we build internally." />
             <PortfolioProjects />
         </Layout>
     )

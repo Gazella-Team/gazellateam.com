@@ -47,7 +47,7 @@ export default function Navbar() {
         </nav>
         {menuClicked ? (
             
-              <div className="flex md:hidden fixed w-full bg-white top-[85px] bottom-0 py-[135px] z-20 overflow-auto">
+              <div className="flex md:hidden fixed w-full bg-white top-[80px] bottom-0 py-[45px] z-20 overflow-auto">
               <style jsx>{`
             ::-webkit-scrollbar {
               display: none;
