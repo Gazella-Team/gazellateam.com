@@ -21,14 +21,14 @@ export default function PerformanceAudit() {
                     </div>
                     <div className="flex items-center justify-center gap-3">
                         <Link className="bg-white border-2 border-white text-main font-[300] rounded-full px-5 py-2 text-sm" href={"/contact"}>Claim your spot</Link>
-                        <Link className="bg-transparent hover:bg-white hover:text-main transition-all border-2 border-white text-white font-[300] rounded-full px-5 py-2 text-sm" href={"/contact"}>Claim your spot</Link>
+                        <Link className="bg-transparent hover:bg-white hover:text-main transition-all border-2 border-white text-white font-[300] rounded-full px-5 py-2 text-sm" href={"/contact"}>What&apos;s included?</Link>
                     </div>
                     <div className="max-w-4xl w-[100%] mx-auto mt-10">
                      <VideoPlayer />
                     </div>
                 </div>
             </section>
-            <SectionIntro heading="A proven strategy that has helped hundreds improve their website">
+            <SectionIntro width="5xl" space="20" heading="A proven strategy that has helped hundreds improve their website">
                 <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
                     <div className="bg-[#fafafa] shadow-md text-center border border-gray-600/10 rounded-2xl p-10">
                         <div className="mt-[-80px] flex mb-6 justify-center">
@@ -62,37 +62,25 @@ export default function PerformanceAudit() {
                     </div>
                 </div>
             </SectionIntro>
-            <SectionIntro heading="What's included?">
-                <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
-                    <div className="bg-[#fafafa] shadow-md text-center border border-gray-600/10 rounded-2xl p-10">
-                        <div className="mt-[-80px] flex mb-6 justify-center">
-                            <img className="w-20 mt rounded-full" src="/testimonial-headshots/gustav-walsted.webp"></img>
-                        </div>
-                        <div className="mb-8">
-                            <h2 className="font-[300]">Gustav Walsted</h2>
-                            <p className="text-sm font-[200] text-gray-600">Founder, coad.dk</p>
-                        </div>
-                        <p className="font-[200] text-sm leading-7">Makeable har igen gjort et solidt stykke arbejde med denne totalrenoverede version af AarhusGuiden. Lige fra design til launch har vi følt os i de bedste hænder hos det kompetente team, og vi er meget stolte af resultatet.</p>
+            <SectionIntro width="5xl" marginBottom={true} space="10" heading="What's included?">
+                <div className="grid grid-cols-2 gap-6">
+                    <div className="bg-white rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
+                        <p>hey</p>
                     </div>
-                    <div className="bg-[#fafafa] shadow-md text-center border border-gray-600/10 rounded-2xl p-10">
-                        <div className="mt-[-80px] flex mb-6 justify-center">
-                            <img className="w-20 mt rounded-full" src="/testimonial-headshots/gustav-walsted.webp"></img>
-                        </div>
-                        <div className="mb-8">
-                            <h2 className="font-[300]">Gustav Walsted</h2>
-                            <p className="text-sm font-[200] text-gray-600">Founder, coad.dk</p>
-                        </div>
-                        <p className="font-[200] text-sm leading-7">Makeable har igen gjort et solidt stykke arbejde med denne totalrenoverede version af AarhusGuiden. Lige fra design til launch har vi følt os i de bedste hænder hos det kompetente team, og vi er meget stolte af resultatet.</p>
+                    <div className="bg-white rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
+                        <p>hey</p>
                     </div>
-                    <div className="bg-[#fafafa] shadow-md text-center border border-gray-600/10 rounded-2xl p-10">
-                        <div className="mt-[-80px] flex mb-6 justify-center">
-                            <img className="w-20 mt rounded-full" src="/testimonial-headshots/gustav-walsted.webp"></img>
-                        </div>
-                        <div className="mb-8">
-                            <h2 className="font-[300]">Gustav Walsted</h2>
-                            <p className="text-sm font-[200] text-gray-600">Founder, coad.dk</p>
-                        </div>
-                        <p className="font-[200] text-sm leading-7">Makeable har igen gjort et solidt stykke arbejde med denne totalrenoverede version af AarhusGuiden. Lige fra design til launch har vi følt os i de bedste hænder hos det kompetente team, og vi er meget stolte af resultatet.</p>
+                    <div className="bg-white rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
+                        <p>hey</p>
+                    </div>
+                    <div className="bg-white rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
+                        <p>hey</p>
+                    </div>
+                    <div className="bg-white rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
+                        <p>hey</p>
+                    </div>
+                    <div className="bg-white rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
+                        <p>hey</p>
                     </div>
                 </div>
             </SectionIntro>

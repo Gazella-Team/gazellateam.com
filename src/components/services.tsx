@@ -2,7 +2,7 @@ import { Reveal } from "./Animations/Reveal";
 
 export default function Services() {
     return (
-        <section className="py-12 bg-cover bg-center flex flex-col items-end">
+        <section className="py-12 pb-24 bg-cover bg-center flex flex-col items-end">
             <div className="w-[94%] md:w-[70%] mx-auto flex flex-col items-end">
                 <div className="max-w-2xl">
                     <Reveal>
