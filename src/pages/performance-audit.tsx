@@ -19,7 +19,7 @@ export default function PerformanceAudit() {
                     </div>
                     <div className="flex items-center justify-center gap-3">
                         <Link className="bg-white border-2 border-white text-main font-[300] rounded-full px-5 py-2 text-sm" href={"/contact"}>Claim your spot</Link>
-                        <Link className="bg-white border-2 border-white text-white font-[300] bg-transparent hover:bg-white hover:text-main transition-all rounded-full px-5 py-2 text-sm" href={"/contact"}>What&apos;s included?</Link>
+                        <Link className="bg-transparent border-2 border-white text-white font-[300] rounded-full px-5 py-2 text-sm" href={"/contact"}>Claim your spot</Link>
                     </div>
                 </div>
                 <img className="w-[80%] mt-[-100px] mx-auto" src="/bgs/performance-audit.png"></img>
