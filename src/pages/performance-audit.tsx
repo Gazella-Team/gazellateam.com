@@ -29,7 +29,7 @@ export default function PerformanceAudit() {
                 </div>
             </section>
             <SectionIntro width="5xl" space="20" heading="A proven strategy that has helped hundreds improve their website">
-                <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
+                <div className="grid mt-24 md:grid-cols-2 xl:grid-cols-3 gap-6">
                     <div className="bg-[#fafafa] shadow-md text-center border border-gray-600/10 rounded-2xl p-10">
                         <div className="mt-[-80px] flex mb-6 justify-center">
                             <img className="w-20 mt rounded-full" src="/testimonial-headshots/gustav-walsted.webp"></img>
@@ -62,25 +62,31 @@ export default function PerformanceAudit() {
                     </div>
                 </div>
             </SectionIntro>
-            <SectionIntro width="5xl" marginBottom={true} space="10" heading="What's included?">
-                <div className="grid grid-cols-2 gap-6">
-                    <div className="bg-white rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
-                        <p>hey</p>
+            <SectionIntro width="5xl" marginBottom={true} space="0" heading="What's included?">
+                <div className="grid mt-10 grid-cols-2 gap-6">
+                    <div className="bg-white flex flex-col gap-4 rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
+                        <h2 className="font-[300]">Speed walkthrough</h2>
+                        <p className="font-[200] text-sm">Increase sales, brand value and traffic through your website with a tailormade step-by-step guide. Get yours all for free within 2 days, no binding.</p>
                     </div>
-                    <div className="bg-white rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
-                        <p>hey</p>
+                    <div className="bg-white flex flex-col gap-4 rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
+                        <h2 className="font-[300]">Speed walkthrough</h2>
+                        <p className="font-[200] text-sm">Increase sales, brand value and traffic through your website with a tailormade step-by-step guide. Get yours all for free within 2 days, no binding.</p>
                     </div>
-                    <div className="bg-white rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
-                        <p>hey</p>
+                    <div className="bg-white flex flex-col gap-4 rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
+                        <h2 className="font-[300]">Speed walkthrough</h2>
+                        <p className="font-[200] text-sm">Increase sales, brand value and traffic through your website with a tailormade step-by-step guide. Get yours all for free within 2 days, no binding.</p>
                     </div>
-                    <div className="bg-white rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
-                        <p>hey</p>
+                    <div className="bg-white flex flex-col gap-4 rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
+                        <h2 className="font-[300]">Speed walkthrough</h2>
+                        <p className="font-[200] text-sm">Increase sales, brand value and traffic through your website with a tailormade step-by-step guide. Get yours all for free within 2 days, no binding.</p>
                     </div>
-                    <div className="bg-white rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
-                        <p>hey</p>
+                    <div className="bg-white flex flex-col gap-4 rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
+                        <h2 className="font-[300]">Speed walkthrough</h2>
+                        <p className="font-[200] text-sm">Increase sales, brand value and traffic through your website with a tailormade step-by-step guide. Get yours all for free within 2 days, no binding.</p>
                     </div>
-                    <div className="bg-white rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
-                        <p>hey</p>
+                    <div className="bg-white flex flex-col gap-4 rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
+                        <h2 className="font-[300]">Speed walkthrough</h2>
+                        <p className="font-[200] text-sm">Increase sales, brand value and traffic through your website with a tailormade step-by-step guide. Get yours all for free within 2 days, no binding.</p>
                     </div>
                 </div>
             </SectionIntro>
