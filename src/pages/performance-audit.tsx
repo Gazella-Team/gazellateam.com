@@ -13,7 +13,7 @@ export default function PerformanceAudit() {
             <section className="min-h-[600px] text-white bg-gradient-to-t from-main via-main/90 to-main/80 py-24">
                 <div className="w-[94%] max-w-[1300px] flex flex-col gap-10 text-center mx-auto">
                     <div className="flex">
-                        <p className="border-2 mx-auto px-5 rounded-full py-1 text-sm font-[200]">⚡️ Only 10 spots left</p>
+                        <p className="border-2 mx-auto px-5 rounded-full py-1 text-sm font-[200]">⚡️ 35 / 50 spots taken</p>
                     </div>
                     <div className="flex flex-col gap-5">
                         <h1 className="text-5xl font-[300] mx-auto max-w-3xl">Get a 100% free performance audit of your current website</h1>
@@ -62,7 +62,7 @@ export default function PerformanceAudit() {
                     </div>
                 </div>
             </SectionIntro>
-            <SectionIntro width="5xl" marginBottom={true} space="0" heading="What's included?">
+            <SectionIntro width="5xl" space="0" heading="What's included?">
                 <div className="grid mt-10 grid-cols-2 gap-6">
                     <div className="bg-white flex flex-col gap-4 rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
                         <h2 className="font-[300]">Speed walkthrough</h2>
@@ -88,6 +88,11 @@ export default function PerformanceAudit() {
                         <h2 className="font-[300]">Speed walkthrough</h2>
                         <p className="font-[200] text-sm">Increase sales, brand value and traffic through your website with a tailormade step-by-step guide. Get yours all for free within 2 days, no binding.</p>
                     </div>
+                </div>
+            </SectionIntro>
+            <SectionIntro width="5xl" marginBottom={true} space="0" heading="Limited spots: Do as +100 other business owners and enroll for free">
+                <div className="flex items-center justify-center mt-8">
+                    <Link className="bg-main border-2 border-main text-white font-[300] rounded-full px-5 py-2 text-sm" href={"/"}>Enroll here</Link>
                 </div>
             </SectionIntro>
         </Layout>
