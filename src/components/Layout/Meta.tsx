@@ -11,7 +11,7 @@ const Meta = ({
 
   return (
     <Head>
-      <meta name="theme-color" content={"#395a3f"} key="theme-color"/>
+      <meta name="theme-color" content={"#fffff"} key="theme-color"/>
 
       <meta name='viewport' content='width=device-width, initial-scale=1' key="viewport"/>
       <meta name='keywords' content={keywords} key="keyword"/>
