@@ -6,6 +6,7 @@ import PageIntro from "@/components/reused/PageIntro";
 import Link from "next/link";
 import VideoPlayer from "@/components/video";
 import SectionIntro from "@/components/reused/SectionIntro";
+import { ArrowDown } from "lucide-react";
 
 export default function PerformanceAudit() {
     return (
@@ -26,6 +27,12 @@ export default function PerformanceAudit() {
                     <div className="max-w-4xl w-[100%] mx-auto mt-10">
                      <VideoPlayer />
                     </div>
+                </div>
+            </section>
+            <section className="pt-24">
+                <div className="w-[94%] max-w-[1300px] flex flex-col items-center mx-auto text-center gap-20">
+                    <h1 className="font-[300] text-3xl leading-[140%] md:text-5xl max-w-2xl md:leading-[140%] mx-auto">You are guaranteed a 100% increase in monthly web visitors 2 months post implementation.</h1>
+                    <ArrowDown size={50} />
                 </div>
             </section>
             <SectionIntro width="5xl" space="20" heading="A proven strategy that has helped hundreds improve their website">
@@ -66,15 +73,15 @@ export default function PerformanceAudit() {
                 <div className="grid mt-10 grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="bg-white flex flex-col gap-4 rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
                         <h2 className="font-[300]">Personalized consultation</h2>
-                        <p className="font-[200] text-sm">Increase sales, brand value and traffic through your website with a tailormade step-by-step guide. Get yours all for free within 2 days, no binding.</p>
+                        <p className="font-[200] text-sm">We adjust our input solely based on your current web-situation. With a proActive approach we create world class tailormade consultations.</p>
                     </div>
                     <div className="bg-white flex flex-col gap-4 rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
                         <h2 className="font-[300]">Speed review</h2>
-                        <p className="font-[200] text-sm">Increase sales, brand value and traffic through your website with a tailormade step-by-step guide. Get yours all for free within 2 days, no binding.</p>
+                        <p className="font-[200] text-sm">Website speed is essential for a greate user experience. We look into advanced analytics of your webpage, to figure out potential points of optimization.</p>
                     </div>
                     <div className="bg-white flex flex-col gap-4 rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
                         <h2 className="font-[300]">SEO review</h2>
-                        <p className="font-[200] text-sm">Increase sales, brand value and traffic through your website with a tailormade step-by-step guide. Get yours all for free within 2 days, no binding.</p>
+                        <p className="font-[200] text-sm">Search Engine Optimization (SEO) is crucial for organic traffic and leads. With our 360 degree lookaround, we prepare a point-for-point improvement checklist.</p>
                     </div>
                     <div className="bg-white flex flex-col gap-4 rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
                         <h2 className="font-[300]">Branding analysis</h2>
@@ -82,7 +89,7 @@ export default function PerformanceAudit() {
                     </div>
                     <div className="bg-white flex flex-col gap-4 rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
                         <h2 className="font-[300]">Points of improvement</h2>
-                        <p className="font-[200] text-sm">Increase sales, brand value and traffic through your website with a tailormade step-by-step guide. Get yours all for free within 2 days, no binding.</p>
+                        <p className="font-[200] text-sm">To sum up the above, we provide you a complete in-depth explanation of each area of your website that can be improved </p>
                     </div>
                     <div className="bg-white flex flex-col gap-4 rounded-2xl border w-full border-gray-600/10 shadow-md p-10">
                         <h2 className="font-[300]">Excecution guide</h2>
@@ -90,6 +97,12 @@ export default function PerformanceAudit() {
                     </div>
                 </div>
             </SectionIntro>
+            <section className="pt-24">
+                <div className="w-[94%] max-w-[1300px] flex flex-col items-center mx-auto text-center gap-20">
+                    <h1 className="font-[300] text-3xl leading-[140%] md:text-5xl max-w-2xl md:leading-[140%] mx-auto">And yes, you heard it right... 100% FREE </h1>
+                    <ArrowDown size={50} />
+                </div>
+            </section>
             <SectionIntro width="5xl" marginBottom={true} space="0" heading="Limited spots: Do as +100 other business owners and enroll for free">
                 <div className="flex items-center justify-center mt-8">
                     <Link className="bg-main border-2 border-main text-white font-[300] rounded-full px-5 py-2 text-sm" target="_blank" href={"https://osep408e8xh.typeform.com/to/iv2Oj1ez"}>Enroll in 30 seconds</Link>
