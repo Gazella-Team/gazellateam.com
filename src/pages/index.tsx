@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Layout>
      <Meta title={`Home - Gazella Team`} />
-      <PageIntro heading="We boost businesses with seamless software and user-experience" description="We help companies of all sizes sell more, build workflows and launch innovative ideas through tailormade software development." />
+      <PageIntro heading="Where software meets creativity" description="We help companies of all sizes sell more, build workflows and launch innovative ideas through tailormade software development." />
       <div className="w-[94%] rounded-2xl mb-20 mx-auto max-w-[1300px]">
         <VideoPlayer />
       </div>

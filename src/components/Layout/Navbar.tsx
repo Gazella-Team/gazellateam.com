@@ -8,10 +8,7 @@ export default function Navbar() {
     const [menuClicked, setMenuClicked] = useState(false)
     return (
         <>
-        <nav className="h-[80px] md:h-[135px] fixed bg-white w-full flex flex-col z-[999]">
-            <div className="bg-main hidden md:flex text-white h-[30px] items-center justify-center">
-               <p className="text-xs font-[200]">Limited offer: Get a free conversion performance audit of your website. <span><Link className="underline" href={"/contact"}>Apply here</Link></span></p>
-            </div>
+        <nav className="h-[80px] fixed bg-white w-full flex flex-col z-[999]">
             <div className="w-[94%] flex-1 max-w-[1500px] mx-auto flex items-center justify-between">
                 <Link href={"/"}>
                     <img className="w-[80px]" src="/logos/gazellateamlogowhitebg.svg"></img>
@@ -27,14 +24,6 @@ export default function Navbar() {
                         <Link className="hover:text-gray-600" href={"/contact"}>
                         Contact
                         </Link>
-                        <div className="flex items-center gap-1">
-                            <Link target="_blank" className="hover:text-gray-600" href={"https://usegazella.com/"}>
-                            Monthly offer
-                            </Link>
-                            <div className="bg-[#e9f4ff] text-[#0060f2] px-2 rounded-full text-sm">
-                                new
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div className="flex md:hidden cursor-pointer">

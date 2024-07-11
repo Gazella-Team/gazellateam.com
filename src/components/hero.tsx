@@ -13,7 +13,7 @@ export default function Hero() {
                         </div>
                     </Reveal>
                     <Reveal>
-                        <h1 className="text-4xl md:text-6xl font-[300] mx-auto leading-[110%] max-w-5xl mb-[40px]">360° custom software development for ambitious companies and projects</h1>
+                        <h1 className="text-4xl md:text-6xl font-[300] mx-auto leading-[110%] max-w-5xl mb-[40px]">Where software meets creativity</h1>
                     </Reveal>
                     <div className="max-w-5xl mx-auto">
                         <Reveal>

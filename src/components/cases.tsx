@@ -2,17 +2,40 @@ import Link from "next/link"
 import { Reveal } from "./Animations/Reveal"
 import { url } from "inspector"
 
-const caseData = [
+const caseDataFirst = [
+    {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/test.webp", link:"/minecraft-buzz-auctions"},
+    {heading:"Minecraft Auctions", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/spaak2.png", link:"/minecraft-buzz-auctions"},
     {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/spaak.png", link:"/minecraft-buzz-auctions"},
-    {heading:"Minecraft Buzz Auctions", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/spaak2.png", link:"/minecraft-buzz-auctions"},
+    {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/test.webp", link:"/minecraft-buzz-auctions"},
+    {heading:"Minecraft Auctions", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/spaak2.png", link:"/minecraft-buzz-auctions"},
+    {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/spaak.png", link:"/minecraft-buzz-auctions"},
+    {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/test.webp", link:"/minecraft-buzz-auctions"},
+    {heading:"Minecraft Auctions", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/spaak2.png", link:"/minecraft-buzz-auctions"},
+    {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/spaak.png", link:"/minecraft-buzz-auctions"},
+]
+
+const caseDataSecond = [
+    {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/test.webp", link:"/minecraft-buzz-auctions"},
+    {heading:"Minecraft Auctions", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/spaak2.png", link:"/minecraft-buzz-auctions"},
+    {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/spaak.png", link:"/minecraft-buzz-auctions"},
+    {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/test.webp", link:"/minecraft-buzz-auctions"},
+    {heading:"Minecraft Auctions", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/spaak2.png", link:"/minecraft-buzz-auctions"},
+    {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/spaak.png", link:"/minecraft-buzz-auctions"},
+    {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/test.webp", link:"/minecraft-buzz-auctions"},
+    {heading:"Minecraft Auctions", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/spaak2.png", link:"/minecraft-buzz-auctions"},
     {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/spaak.png", link:"/minecraft-buzz-auctions"},
 ]
 
 export default function Cases() {
     return (
         <section>
-            <div className="w-[94%] pb-24 gap-6 mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 max-w-[1300px]">
-                {caseData.map((v, index) => <CaseCard key={v.heading} Obj={v} />)}
+            <div className="w-[94%] pb-24 gap-10 mx-auto flex justify-between max-w-[900px]">
+                <div className="flex flex-col gap-10">
+                    {caseDataFirst.map((v, index) => <CaseCard Obj={v} />)}
+                </div>
+                <div className="flex flex-col gap-10 mt-40">
+                    {caseDataSecond.map((v, index) => <CaseCard Obj={v} />)}
+                </div>
             </div>
         </section>
     )
@@ -21,13 +44,10 @@ export default function Cases() {
 function CaseCard(props:any) {
     return (
         <Link href={props.Obj.link}>
-            <div className="bg-center bg-[#fafafa] bg-cover min-h-[500px] rounded-xl text-white flex flex-col justify-between">
-                <div className="p-8">
-                    <p className="font-[system-ui] text-sm text-main">.web</p>
-                </div>
-                <div className="text-main p-10 rounded-xl">
-                    <h1 className="text-md mb-1">{props.Obj.heading}</h1>
-                    <p className="font-[200]">Vi er et ungt og nørdet team</p>
+            <div className="flex flex-col gap-8">
+                <img className="min-h-[560px]" src="/cases/test.webp"></img>
+                <div>
+                    <h2 className="text-2xl">{props.Obj.heading}</h2>
                 </div>
             </div>
         </Link>

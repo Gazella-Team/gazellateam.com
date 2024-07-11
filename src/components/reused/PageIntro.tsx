@@ -1,9 +1,13 @@
 import { Reveal } from "../Animations/Reveal";
+import SectionStarter from "./SectionStarter";
 
 export default function PageIntro(props:any) {
     return (
         <section className="py-12">
-            <div className="w-[94%] max-w-[1300px] mx-auto">
+            <div className={props.smallWidth ? "w-[94%] max-w-[900px] mx-auto":"w-[94%] max-w-[1300px] mx-auto"}>
+                <Reveal>
+                    <SectionStarter message="madewithlove" />
+                </Reveal>
                 <Reveal>
                     <h1 className="font-[300] max-w-3xl text-[40px] tracking-tight md:text-[50px] xl:text-6xl text-main mb-[20px] leading-[120%]">{props.heading}.</h1>
                 </Reveal>
