@@ -3,7 +3,7 @@ import { Reveal } from "./Animations/Reveal"
 import { url } from "inspector"
 
 const caseDataFirst = [
-    {heading:"Toolbird", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/test.webp", link:"/minecraft-buzz-auctions"},
+    {heading:"Toolbird", domain:"toolbird.io", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/test.webp", link:"/minecraft-buzz-auctions"},
     {heading:"Minecraft Auctions", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/toolbird.webp", link:"/minecraft-buzz-auctions"},
     {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/spaak.png", link:"/minecraft-buzz-auctions"},
     {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/test.webp", link:"/minecraft-buzz-auctions"},
@@ -48,6 +48,7 @@ function CaseCard(props:any) {
                 <img className="min-h-[560px]" src="/cases/toolbird.webp"></img>
                 <div>
                     <h2 className="text-2xl">{props.Obj.heading}</h2>
+                    <p className="text-gray-400 font-[200] text-lg">toolbird.io</p>
                 </div>
             </div>
         </Link>
