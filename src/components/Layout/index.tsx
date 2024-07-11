@@ -22,7 +22,7 @@ export default function Layout({
             <div className={`${className}`}>
             <Meta />
             <Navbar />
-            <div className="pt-[80px] bg-[url(/bgs/line.svg)] bg-cover bg-center flex flex-col justify-between min-h-screen text-main">
+            <div className="pt-[80px] bg-cover bg-center flex flex-col justify-between min-h-screen text-main">
                 {children}
                 <Footer />
             </div>

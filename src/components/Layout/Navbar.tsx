@@ -16,10 +16,16 @@ export default function Navbar() {
                 <div className="hidden items-center gap-[30px] md:flex">
                     <div className="text-main text-[15px] flex items-center gap-[24px] font-[200]">
                         <Link className="hover:text-gray-600" href={"/services"}>
+                        Solutions
+                        </Link>
+                        <Link className="hover:text-gray-600" href={"/services"}>
                         Services
                         </Link>
+                        <Link className="hover:text-gray-600" href={"/services"}>
+                        Approach
+                        </Link>
                         <Link className="hover:text-gray-600" href={"/people"}>
-                        People
+                        Company
                         </Link>
                         <Link className="hover:text-gray-600" href={"/contact"}>
                         Contact
@@ -44,6 +50,12 @@ export default function Navbar() {
           `}</style>
                 <div className="w-[94%] font-[300] mx-auto flex flex-col text-xl gap-3 text-main">
                 <div className="text-main text-4xl flex font-[300] flex-col justify-center gap-[24px]">
+                    <Link className="hover:text-gray-600" href={"/services"}>
+                        Approach
+                        </Link>
+                        <Link className="hover:text-gray-600" href={"/services"}>
+                        Services
+                        </Link>
                         <Link className="hover:text-gray-600" href={"/services"}>
                         Services
                         </Link>
