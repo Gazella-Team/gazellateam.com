@@ -15,8 +15,8 @@ const caseDataFirst = [
 ]
 
 const caseDataSecond = [
-    {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/test.webp", link:"/minecraft-buzz-auctions"},
-    {heading:"Minecraft Auctions", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/toolbird.webp", link:"/minecraft-buzz-auctions"},
+    {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/toolbird.webp", link:"/minecraft-buzz-auctions"},
+    {heading:"Minecraft Auctions", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/test.webp", link:"/minecraft-buzz-auctions"},
     {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/spaak.png", link:"/minecraft-buzz-auctions"},
     {heading:"coad.dk", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/test.webp", link:"/minecraft-buzz-auctions"},
     {heading:"Minecraft Auctions", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/spaak2.png", link:"/minecraft-buzz-auctions"},
@@ -29,7 +29,7 @@ const caseDataSecond = [
 export default function Cases() {
     return (
         <section>
-            <div className="w-[94%] pb-24 gap-10 mx-auto flex justify-between max-w-[900px]">
+            <div className="w-[94%] pb-24 gap-16 mx-auto flex justify-between max-w-[1000px]">
                 <div className="flex flex-col gap-20">
                     {caseDataFirst.map((v, index) => <CaseCard Obj={v} />)}
                 </div>
@@ -45,7 +45,7 @@ function CaseCard(props:any) {
     return (
         <Link href={props.Obj.link}>
             <div className="flex flex-col gap-8">
-                <img className="min-h-[560px]" src="/cases/toolbird.webp"></img>
+                <img className="min-h-[560px]" src={props.Obj.image}></img>
                 <div>
                     <h2 className="text-2xl">{props.Obj.heading}</h2>
                     <p className="text-gray-400 font-[200] text-lg">toolbird.io</p>

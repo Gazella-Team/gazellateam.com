@@ -44,52 +44,6 @@ const FOOTER_LINKS: {
 				label: 'Open Startup',
 				href: 'https://app.toolbird.io/share/toolbird.io',
 			},
-			{
-				label: 'Affiliate',
-				href: '/affiliate',
-			},
-			{
-				label: 'Partners',
-				href: '/partners',
-			},
-			{
-				label: 'Terms & Conditions',
-				href: '/legal/terms',
-			},
-			{
-				label: 'Privacy Policy',
-				href: '/legal/privacy',
-			},
-		],
-	},
-	{
-		title: 'Resources',
-		links: [
-			{
-				label: 'Blog',
-				href: '/blog',
-			},
-			{
-				label: 'Docs',
-				href: 'https://docs.toolbird.io/',
-			},
-			{
-				label: 'Extra tools',
-				href: '/tools',
-			},
-			{
-				label: 'Glossary',
-				href: '/glossary',
-			},
-		],
-	},
-	{
-		title: 'Compare',
-		links: [
-			{
-				label: 'Plausible',
-				href: '/compare/plausible',
-			},
 		],
 	},
 	/*
@@ -166,7 +120,7 @@ export default function Footer(props: FooterProps) {
 						))}
 					</div>
 				</div>
-				<div className="text-center font-[200] pb-6 text-gray-400 text-sm gap-4 md:gap-0 flex flex-col md:flex-row items-center justify-between paragraph w-[86%] mx-auto max-w-6xl">
+				<div className="text-center font-[200] pb-6 text-gray-400 text-sm gap-4 md:gap-0 flex flex-col md:flex-row items-center justify-between paragraph w-[86%] mx-auto">
 					<p>
 						© {new Date().getFullYear()} Toolbird - Part of{' '}
 						<a
