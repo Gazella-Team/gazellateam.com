@@ -1,18 +1,12 @@
+const { withContentlayer } = require('next-contentlayer')
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  async rewrites() {
-    return [
-      {
-          source: '/js/script.js',
-          destination: 'https://plausible.io/js/script.js'
-      },
-      {
-          source: '/api/event',
-          destination: 'https://plausible.io/api/event'
-      }
-    ]
-  }
+  images: {
+		domains: ['i.imgur.com'],
+	},
+	transpilePackages: ['react-tweet'],
 }
 
-module.exports = nextConfig
+module.exports = withContentlayer(nextConfig)
