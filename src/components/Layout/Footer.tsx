@@ -65,11 +65,11 @@ export default function Footer(props: FooterProps) {
 			<footer
                 className='bg-[#fafafa]'
 			>
-				<div className="w-[86%] mx-auto min-h-[370px] grid grid-cols-1 md:grid-cols-[35%_1fr] pt-14 gap-20">
+				<div className="w-[86%] mx-auto min-h-[370px] grid grid-cols-1 md:grid-cols-[35%_1fr] pt-16 gap-20">
 					<div className="flex flex-col gap-6">
 						<div className="flex flex-col gap-8">
                             <img className="w-[80px]" src="/logos/gazellateamlogowhitebg.svg"></img>
-							<p className="text-gray-500 paragraph text-sm max-w-xs font-[200]">
+							<p className="text-gray-500 paragraph text-sm max-w-xs font-normal">
 								Get Web Analytics, Feedback Hub and User
 								Surveys, all collected in one place.
 							</p>
@@ -77,7 +77,7 @@ export default function Footer(props: FooterProps) {
 						<div className="flex">
 							<Link
 								href={'https://app.toolbird.io/auth/register'}
-								className="bg-gray-800 border-[3px] border-gray-800 font-[300] paragraph text-xs flex text-white px-6 py-1 rounded-full"
+								className="bg-main border-[3px] border-main font-normal paragraph text-sm flex text-white px-6 py-1 rounded-full"
 							>
 								Start 14-day free trial
 							</Link>
@@ -102,10 +102,10 @@ export default function Footer(props: FooterProps) {
 					<div className="grid grid-cols-2 mb-24 lg:grid-cols-3 paragraph gap-16">
 						{FOOTER_LINKS.map((group) => (
 							<div key={group.title}>
-								<h2 className="text-sm mb-5 font-[300] text-gray-800">
+								<h2 className="text-sm mb-5 font-medium text-gray-800">
 									{group.title}
 								</h2>
-								<div className="text-gray-500 text-sm flex flex-col gap-5 font-[200]">
+								<div className="text-gray-500 text-sm flex flex-col gap-5 font-normal">
 									{group.links.map((link) => (
 										<Link
 											href={link.href}
