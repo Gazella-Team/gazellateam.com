@@ -5,16 +5,6 @@ type AuthorNamesProps = {
 	authors: Post['authors']
 }
 
-/*
-
-<Link
-										href={author.url ?? '#'}
-										target="_blank"
-										className="text-sm cursor-pointer font-medium hover:underline"
-									>
-										{author.name}
-									</Link>*/
-
 export function AuthorNames({ authors }: AuthorNamesProps) {
 	const textArray: {
 		text: string

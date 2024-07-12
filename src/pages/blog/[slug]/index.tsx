@@ -2,20 +2,18 @@ import { Article } from '@/components/content/Article'
 import Layout from '@/components/Layout'
 import Meta from '@/components/Layout/Meta'
 import { allPosts, Post } from 'contentlayer/generated'
-import { ChevronLeft } from 'lucide-react'
 import {
 	GetStaticPaths,
 	GetStaticProps,
 	GetStaticPropsContext,
 	InferGetStaticPropsType,
 } from 'next'
-import Link from 'next/link'
 
 export default function BlogList({
 	post,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
 	return (
-		<Layout noCta={true}>
+		<Layout>
 			<Meta
 				title={`${post.title} | Toolbird`}
 				description={post.description}
