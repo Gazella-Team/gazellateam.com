@@ -8,7 +8,7 @@ export default function People() {
     return (
         <Layout>
             <Meta title={`People - Gazella Team`} />
-            <PageIntro heading="People" description="Put faces on the team behind Gazella Team." />
+            <PageIntro starter="theteam" heading="People" description="" />
             <Team />
         </Layout>
     )

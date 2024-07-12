@@ -7,7 +7,7 @@ import PageIntro from "@/components/reused/PageIntro";
 export default function Solutions() {
     return (
         <Layout>
-            <PageIntro smallWidth={true} heading="Solutions" description="" />
+            <PageIntro starter="madewithlove" smallWidth={true} heading="Solutions" description="" />
             <CaseComponent />
         </Layout>
     )

@@ -8,16 +8,11 @@ export default function Hero() {
             <div className="w-[86%] mx-auto flex flex-col max-w-4xl xl:max-w-[1360px] ">
                 <div className="flex flex-col">
                     <Reveal>
-                        <div className="mx-auto max-w-5xl">
-                            <TpWidget />
-                        </div>
-                    </Reveal>
-                    <Reveal>
-                        <h1 className="text-4xl md:text-6xl font-[300] mx-auto leading-[110%] max-w-5xl mb-[40px]">Where software meets creativity</h1>
+                        <h1 className="text-4xl md:text-8xl font-[300] mx-auto leading-[110%] max-w-5xl mb-[40px]">Where software<br></br><span className="ml-20">meets creativity</span></h1>
                     </Reveal>
                     <div className="max-w-5xl mx-auto">
                         <Reveal>
-                            <p className="text-lg md:text-xl text-gray-600 max-w-5xl w-[70%] font-[200] leading-[150%] mb-[80px]">We help companies of all sizes sell more, build workflows and launch innovative ideas through tailormade software development.</p>
+                            <p className="text-lg ml-20 md:text-xl text-gray-600 max-w-5xl w-[70%] font-[200] leading-[150%] mb-[80px]">We help companies of all sizes sell more, build workflows and launch innovative ideas through tailormade software development.</p>
                         </Reveal>
                     </div>
                     <Reveal>
