@@ -33,7 +33,7 @@ function CaseCard(props:any) {
             <div className="flex flex-col gap-8">
                 <img className="min-h-[560px]" src={props.Obj.image}></img>
                 <div className="flex flex-col gap-2">
-                    <p className="text-gray-400 font-[200] text-xl">toolbird.io</p>
+                    <p className="text-gray-400 paragraph font-[200] text-xl">toolbird.io</p>
                     <h2 className="text-3xl">{props.Obj.heading}</h2>
                 </div>
             </div>
