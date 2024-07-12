@@ -3,7 +3,7 @@ import SectionStarter from "./SectionStarter";
 
 export default function PageIntro(props:any) {
     return (
-        <section className="py-12">
+        <section className="py-12 pb-24">
             <div className={props.smallWidth ? "w-[94%] max-w-[1000px] mx-auto":"w-[94%] max-w-[1300px] mx-auto"}>
                 <Reveal>
                     <SectionStarter message={props.starter} />

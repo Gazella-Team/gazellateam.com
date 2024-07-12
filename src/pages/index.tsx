@@ -9,8 +9,6 @@ export default function Home() {
     <Layout>
      <Meta title={`Home - Gazella Team`} />
      <Hero />
-      <div className="w-[94%] rounded-2xl mb-20 mx-auto max-w-[1300px]">
-        <VideoPlayer />
-      </div>
+     <img src="/bg.webp"></img>
     </Layout>
 )}

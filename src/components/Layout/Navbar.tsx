@@ -9,7 +9,7 @@ export default function Navbar() {
     return (
         <>
         <nav className="h-[80px] fixed bg-white w-full flex flex-col z-[999]">
-            <div className="w-[94%] flex-1 max-w-[1500px] mx-auto flex items-center justify-between">
+            <div className="w-[94%] flex-1 max-w-[1300px] mx-auto flex items-center justify-between">
                 <Link href={"/"}>
                     <img className="w-[80px]" src="/logos/gazellateamlogowhitebg.svg"></img>
                 </Link>
