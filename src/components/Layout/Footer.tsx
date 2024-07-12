@@ -34,14 +34,14 @@ const FOOTER_LINKS: {
 		],
 	},
 	{
-		title: 'Company',
+		title: 'Contact',
 		links: [
 			{
-				label: 'About us',
+				label: '+45 50695272',
 				href: '/blog/introducing-toolbird',
 			},
 			{
-				label: 'Open Startup',
+				label: 'hey@gazellateam.com',
 				href: 'https://app.toolbird.io/share/toolbird.io',
 			},
 		],
@@ -122,18 +122,11 @@ export default function Footer(props: FooterProps) {
 				</div>
 				<div className="text-center font-[200] pb-6 text-gray-400 text-sm gap-4 md:gap-0 flex flex-col md:flex-row items-center justify-between paragraph w-[86%] mx-auto">
 					<p>
-						© {new Date().getFullYear()} Toolbird - Part of{' '}
-						<a
-							href="https://gazellateam.com"
-							className="underline"
-							target="_blank"
-						>
-							Gazella Team
-						</a>
+						© {new Date().getFullYear()} Gazella Team
 					</p>
 					<div className="flex items-center gap-4">
 						<p>
-							Made and hosted in the EU 🇪🇺
+							Based in Europe, Denmark
 						</p>
 					</div>
 				</div>
