@@ -10,7 +10,7 @@ import { ArrowLeft } from 'lucide-react'
 
 export function Article({ post }: { post: Post }) {
 	return (
-		<article className="border border-gray-600/10 relative mx-auto flex max-w-3xl md:w-[86%] p-8 py-12 my-6 md:my-24 rounded-3xl shadow-clean shadow-main/10 bg-white flex-col gap-8">
+		<article className="relative mx-auto flex max-w-3xl md:w-[86%] py-12 my-6 md:my-24 bg-white flex-col gap-8">
 			<div className="grid md:max-w-2xl mx-auto w-full gap-5">
 				<div className="mb-3 paragraph text-gray-400 text-sm gap-2">
 					<Link
@@ -27,7 +27,7 @@ export function Article({ post }: { post: Post }) {
 						<BlogBadge category={post.category} />
 					</Link>
 				</div>
-				<h1 className="font-extrabold text-main text-3xl">
+				<h1 className="text-main text-3xl">
 					{post.title}
 				</h1>
 				<h2 className="text-gray-600 paragraph">{post.description}</h2>
