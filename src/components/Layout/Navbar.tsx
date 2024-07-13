@@ -15,9 +15,6 @@ export default function Navbar() {
                 </Link>
                 <div className="hidden items-center gap-[30px] md:flex">
                     <div className="text-main text-[15px] flex items-center gap-[24px] font-[200]">
-                        <Link className="hover:text-gray-600" href={"/cases"}>
-                        Cases
-                        </Link>
                         <Link className="hover:text-gray-600" href={"/services"}>
                         Services
                         </Link>
@@ -28,7 +25,7 @@ export default function Navbar() {
                         Blog
                         </Link>
                     </div>
-                    <Link className="hover:text-gray-200 bg-main text-sm px-5 py-1 rounded-full text-white paragraph font-medium" href={"/contact"}>
+                    <Link className="hover:text-gray-200 bg-main text-sm px-5 py-1 rounded-full text-white paragraph font-normal" href={"/contact"}>
                         Get in touch
                     </Link>
                 </div>
@@ -50,29 +47,18 @@ export default function Navbar() {
           `}</style>
                 <div className="w-[94%] font-[300] mx-auto flex flex-col text-xl gap-3 text-main">
                 <div className="text-main text-4xl flex font-[300] flex-col justify-center gap-[24px]">
-                    <Link className="hover:text-gray-600" href={"/services"}>
-                        Approach
-                        </Link>
-                        <Link className="hover:text-gray-600" href={"/services"}>
-                        Services
-                        </Link>
                         <Link className="hover:text-gray-600" href={"/services"}>
                         Services
                         </Link>
                         <Link className="hover:text-gray-600" href={"/people"}>
                         People
                         </Link>
+                        <Link className="hover:text-gray-600" href={"/blog"}>
+                        Blog
+                        </Link>
                         <Link className="hover:text-gray-600" href={"/contact"}>
                         Contact
                         </Link>
-                        <div className="flex items-center gap-3">
-                            <Link target="_blank" className="hover:text-gray-600" href={"https://usegazella.com/"}>
-                            Monthly offer
-                            </Link>
-                            <div className="bg-[#e9f4ff] text-[#0060f2] px-2 rounded-full text-sm">
-                                new
-                            </div>
-                        </div>
                     </div>
                 </div>
                 

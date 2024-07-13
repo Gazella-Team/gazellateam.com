@@ -3,7 +3,7 @@ const categories = {
 		name: 'All',
 	},
 	education: {
-		name: 'Learnings',
+		name: 'Insights',
 	},
 	engineering: {
 		name: 'Engineering',

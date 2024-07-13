@@ -9,7 +9,7 @@ export default function Contact() {
     return (
         <Layout>
             <Meta title={`Get in touch - Gazella Team`} />
-            <PageIntro heading="Let's talk" description="We're always up for a good talk regarding software and business. Get in touch with our team today." />
+            <PageIntro smallWidth={true} heading="Let's talk" description="We're always up for a good talk regarding software and business. Get in touch with our team today." />
             <CalEmbed />
         </Layout>
     )
