@@ -30,7 +30,7 @@ export default function BlogCategoryPage({
 						Blog
 					</h1>
 					<h2 className="text-xl paragraph font-normal text-gray-600">
-						Latest news and updates from Toolbird
+						Latest news and insights from Gazella Team
 					</h2>
 					<div className="mt-8 mb-10 flex">
 						<div className="bg-white border w-full sm:w-fit border-gray-600/10 paragraph rounded-3xl sm:rounded-full px-3 py-2 flex flex-col sm:flex-row gap-2">

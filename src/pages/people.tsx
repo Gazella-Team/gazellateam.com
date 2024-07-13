@@ -8,7 +8,7 @@ export default function People() {
     return (
         <Layout>
             <Meta title={`People - Gazella Team`} />
-            <PageIntro starter="theteam" heading="People" description="" />
+            <PageIntro starter="theteam" heading="People" description="Put faces to the team, who everyday strives to design, develop and launch new innovative software." />
             <Team />
         </Layout>
     )
