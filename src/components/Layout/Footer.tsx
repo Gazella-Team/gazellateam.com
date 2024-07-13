@@ -12,24 +12,28 @@ const FOOTER_LINKS: {
 	links: { label: string; href: string; target?: string }[]
 }[] = [
 	{
-		title: 'Products',
+		title: 'Work',
 		links: [
 			{
-				label: 'Web Analytics',
-				href: '/analytics',
+				label: 'Cases',
+				href: '/cases',
+			},
+			{
+				label: 'Services',
+				href: '/services',
 			},
 		],
 	},
 	{
-		title: 'Free Tools',
+		title: 'Company',
 		links: [
 			{
-				label: 'All tools',
-				href: '/tools',
+				label: 'People',
+				href: '/people',
 			},
 			{
-				label: 'UTM Link Generator',
-				href: '/tools/utm-generator',
+				label: 'Blog',
+				href: '/blog',
 			},
 		],
 	},
@@ -37,12 +41,16 @@ const FOOTER_LINKS: {
 		title: 'Contact',
 		links: [
 			{
+				label: 'Book a meeting',
+				href: '/contact',
+			},
+			{
 				label: '+45 50695272',
-				href: '/blog/introducing-toolbird',
+				href: '/contact',
 			},
 			{
 				label: 'hey@gazellateam.com',
-				href: 'https://app.toolbird.io/share/toolbird.io',
+				href: '/contact',
 			},
 		],
 	},
@@ -70,22 +78,21 @@ export default function Footer(props: FooterProps) {
 						<div className="flex flex-col gap-8">
                             <img className="w-[80px]" src="/logos/gazellateamlogowhitebg.svg"></img>
 							<p className="text-gray-500 paragraph text-sm max-w-xs font-normal">
-								Get Web Analytics, Feedback Hub and User
-								Surveys, all collected in one place.
+							We help companies of all sizes sell more, build workflows and launch innovative ideas through tailormade software development.
 							</p>
 						</div>
 						<div className="flex">
 							<Link
-								href={'https://app.toolbird.io/auth/register'}
+								href={'/contact'}
 								className="bg-main border-[3px] border-main font-normal paragraph text-sm flex text-white px-6 py-1 rounded-full"
 							>
-								Start 14-day free trial
+								Get in touch
 							</Link>
 						</div>
 						<div className="flex items-center gap-2 mt-3">
 							<Link
 								href={
-									'https://linkedin.com/company/toolbird-io'
+									'https://linkedin.com/company/gazellateam'
 								}
 								className="border p-3 rounded-full border-gray-600/10 hover:bg-slate-50 transition-all"
 							>

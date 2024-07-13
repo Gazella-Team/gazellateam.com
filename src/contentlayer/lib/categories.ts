@@ -2,11 +2,8 @@ const categories = {
 	all: {
 		name: 'All',
 	},
-	guides: {
-		name: 'Guides',
-	},
 	education: {
-		name: 'Education',
+		name: 'Learnings',
 	},
 	engineering: {
 		name: 'Engineering',

@@ -21,14 +21,11 @@ export default function Navbar() {
                         <Link className="hover:text-gray-600" href={"/services"}>
                         Services
                         </Link>
-                        <Link className="hover:text-gray-600" href={"/approach"}>
-                        Approach
-                        </Link>
                         <Link className="hover:text-gray-600" href={"/people"}>
-                        Company
+                        People
                         </Link>
-                        <Link className="hover:text-gray-600" href={"/contact"}>
-                        Contact
+                        <Link className="hover:text-gray-600" href={"/blog"}>
+                        Blog
                         </Link>
                     </div>
                     <Link className="hover:text-gray-200 bg-main text-sm px-5 py-1 rounded-full text-white paragraph font-medium" href={"/contact"}>
