@@ -13,7 +13,7 @@ export default function Cases() {
         <section>
             <div className="w-[94%] max-w-[1300px] pb-24 gap-16 mx-auto">
                 <div className="flex flex-col gap-20 grid grid-cols-2">
-                    {caseDataFirst.map((v, index) => <CaseCard Obj={v} />)}
+                    {caseDataFirst.map((v, index) => <CaseCard key={index} Obj={v} />)}
                 </div>
             </div>
         </section>
