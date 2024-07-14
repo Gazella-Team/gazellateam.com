@@ -29,7 +29,7 @@ export default function BlogCategoryPage({
 					<h1 className="text-4xl font-[300]  mb-4 text-main">
 						Blog
 					</h1>
-					<h2 className="text-xl paragraph text-gray-600">
+					<h2 className="text-xl font-light paragraph text-gray-600">
 						Latest news and insights from Gazella Team
 					</h2>
 					<div className="mt-8 mb-10 flex">
