@@ -9,7 +9,7 @@ export default function Navbar() {
     return (
         <>
         <nav className="h-[80px] fixed bg-white w-full flex flex-col z-[999]">
-            <div className="w-[94%] flex-1 max-w-[1300px] mx-auto flex items-center justify-between">
+            <div className="w-[90%] flex-1 max-w-[1300px] mx-auto flex items-center justify-between">
                 <Link href={"/"}>
                     <img className="w-[80px]" src="/logos/gazellateamlogowhitebg.svg"></img>
                 </Link>
@@ -45,7 +45,7 @@ export default function Navbar() {
               display: none;
             }
           `}</style>
-                <div className="w-[94%] font-[300] mx-auto flex flex-col text-xl gap-3 text-main">
+                <div className="w-[90%] font-[300] mx-auto flex flex-col text-xl gap-3 text-main">
                 <div className="text-main text-4xl flex font-[300] flex-col justify-center gap-[24px]">
                         <Link className="hover:text-gray-600" href={"/services"}>
                         Services

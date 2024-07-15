@@ -69,7 +69,7 @@ export default function Footer(props: FooterProps) {
 			<footer
                 className='bg-[#fafafa]'
 			>
-				<div className="w-[94%] max-w-[1300px] mx-auto min-h-[370px] grid grid-cols-1 md:grid-cols-[35%_1fr] pt-16 gap-20">
+				<div className="w-[90%] max-w-[1300px] mx-auto min-h-[370px] grid grid-cols-1 md:grid-cols-[35%_1fr] pt-16 gap-20">
 					<div className="flex flex-col gap-6">
 						<div className="flex flex-col gap-8">
                             <img className="w-[80px]" src="/logos/gazellateamlogowhitebg.svg"></img>

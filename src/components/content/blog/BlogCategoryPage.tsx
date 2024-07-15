@@ -25,7 +25,7 @@ export default function BlogCategoryPage({
 			<div
 				className="mt-12"
 			>
-				<div className="max-w-[1300px] w-[94%] mx-auto">
+				<div className="max-w-[1300px] w-[90%] mx-auto">
 					<h1 className="text-4xl font-[300]  mb-4 text-main">
 						Blog
 					</h1>

@@ -4,7 +4,7 @@ import SectionStarter from "./SectionStarter";
 export default function PageIntro(props:any) {
     return (
         <section className="py-12 pb-20">
-            <div className={props.smallWidth ? "w-[94%] max-w-[1000px] mx-auto":"w-[94%] max-w-[1300px] mx-auto"}>
+            <div className={props.smallWidth ? "w-[90%] max-w-[1000px] mx-auto":"w-[90%] max-w-[1300px] mx-auto"}>
                 <Reveal>
                     <h1 className="font-[300] max-w-3xl text-[40px] tracking-tight md:text-[50px] xl:text-6xl text-main leading-[120%] mb-8">{props.heading}.</h1>
                 </Reveal>
