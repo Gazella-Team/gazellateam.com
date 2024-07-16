@@ -4,7 +4,7 @@ import { url } from "inspector"
 
 const caseDataFirst = [
     {heading:"Toolbird", domain:"toolbird.io", description: "Seamless platform for slot bidding for minecraft servers", image:"/blog-images/how-much-does-an-app-cost/main.webp", link:"/minecraft-buzz-auctions"},
-    {heading:"Minecraft Auctions", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/toolbird.webp", link:"/minecraft-buzz-auctions"},
+    {heading:"Minecraft Auctions", description: "Seamless platform for slot bidding for minecraft servers", image:"/cases/another.webp", link:"/minecraft-buzz-auctions"},
 ]
 
 
