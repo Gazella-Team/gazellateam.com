@@ -71,8 +71,8 @@ export default function BlogCategoryPage({
 					{posts.length > 0 ? (
 						<div className="max-w-[1300px] w-[94%] gap-8 md:gap-10 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 							{posts.map((post) => (
-								<Reveal>
-									<BlogCard key={post.slug} post={post} />
+								<Reveal key={post.slug}>
+									<BlogCard post={post} />
 								</Reveal>
 							))}
 						</div>
