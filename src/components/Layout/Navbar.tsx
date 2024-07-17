@@ -85,9 +85,12 @@ export default function Navbar() {
                         Blog
                         </Link>
                     </div>
-                    <Link className="hover:text-gray-200 bg-main text-sm px-5 py-1 rounded-full text-white paragraph font-normal" href={"/contact"}>
-                        Get in touch
-                    </Link>
+                    <Link
+								href={'/contact'}
+								className="bg-main border-[3px] border-main font-normal paragraph text-sm flex text-white px-6 py-1 rounded-full"
+							>
+								Get in touch
+							</Link>
                 </div>
                 <div className="flex md:hidden cursor-pointer">
                     {menuClicked ?<X size={26} onClick={() => setMenuClicked(!menuClicked)} />
