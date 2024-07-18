@@ -17,7 +17,8 @@ module.exports = {
         clean: "rgba(149, 157, 165, 0.2) 0px 8px 24px"
       },
       colors: {
-        main: "#051D40"
+        main: "#051D40",
+        second: "#fafafa"
       },
       maxWidth: {
         main: "1400px"
