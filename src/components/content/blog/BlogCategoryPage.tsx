@@ -34,7 +34,7 @@ export default function BlogCategoryPage({
 					</Reveal>
 					<Reveal>
 						<h2 className="text-xl font-light paragraph text-gray-600">
-							Latest news and insights from Gazella Team
+							Seneste nyheder og opslag fra Gazella Team
 						</h2>
 					</Reveal>
 					<Reveal>

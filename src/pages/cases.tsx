@@ -7,7 +7,7 @@ import PageIntro from "@/components/reused/PageIntro";
 export default function Solutions() {
     return (
         <Layout>
-            <PageIntro starter="madewithlove" heading="Cases" description="Dive into our various cases and internal projects that we develop to inspire and improve businesses." />
+            <PageIntro starter="madewithlove" heading="Cases" description="Dyk ned i vores forskellige cases og interne projekter, som vi udvikler for at inspirere og forbedre virksomheder." />
             <CaseComponent />
         </Layout>
     )

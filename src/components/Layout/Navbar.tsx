@@ -76,10 +76,10 @@ export default function Navbar() {
                 <div className="hidden items-center gap-[30px] md:flex">
                     <div className="text-main text-[15px] flex items-center gap-[24px] font-[200]">
                         <Link className="hover:text-gray-600" href={"/services"}>
-                        Services
+                        Hjemmeside
                         </Link>
-                        <Link className="hover:text-gray-600" href={"/people"}>
-                        People
+                        <Link className="hover:text-gray-600" href={"/teamet"}>
+                        Teamet
                         </Link>
                         <Link className="hover:text-gray-600" href={"/blog"}>
                         Blog
@@ -89,7 +89,7 @@ export default function Navbar() {
 								href={'/contact'}
 								className="bg-main border-[3px] border-main font-normal paragraph text-sm flex text-white px-6 py-1 rounded-full"
 							>
-								Get in touch
+								Kontakt os
 							</Link>
                 </div>
                 <div className="flex md:hidden cursor-pointer">
