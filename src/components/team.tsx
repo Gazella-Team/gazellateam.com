@@ -3,9 +3,9 @@ import { Reveal } from "./Animations/Reveal"
 import Link from "next/link"
 
 const teamData = [
-    {name:"Lasse Osmann", title:"Founder & Developer", image:"/team/lasseosmann.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/", funImage:"/team/lasseosmann02.webp"},
-    {name:"Simon Maribo", title:"Co-Founder & Developer", image:"/team/simonmaribo.webp", linkedIn:"https://www.linkedin.com/in/simonmaribo/", funImage:"/team/simonmaribo02.webp"},
-    {name:"Mik Lønborg", title:"Head of Sales", image:"/team/miklonborg.webp", linkedIn:"https://www.linkedin.com/in/mik-l%C3%B8nborg/", funImage:"/team/miklonborg02.webp"},
+    {name:"Lasse Osmann", title:"Stifter og udvikler", image:"/team/lasseosmann.webp", linkedIn:"https://www.linkedin.com/in/lasse-%F0%9F%8D%89-osmann-1b6ab9243/", funImage:"/team/lasseosmann02.webp"},
+    {name:"Simon Maribo", title:"Medstifter og udvikler", image:"/team/simonmaribo.webp", linkedIn:"https://www.linkedin.com/in/simonmaribo/", funImage:"/team/simonmaribo02.webp"},
+    {name:"Mik Lønborg", title:"Salgsansvarlig", image:"/team/miklonborg.webp", linkedIn:"https://www.linkedin.com/in/mik-l%C3%B8nborg/", funImage:"/team/miklonborg02.webp"},
     {name:"Frederik Ferdinand", title:"Backend Lead", image:"/team/emptymember.webp", linkedIn:"https://www.linkedin.com/in/frederik-ferdinand-947011207/", funImage:"/team/emptymember.webp"},
     {name:"Malte Pedersen", title:"Lead Manager", image:"/team/emptymember.webp", linkedIn:"https://www.linkedin.com/in/malte-pedersen-2689772ab/", funImage:"/team/emptymember.webp"},
 ]

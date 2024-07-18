@@ -12,20 +12,28 @@ const FOOTER_LINKS: {
 	links: { label: string; href: string; target?: string }[]
 }[] = [
 	{
-		title: 'Work',
+		title: 'Ydelser',
 		links: [
 			{
-				label: 'Services',
-				href: '/services',
+				label: 'Hjemmeside',
+				href: '/hjemmeside',
+			},
+			{
+				label: 'App udvikling',
+				href: '/app-udvikling',
+			},
+			{
+				label: 'Design og brugeroplevelse',
+				href: '/ui-ux',
 			},
 		],
 	},
 	{
-		title: 'Company',
+		title: 'Virksomhed',
 		links: [
 			{
-				label: 'People',
-				href: '/people',
+				label: 'Teamet',
+				href: '/teamet',
 			},
 			{
 				label: 'Blog',

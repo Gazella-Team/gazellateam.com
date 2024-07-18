@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import Meta from "@/components/Layout/Meta";
 import SecondHero from "@/components/reused/DefaultHero";
+import ImageHero from "@/components/reused/ImageHero";
 import PageIntro from "@/components/reused/PageIntro";
 import Team from "@/components/team";
 
@@ -8,8 +9,7 @@ export default function People() {
     return (
         <Layout>
             <Meta title={`People - Gazella Team`} />
-            <PageIntro starter="theteam" heading="Teamet" description="Dyk ned i vores forskellige cases og interne projekter, som vi udvikler for at inspirere og forbedre virksomheder." />
-            <Team />
+            <ImageHero heading="Er du klar til at få flere kunder og mere kendskab? Det starter med en performance hjemmeside" paragraph="Vi garanterer dig en fordobling i unikke månedlige besøgende med en ny hjemmeside indenfor 2 måneder - Ellers betaler vi alle pengene tilbage." imagePath="/hjemmeside.webp" />
         </Layout>
     )
 }
