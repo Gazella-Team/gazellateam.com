@@ -80,7 +80,7 @@ export default function Footer(props: FooterProps) {
 				<div className="w-[90%] max-w-[1300px] mx-auto min-h-[370px] grid grid-cols-1 md:grid-cols-[35%_1fr] pt-16 gap-20">
 					<div className="flex flex-col gap-6">
 						<div className="flex flex-col gap-8">
-                            <img className="w-[80px]" src="/logos/gazellateamlogowhitebg.svg"></img>
+                            <img className="w-[45px]" src="/logos/logofill.svg"></img>
 							<p className="text-gray-500 paragraph text-sm max-w-xs font-normal">
 							Et hjemmeside- og app bureau med øje for detalje. Vi har +10 års samlet erfaring indenfor software.</p>
 						</div>
