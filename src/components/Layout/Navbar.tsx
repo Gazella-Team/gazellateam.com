@@ -53,17 +53,17 @@ export default function Navbar() {
           `}</style>
                 <div className="w-[90%] font-[300] mx-auto flex flex-col text-xl gap-3 text-main">
                 <div className="text-main text-4xl flex font-[300] flex-col justify-center gap-[24px]">
-                        <Link className="hover:text-gray-600" href={"/services"}>
-                        Services
+                        <Link className="hover:text-gray-600" href={"/hjemmeside"}>
+                        Hjemmeside
                         </Link>
-                        <Link className="hover:text-gray-600" href={"/people"}>
-                        People
+                        <Link className="hover:text-gray-600" href={"/teamet"}>
+                        Teamet
                         </Link>
                         <Link className="hover:text-gray-600" href={"/blog"}>
                         Blog
                         </Link>
-                        <Link className="hover:text-gray-600" href={"/contact"}>
-                        Contact
+                        <Link className="hover:text-gray-600" href={"/kontakt"}>
+                        Kontakt
                         </Link>
                     </div>
                 </div>
