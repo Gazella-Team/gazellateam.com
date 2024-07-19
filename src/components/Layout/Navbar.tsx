@@ -24,12 +24,12 @@ export default function Navbar() {
                         <Link className="hover:text-gray-600" href={"/blog"}>
                         Blog
                         </Link>
-                        <Link className="hover:text-gray-600" href={"/blog"}>
+                        <Link className="hover:text-gray-600" href={"/kontakt"}>
                         +45 50695272
                         </Link>
                     </div>
                     <Link
-								href={'/contact'}
+								href={'/kontakt'}
 								className="bg-main border-[3px] border-main font-normal paragraph text-sm flex text-white px-6 py-1 rounded-full"
 							>
 								Kontakt os

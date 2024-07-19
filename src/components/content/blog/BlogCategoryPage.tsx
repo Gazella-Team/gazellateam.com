@@ -79,8 +79,7 @@ export default function BlogCategoryPage({
 					) : (
 						<div className="max-w-6xl w-[90%] mx-auto flex items-center justify-center h-[300px] border border-dashed bg-white border-gray-300 rounded-3xl">
 							<p className="text-gray-500 paragraph text-lg p-8">
-								No blog posts found in this category yet. Check
-								back later!
+								Ingen posts endnu. Kig tilbage senere.
 							</p>
 						</div>
 					)}

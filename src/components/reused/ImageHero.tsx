@@ -21,7 +21,6 @@ export default function ImageHero(props:ImageHero) {
                 </div>
                 <div className="flex items-center gap-3">
                     <Link className="bg-white px-5 py-1.5 rounded-full text-main paragraph font-semibold" href={"/contact"}>Kom igang for kun 899 kr.</Link>
-                    <Link className="bg-white px-5 py-1.5 rounded-full text-main paragraph font-semibold" href={"/contact"}>Læs mere</Link>
                 </div>
             </div>
             <div className="absolute inset-0 bg-gradient-to-tr from-main via-main/90 via-main/80 to-main/70"></div>

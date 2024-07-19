@@ -1,23 +1,43 @@
+import Link from "next/link";
 import Slider from "react-infinite-logo-slider";
 
-const serviceData = ["User Experience", "App Development", "Web Development", "Customer Journey", "Future Design", "Conversions", "E-Commerce"]
+const serviceData = [
+  {image: "/hjemmeside/case-fotos/1.webp", link: "https://coad.dk/"},
+  {image: "/hjemmeside/case-fotos/2.webp", link: "https://coad.dk/"},
+  {image: "/hjemmeside/case-fotos/3.webp", link: "https://coad.dk/"},
+  {image: "/hjemmeside/case-fotos/4.webp", link: "https://coad.dk/"},
+  {image: "/hjemmeside/case-fotos/5.webp", link: "https://coad.dk/"},
+  {image: "/hjemmeside/case-fotos/6.webp", link: "https://coad.dk/"},
+  {image: "/hjemmeside/case-fotos/1.webp", link: "https://coad.dk/"},
+  {image: "/hjemmeside/case-fotos/2.webp", link: "https://coad.dk/"},
+  {image: "/hjemmeside/case-fotos/3.webp", link: "https://coad.dk/"},
+  {image: "/hjemmeside/case-fotos/4.webp", link: "https://coad.dk/"},
+  {image: "/hjemmeside/case-fotos/5.webp", link: "https://coad.dk/"},
+  {image: "/hjemmeside/case-fotos/6.webp", link: "https://coad.dk/"},
+  {image: "/hjemmeside/case-fotos/1.webp", link: "https://coad.dk/"},
+  {image: "/hjemmeside/case-fotos/2.webp", link: "https://coad.dk/"},
+  {image: "/hjemmeside/case-fotos/3.webp", link: "https://coad.dk/"},
+  {image: "/hjemmeside/case-fotos/4.webp", link: "https://coad.dk/"},
+  {image: "/hjemmeside/case-fotos/5.webp", link: "https://coad.dk/"},
+  {image: "/hjemmeside/case-fotos/6.webp", link: "https://coad.dk/"},
+]
 
 export default function ServiceSlider() {
     return (
-      <section className="py-0 bg-whites h-[8vh] flex items-center overflow-hidden">
+      <section className="py-10 pb-24 bg-white flex items-center overflow-hidden">
         <div>
           <Slider
-            width="200px"
-            duration={20}
+            width="430px"
+            duration={150}
             pauseOnHover={false}
-            blurBorders={true}
-            blurBoderColor={"#fff"}
+            blurBorders={false}
+            blurBoderColor={"#ffff"}
           >
             {serviceData.map((v) => (
               <Slider.Slide key={v}>
-                <div className="flex items-center justify-center">
-                  <p className="font-[200] text-gray-400">{v}</p>
-                </div>
+                <Link className="mr-10 bg-black" href={v.link}>
+                  <img className="w-[1000px] opacity-90" src={v.image}></img>
+                </Link>
               </Slider.Slide>
             ))}
           </Slider>

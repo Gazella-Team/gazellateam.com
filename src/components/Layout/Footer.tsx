@@ -20,11 +20,11 @@ const FOOTER_LINKS: {
 			},
 			{
 				label: 'App udvikling',
-				href: '/app-udvikling',
+				href: '/app',
 			},
 			{
 				label: 'Design og brugeroplevelse',
-				href: '/ui-ux',
+				href: '/app',
 			},
 		],
 	},
@@ -42,19 +42,19 @@ const FOOTER_LINKS: {
 		],
 	},
 	{
-		title: 'Contact',
+		title: 'Kontakt',
 		links: [
 			{
-				label: 'Book a meeting',
-				href: '/contact',
+				label: 'Book et møde',
+				href: '/kontakt',
 			},
 			{
 				label: '+45 50695272',
-				href: '/contact',
+				href: '/kontakt',
 			},
 			{
 				label: 'hey@gazellateam.com',
-				href: '/contact',
+				href: '/kontakt',
 			},
 		],
 	},
@@ -82,15 +82,14 @@ export default function Footer(props: FooterProps) {
 						<div className="flex flex-col gap-8">
                             <img className="w-[80px]" src="/logos/gazellateamlogowhitebg.svg"></img>
 							<p className="text-gray-500 paragraph text-sm max-w-xs font-normal">
-							We help companies of all sizes sell more, build workflows and launch innovative ideas through tailormade software development.
-							</p>
+							Et hjemmeside- og app bureau med øje for detalje. Vi har +10 års samlet erfaring indenfor software.</p>
 						</div>
 						<div className="flex">
 							<Link
-								href={'/contact'}
+								href={'/kontakt'}
 								className="bg-main border-[3px] border-main font-normal paragraph text-sm flex text-white px-6 py-1 rounded-full"
 							>
-								Get in touch
+								Kontakt os
 							</Link>
 						</div>
 						<div className="flex items-center gap-2 mt-3">
@@ -137,7 +136,7 @@ export default function Footer(props: FooterProps) {
 					</p>
 					<div className="flex items-center gap-4">
 						<p>
-							Based in Europe, Denmark
+							Stiftet i København, Danmark
 						</p>
 					</div>
 				</div>
