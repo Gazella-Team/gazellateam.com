@@ -14,25 +14,25 @@ export default function Testimonials() {
                     </div>
                 </div>
                 <div className="shadow-sm text-center flex flex-col justify-between bg-[#fafafa] p-10 px-16 border border-gray-600/10 rounded-2xl">
-                    <img className="w-20 rounded-full mx-auto mt-[-80px] mb-10" src="/testimonial-headshots/gustav-walsted.webp"></img>
+                    <img className="w-20 rounded-full mx-auto mt-[-80px] mb-10" src="/testimonial-headshots/benjamin-madsen.webp"></img>
                     <p className="paragraph mb-10">
                         &quot;
                         Jeg havde problemer med opsætning af min nye web-app, hvor jeg havde fornøjelsen af at søge vejledning hos Gazella Team. Lasse og hans team har et serviceorienteret og professionelt approach til deres arbejde, og jeg kan anbefale dem på det kraftigste!                        &quot;
                     </p>
                     <div className="flex flex-col gap-1">
-                        <h2 className="font-[300]">Allan Restfeldt</h2>
+                        <h2 className="font-[300]">Benjaming Madsen</h2>
                         <p className="text-gray-600 paragraph">Marketingskonsulent</p>
                     </div>
                 </div>
                 <div className="shadow-sm text-center flex flex-col justify-between bg-[#fafafa] p-10 px-16 border border-gray-600/10 rounded-2xl">
-                    <img className="w-20 rounded-full mx-auto mt-[-80px] mb-10" src="/testimonial-headshots/gustav-walsted.webp"></img>
+                    <img className="w-20 rounded-full mx-auto mt-[-80px] mb-10" src="/testimonial-headshots/asger-tiedt.webp"></img>
                     <p className="paragraph mb-10">
                         &quot;
                         Jeg havde problemer med opsætning af min nye web-app, hvor jeg havde fornøjelsen af at søge vejledning hos Gazella Team. Lasse og hans team har et serviceorienteret og professionelt approach til deres arbejde, og jeg kan anbefale dem på det kraftigste!                        &quot;
                     </p>
                     <div className="flex flex-col gap-1">
                         <h2 className="font-[300]">Asger Tiedt</h2>
-                        <p className="text-gray-600 paragraph">Frisør, København</p>
+                        <p className="text-gray-600 paragraph">Frisør, Freelance</p>
                     </div>
                 </div>
             </div>
