@@ -1,15 +1,15 @@
 const categories = {
-	all: {
-		name: 'All',
+	alle: {
+		name: 'Alle',
 	},
-	education: {
-		name: 'Insights',
+	laering: {
+		name: 'Læring',
 	},
-	engineering: {
-		name: 'Engineering',
+	udvikling: {
+		name: 'Udvikling',
 	},
-	news: {
-		name: 'Company News',
+	nyheder: {
+		name: 'Nyheder',
 	},
 }
 

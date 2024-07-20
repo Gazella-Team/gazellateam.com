@@ -10,7 +10,7 @@ import React from 'react'
 export default function BlogList({
 	posts,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-	return <BlogCategoryPage posts={posts} activeTab={'all'} />
+	return <BlogCategoryPage posts={posts} activeTab={'alle'} />
 }
 
 export const getStaticProps: GetStaticProps<{

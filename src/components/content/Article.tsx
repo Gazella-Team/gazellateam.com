@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import type { Post } from 'contentlayer/generated'
-
 import { Mdx } from '@/components/content/mdx'
 import { format } from 'date-fns'
 import { AuthorAvatars } from './blog/AuthorAvatars'
@@ -21,7 +20,7 @@ export function Article({ post }: { post: Post }) {
 							passHref
 						>
 							<ArrowLeft size={14} />
-							Back to all posts
+							Tilbage til alle opslag
 						</Link>
 					</div>
 					<div className="flex items-center gap-2">

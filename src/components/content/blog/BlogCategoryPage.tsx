@@ -48,7 +48,7 @@ export default function BlogCategoryPage({
 											href={
 												category.tag == 'all'
 													? '/blog'
-													: `/blog/category/${category.tag}`
+													: `/blog/kategori/${category.tag}`
 											}
 											className={cn(
 												'text-sm cursor-pointer font-medium px-3 py-1.5 rounded-full',

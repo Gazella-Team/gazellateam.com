@@ -21,7 +21,7 @@ export function AuthorNames({ authors }: AuthorNamesProps) {
 		// if the last author dont add anything
 		if (i < authors.length - 1) {
 			textArray.push({
-				text: i === authors.length - 2 ? ' and ' : ', ',
+				text: i === authors.length - 2 ? ' og ' : ', ',
 			})
 		}
 	}
