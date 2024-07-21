@@ -130,7 +130,7 @@ export default function Footer(props: FooterProps) {
 						))}
 					</div>
 				</div>
-				<div className="text-center font-[200] pb-6 text-gray-400 text-sm gap-4 md:gap-0 flex flex-col md:flex-row items-center justify-between paragraph w-[86%] mx-auto">
+				<div className="text-center font-[200] pb-6 text-gray-400 text-sm gap-4 md:gap-0 flex flex-col md:flex-row items-center justify-between paragraph w-[86%] mx-auto max-w-[1300px]">
 					<p>
 						© {new Date().getFullYear()} Gazella Team
 					</p>
