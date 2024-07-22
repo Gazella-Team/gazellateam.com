@@ -9,12 +9,12 @@ export default function Navbar() {
     return (
         <>
         <nav className="h-[80px] fixed bg-white w-full flex flex-col z-[999]">
-            <div className="w-[90%] flex-1 max-w-[1300px] mx-auto flex items-center justify-between">
+            <div className="w-[96%] flex-1 max-w-[1500px] mx-auto flex items-center justify-between">
                 <Link href={"/"}>
                     <img className="w-[80px]" src="/logos/gazellateamlogowhitebg.svg"></img>
                 </Link>
                 <div className="hidden items-center gap-[30px] md:flex">
-                    <div className="text-main text-[15px] flex items-center gap-[24px] font-[200]">
+                    <div className="text-main text-[15px] flex items-center gap-[24px] font-normal">
                         <Link className="hover:text-gray-600" href={"/hjemmeside"}>
                         Hjemmeside
                         </Link>

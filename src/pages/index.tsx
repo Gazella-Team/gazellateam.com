@@ -9,6 +9,6 @@ export default function Home() {
     <Layout>
      <Meta title={`Et hjemmeside- og app bureau med øje for detalje. Vi har +10 års samlet erfaring indenfor software. - Gazella Team`} />
      <Hero />
-     <img src="/bg.webp"></img>
+     <img className="w-[96%] mx-auto" src="/bg.webp"></img>
     </Layout>
 )}
