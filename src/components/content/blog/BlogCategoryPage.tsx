@@ -27,17 +27,17 @@ export default function BlogCategoryPage({
 				className="mt-12"
 			>
 				<div className="max-w-[1300px] w-[90%] mx-auto">
-					<Reveal>
-						<h1 className="text-4xl font-[300]  mb-4 text-main">
+					<Reveal delayTime={0.3}>
+						<h1 className="text-5xl font-medium mb-6 text-main">
 							Blog
 						</h1>
 					</Reveal>
-					<Reveal>
+					<Reveal delayTime={0.5}>
 						<h2 className="text-xl font-light paragraph text-gray-600">
 							Seneste nyheder og opslag fra Gazella Team
 						</h2>
 					</Reveal>
-					<Reveal>
+					<Reveal delayTime={0.6}>
 						<div className="mt-8 mb-10 flex">
 							<div className="bg-white border w-full sm:w-fit border-gray-600/10 paragraph rounded-3xl sm:rounded-full px-3 py-2 flex flex-col sm:flex-row gap-2">
 								{
@@ -71,7 +71,7 @@ export default function BlogCategoryPage({
 					{posts.length > 0 ? (
 						<div className="max-w-[1300px] w-[94%] gap-8 md:gap-10 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 							{posts.map((post) => (
-								<Reveal key={post.slug}>
+								<Reveal delayTime={0.6} key={post.slug}>
 									<BlogCard post={post} />
 								</Reveal>
 							))}

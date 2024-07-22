@@ -23,7 +23,7 @@ export default function Team() {
 function TeamMemberCard(props:any) {
     const [imageHovered, setImageHovered] = useState(false)
     return (
-        <Reveal>
+        <Reveal delayTime={0.6}>
             <Link target="_blank" href={props.Obj.linkedIn} className="flex flex-col gap-6">
                 <img onMouseEnter={() => setImageHovered(true)} onMouseLeave={() => setImageHovered(false)}  className="transition-all" src={imageHovered ? props.Obj.image:props.Obj.image}></img>
                 <div>

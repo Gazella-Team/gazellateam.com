@@ -14,7 +14,7 @@ export default function Navbar() {
                     <img className="w-[80px]" src="/logos/gazellateamlogowhitebg.svg"></img>
                 </Link>
                 <div className="hidden items-center gap-[30px] md:flex">
-                    <div className="text-main text-[15px] flex items-center gap-[24px] font-normal">
+                    <div className="text-main text-[15px] flex items-center gap-[24px] font-light">
                         <Link className="hover:text-gray-600" href={"/hjemmeside"}>
                         Hjemmeside
                         </Link>
