@@ -15,7 +15,7 @@ export default function Home() {
             <section className="flex absolute h-full items-center z-[999]">
                 <div className="w-[90%] mx-auto flex justify-center gap-8 flex-col h-full max-w-6xl">
                         <Reveal>
-                            <h2 className="text-5xl font-semibold max-w-3xl text-white">Vi er et moderne software bureau som løfter virksomheder og projekter med innovative løsninger.</h2>
+                            <h2 className="text-5xl font-semibold max-w-3xl text-white">On a mission to help ambitious founders raise capital through systematic outreach.</h2>
                         </Reveal>
                         <p className="text-gray-300 font-light max-w-md text-lg">We help entrepreneurs achieve big things in short spaces of time through growth funding and analytics.</p>
                 </div>

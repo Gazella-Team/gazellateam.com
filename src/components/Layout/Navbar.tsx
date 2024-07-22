@@ -16,9 +16,9 @@ export default function Navbar(props:any) {
         props.noNavPadding
         ?
         <nav className={cn("h-[80px] fixed bg-transparent transition-all w-full flex flex-col z-[999]", scrolled && "bg-white")}>
-            <div className="w-[90%] flex-1 max-w-[1300px] mx-auto flex items-center justify-between">
-                <Link href={"/"}>
-                    <img className="w-[80px]" src="/logos/gazellateamlogowhitebg.svg"></img>
+            <div className="w-[90%] flex-1  mx-auto flex items-center justify-between">
+                <Link className="font-[Ruda] text-xl font-extrabold text-white" href={"/"}>
+                    gazella<br></br><span className="font-extralight">team</span>
                 </Link>
                 <div className="hidden items-center gap-[30px] md:flex">
                     <div className={cn("text-white text-[15px] flex items-center gap-[24px] font-[200]", scrolled && "text-main")}>
