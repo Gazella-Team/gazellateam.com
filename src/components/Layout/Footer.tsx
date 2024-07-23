@@ -74,15 +74,26 @@ const FOOTER_LINKS: {
 export default function Footer(props: FooterProps) {
 	return (
 		<>
+<<<<<<< HEAD
 			<footer
                 className='bg-white'
 			>
 				<div className="w-[96%] max-w-[1500px] mx-auto min-h-[370px] grid grid-cols-1 md:grid-cols-[35%_1fr] pt-16 gap-20">
+=======
+			<footer className="bg-[#fafafa]">
+				<div className="w-[90%] max-w-[1300px] mx-auto min-h-[370px] grid grid-cols-1 md:grid-cols-[35%_1fr] pt-16 gap-20">
+>>>>>>> c3ad152a5cb18ce49c671c7a6890f1bc7a168af2
 					<div className="flex flex-col gap-6">
 						<div className="flex flex-col gap-8">
-                            <img className="w-[45px]" src="/logos/logofill.svg"></img>
+							<img
+								className="w-[45px]"
+								src="/logos/logofill.svg"
+							></img>
 							<p className="text-gray-500 paragraph text-sm max-w-xs font-normal">
-							Et hjemmeside- og app bureau med øje for detalje. Vi har +10 års samlet erfaring indenfor software.</p>
+								Et hjemmeside- og app bureau med øje for
+								detalje. Vi har +10 års samlet erfaring indenfor
+								software.
+							</p>
 						</div>
 						<div className="flex">
 							<Link
@@ -131,13 +142,9 @@ export default function Footer(props: FooterProps) {
 					</div>
 				</div>
 				<div className="text-center font-[200] pb-6 text-gray-400 text-sm gap-4 md:gap-0 flex flex-col md:flex-row items-center justify-between paragraph w-[86%] mx-auto max-w-[1300px]">
-					<p>
-						© {new Date().getFullYear()} Gazella Team
-					</p>
+					<p>© {new Date().getFullYear()} Gazella Team</p>
 					<div className="flex items-center gap-4">
-						<p>
-							Stiftet i København, Danmark
-						</p>
+						<p>Stiftet i København, Danmark</p>
 					</div>
 				</div>
 			</footer>

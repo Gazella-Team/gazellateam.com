@@ -24,7 +24,7 @@ export default function BlogCard({ post }: BlogCardProps) {
 				style={{ color: 'transparent' }}
 			/>
 			<div className="flex flex-1 flex-col mt-5 justify-between rounded-b-lg bg-white ">
-				<div className='flex flex-col gap-6'>
+				<div className="flex flex-col gap-6">
 					<BlogBadge category={post.category} />
 					<div>
 						<h2 className="line-clamp-2 font-display text-xl font-[300] text-main">

@@ -1,1 +1,1 @@
-declare module "react-infinite-logo-slider"
+declare module 'react-infinite-logo-slider'

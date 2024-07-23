@@ -23,9 +23,7 @@ export default function BlogCategoryPage({
 				title={`Blog | ${category.name} | Gazella Team`}
 				description="Latest news and updates from Toolbird aswell as guides."
 			/>
-			<div
-				className="mt-12"
-			>
+			<div className="mt-12">
 				<div className="max-w-[1300px] w-[90%] mx-auto">
 					<Reveal delayTime={0.3}>
 						<h1 className="text-5xl font-medium mb-6 text-main">
@@ -65,9 +63,7 @@ export default function BlogCategoryPage({
 						</div>
 					</Reveal>
 				</div>
-				<div
-					className="py-12 pb-24 min-h-[490px] bg-white flex items-center justify-center  border-gray-600/10"
-				>
+				<div className="py-12 pb-24 min-h-[490px] bg-white flex items-center justify-center  border-gray-600/10">
 					{posts.length > 0 ? (
 						<div className="max-w-[1300px] w-[94%] gap-8 md:gap-10 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 							{posts.map((post) => (

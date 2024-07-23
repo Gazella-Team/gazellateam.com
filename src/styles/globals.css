@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @font-face {
+<<<<<<< HEAD
     font-family: 'Plain';
     src: url('/fonts/Plain-Black.otf') format('opentype');
     font-weight: 900;
@@ -88,3 +89,38 @@ body {
 .paragraph {
     font-family: "Plain";
 }
+=======
+	font-family: 'MainFont';
+	src: url('/Fonts/stolzl_light.otf') format('opentype');
+	font-weight: 100;
+}
+@font-face {
+	font-family: 'MainFont';
+	src: url('/Fonts/stolzl_book.otf') format('opentype');
+	font-weight: 200;
+}
+@font-face {
+	font-family: 'MainFont';
+	src: url('/Fonts/stolzl_regular.otf') format('opentype');
+	font-weight: 300;
+}
+@font-face {
+	font-family: 'MainFont';
+	src: url('/Fonts/stolzl_medium.otf') format('opentype');
+	font-weight: 400; /* Medium weight */
+}
+@font-face {
+	font-family: 'MainFont';
+	src: url('/Fonts/stolzl_bold.otf') format('opentype');
+	font-weight: 500;
+}
+
+body {
+	font-family: 'MainFont', sans-serif;
+	overflow-x: hidden;
+}
+
+.paragraph {
+	font-family: 'Hind Siliguri';
+}
+>>>>>>> c3ad152a5cb18ce49c671c7a6890f1bc7a168af2
