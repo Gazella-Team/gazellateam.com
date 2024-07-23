@@ -3,36 +3,36 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'MainFont';
-    src: url('/Fonts/stolzl_light.otf') format('opentype');
-    font-weight: 100;
+	font-family: 'MainFont';
+	src: url('/Fonts/stolzl_light.otf') format('opentype');
+	font-weight: 100;
 }
 @font-face {
-    font-family: 'MainFont';
-    src: url('/Fonts/stolzl_book.otf') format('opentype');
-    font-weight: 200;
+	font-family: 'MainFont';
+	src: url('/Fonts/stolzl_book.otf') format('opentype');
+	font-weight: 200;
 }
 @font-face {
-    font-family: 'MainFont';
-    src: url('/Fonts/stolzl_regular.otf') format('opentype');
-    font-weight: 300;
+	font-family: 'MainFont';
+	src: url('/Fonts/stolzl_regular.otf') format('opentype');
+	font-weight: 300;
 }
 @font-face {
-    font-family: 'MainFont';
-    src: url('/Fonts/stolzl_medium.otf') format('opentype');
-    font-weight: 400; /* Medium weight */
+	font-family: 'MainFont';
+	src: url('/Fonts/stolzl_medium.otf') format('opentype');
+	font-weight: 400; /* Medium weight */
 }
 @font-face {
-    font-family: 'MainFont';
-    src: url('/Fonts/stolzl_bold.otf') format('opentype');
-    font-weight: 500;
+	font-family: 'MainFont';
+	src: url('/Fonts/stolzl_bold.otf') format('opentype');
+	font-weight: 500;
 }
 
 body {
-    font-family: 'MainFont', sans-serif;
-    overflow-x: hidden;
+	font-family: 'MainFont', sans-serif;
+	overflow-x: hidden;
 }
 
 .paragraph {
-    font-family: "Hind Siliguri";
+	font-family: 'Hind Siliguri';
 }
