@@ -53,7 +53,6 @@ export default function Team() {
 	)
 }
 
-<<<<<<< HEAD
 function TeamMemberCard(props:any) {
     const [imageHovered, setImageHovered] = useState(false)
     return (
@@ -68,30 +67,3 @@ function TeamMemberCard(props:any) {
         </Reveal>
     )
 }
-=======
-function TeamMemberCard(props: any) {
-	const [imageHovered, setImageHovered] = useState(false)
-	return (
-		<Reveal>
-			<Link
-				target="_blank"
-				href={props.Obj.linkedIn}
-				className="flex flex-col gap-6"
-			>
-				<img
-					onMouseEnter={() => setImageHovered(true)}
-					onMouseLeave={() => setImageHovered(false)}
-					className="transition-all"
-					src={imageHovered ? props.Obj.image : props.Obj.image}
-				></img>
-				<div>
-					<h2 className="font-[300]">{props.Obj.name}</h2>
-					<p className="font-[200] paragraph text-sm text-gray-600">
-						{props.Obj.title}
-					</p>
-				</div>
-			</Link>
-		</Reveal>
-	)
-}
->>>>>>> c3ad152a5cb18ce49c671c7a6890f1bc7a168af2

@@ -5,35 +5,6 @@ import { useRouter } from 'next/router'
 import EstimateSheet from '../modals/EstimateSheet'
 
 export default function Navbar() {
-<<<<<<< HEAD
-    const currentPath = useRouter().pathname.slice(0,3)
-    const [menuClicked, setMenuClicked] = useState(false)
-    return (
-        <>
-        <nav className="h-[80px] fixed bg-white w-full flex flex-col z-[999]">
-            <div className="w-[96%] flex-1 max-w-[1500px] mx-auto flex items-center justify-between">
-                <Link href={"/"}>
-                    <img className="w-[80px]" src="/logos/gazellateamlogowhitebg.svg"></img>
-                </Link>
-                <div className="hidden items-center gap-[30px] md:flex">
-                    <div className="text-main text-[15px] flex items-center gap-[24px] font-light">
-                        <Link className="hover:text-gray-600" href={"/hjemmeside"}>
-                        Hjemmeside
-                        </Link>
-                        <Link className="hover:text-gray-600" href={"/teamet"}>
-                        Teamet
-                        </Link>
-                        <Link className="hover:text-gray-600" href={"/blog"}>
-                        Blog
-                        </Link>
-                        <Link className="hover:text-gray-600" href={"/kontakt"}>
-                        +45 50695272
-                        </Link>
-                    </div>
-                    <Link
-								href={'/kontakt'}
-								className="bg-main border-[3px] border-main font-normal paragraph text-sm flex text-white px-6 py-1 rounded-full"
-=======
 	const currentPath = useRouter().pathname.slice(0, 3)
 	const [menuClicked, setMenuClicked] = useState(false)
 	return (
@@ -51,7 +22,6 @@ export default function Navbar() {
 							<Link
 								className="hover:text-gray-600"
 								href={'/hjemmeside'}
->>>>>>> c3ad152a5cb18ce49c671c7a6890f1bc7a168af2
 							>
 								Hjemmeside
 							</Link>

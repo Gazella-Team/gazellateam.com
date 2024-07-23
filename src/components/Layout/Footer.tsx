@@ -74,15 +74,10 @@ const FOOTER_LINKS: {
 export default function Footer(props: FooterProps) {
 	return (
 		<>
-<<<<<<< HEAD
 			<footer
                 className='bg-white'
 			>
 				<div className="w-[96%] max-w-[1500px] mx-auto min-h-[370px] grid grid-cols-1 md:grid-cols-[35%_1fr] pt-16 gap-20">
-=======
-			<footer className="bg-[#fafafa]">
-				<div className="w-[90%] max-w-[1300px] mx-auto min-h-[370px] grid grid-cols-1 md:grid-cols-[35%_1fr] pt-16 gap-20">
->>>>>>> c3ad152a5cb18ce49c671c7a6890f1bc7a168af2
 					<div className="flex flex-col gap-6">
 						<div className="flex flex-col gap-8">
 							<img
