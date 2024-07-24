@@ -38,8 +38,8 @@ export default function Navbar() {
 								Blog
 							</Link>
 							<EstimateSheet>
-								<div className="hidden md:flex text-[13px] cursor-pointer bg-main text-white select-none px-4 py-1 items-center gap-[6px] text-center transition-all border-[2px] border-main rounded-full footer:hidden">
-									<p>Estimate your project</p>
+								<div className="hidden md:flex cursor-pointer">
+									<p>Få et gratis prisestimat</p>
 									<ArrowUpRight size={16} />
 								</div>
 							</EstimateSheet>
