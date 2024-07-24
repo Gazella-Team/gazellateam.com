@@ -77,7 +77,7 @@ export default function Footer(props: FooterProps) {
 			<footer
                 className='bg-white'
 			>
-				<div className="w-[96%] max-w-[1500px] mx-auto min-h-[370px] grid grid-cols-1 md:grid-cols-[35%_1fr] pt-16 gap-20">
+				<div className="w-[90%] max-w-[1400px] mx-auto min-h-[370px] grid grid-cols-1 md:grid-cols-[35%_1fr] pt-16 gap-20">
 					<div className="flex flex-col gap-6">
 						<div className="flex flex-col gap-8">
 							<img

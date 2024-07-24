@@ -44,7 +44,7 @@ const teamData = [
 export default function Team() {
 	return (
 		<section className="pb-24">
-			<div className="w-[90%] gap-6 gap-y-12 mx-auto max-w-[1300px] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
+			<div className="w-[90%] gap-6 gap-y-12 mx-auto max-w-[1400px] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
 				{teamData.map((v, index) => (
 					<TeamMemberCard key={v} Obj={v} />
 				))}
@@ -60,8 +60,8 @@ function TeamMemberCard(props:any) {
             <Link target="_blank" href={props.Obj.linkedIn} className="flex flex-col gap-6">
                 <img onMouseEnter={() => setImageHovered(true)} onMouseLeave={() => setImageHovered(false)}  className="transition-all" src={imageHovered ? props.Obj.image:props.Obj.image}></img>
                 <div>
-                    <h2 className="font-[300]">{props.Obj.name}</h2>
-                    <p className="font-[200] paragraph text-sm text-gray-600">{props.Obj.title}</p>
+                    <h2 className="font-medium">{props.Obj.name}</h2>
+                    <p className="font-extralight text-sm text-gray-600">{props.Obj.title}</p>
                 </div>
             </Link>
         </Reveal>

@@ -10,7 +10,7 @@ export default function Navbar() {
 	return (
 		<>
 			<nav className="h-[80px] fixed bg-white w-full flex flex-col z-[10]">
-				<div className="w-[90%] flex-1 max-w-[1300px] mx-auto flex items-center justify-between">
+				<div className="w-[90%] flex-1 max-w-[1400px] mx-auto flex items-center justify-between">
 					<Link href={'/'}>
 						<img
 							className="w-[80px]"
@@ -18,7 +18,7 @@ export default function Navbar() {
 						></img>
 					</Link>
 					<div className="hidden items-center gap-[30px] md:flex">
-						<div className="text-main text-[15px] flex items-center gap-[24px] font-[200]">
+						<div className="text-main text-[15px] flex items-center gap-[24px] font-normal">
 							<Link
 								className="hover:text-gray-600"
 								href={'/hjemmeside'}

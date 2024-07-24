@@ -3,33 +3,85 @@
 @tailwind utilities;
 
 @font-face {
-	font-family: 'MainFont';
-	src: url('/Fonts/stolzl_light.otf') format('opentype');
+	font-family: 'Plain';
+	src: url('/fonts/Plain-Black.otf') format('opentype');
+	font-weight: 900;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Plain';
+	src: url('/fonts/Plain-Bold.otf') format('opentype');
+	font-weight: 700;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Plain';
+	src: url('/fonts/Plain-Extrabold.otf') format('opentype');
+	font-weight: 800;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Plain';
+	src: url('/fonts/Plain-Hairline.otf') format('opentype');
 	font-weight: 100;
-}
-@font-face {
-	font-family: 'MainFont';
-	src: url('/Fonts/stolzl_book.otf') format('opentype');
-	font-weight: 200;
-}
-@font-face {
-	font-family: 'MainFont';
-	src: url('/Fonts/stolzl_regular.otf') format('opentype');
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Plain';
+	src: url('/fonts/Plain-Light.otf') format('opentype');
 	font-weight: 300;
-}
-@font-face {
-	font-family: 'MainFont';
-	src: url('/Fonts/stolzl_medium.otf') format('opentype');
-	font-weight: 400; /* Medium weight */
-}
-@font-face {
-	font-family: 'MainFont';
-	src: url('/Fonts/stolzl_bold.otf') format('opentype');
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Plain';
+	src: url('/fonts/Plain-Medium.otf') format('opentype');
 	font-weight: 500;
-}
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Plain';
+	src: url('/fonts/Plain-Regular.otf') format('opentype');
+	font-weight: 400;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Plain';
+	src: url('/fonts/Plain-Skeleton.otf') format('opentype');
+	font-weight: 200;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Plain';
+	src: url('/fonts/Plain-Thin.otf') format('opentype');
+	font-weight: 100;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Plain';
+	src: url('/fonts/Plain-Ultralight.otf') format('opentype');
+	font-weight: 200;
+	font-style: normal;
+  }
+  
+  @font-face {
+	font-family: 'Plain';
+	src: url('/fonts/Plain-Ultrathin.otf') format('opentype');
+	font-weight: 100;
+	font-style: normal;
+  }
+  
 
 body {
-	font-family: 'MainFont', sans-serif;
+	font-family: 'Plain', sans-serif;
 	overflow-x: hidden;
 }
 

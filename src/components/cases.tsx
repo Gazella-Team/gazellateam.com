@@ -5,10 +5,10 @@ import { cn } from '@/helpers/utils'
 
 const caseDataFirst = [
 	{
-		heading: 'Toolbird',
+		heading: 'LM Capital',
 		domain: 'toolbird.io',
 		description: 'Seamless platform for slot bidding for minecraft servers',
-		image: '/cases/toolbird.webp',
+		image: '/cases/lmcapital.webp',
 		link: '/minecraft-buzz-auctions',
 	},
 	{
@@ -22,8 +22,8 @@ const caseDataFirst = [
 export default function Cases() {
 	return (
 		<section>
-			<div className="w-[94%] max-w-[1300px] pb-24 gap-16 mx-auto">
-				<div className="flex flex-col gap-20 grid grid-cols-2">
+			<div className="w-[90%] max-w-[1400px] pb-24 gap-16 mx-auto">
+				<div className="grid grid-cols-2 gap-12">
 					{caseDataFirst.map((v, index) => (
 						<CaseCard key={index} Obj={v} />
 					))}
