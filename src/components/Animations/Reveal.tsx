@@ -3,7 +3,7 @@ import { motion, useInView, useAnimation, useIsPresent } from 'framer-motion'
 
 interface Props {
 	children: JSX.Element
-	delayTime: number
+	delayTime?: number
 }
 
 export const Reveal = ({ children, delayTime }: Props) => {
