@@ -61,7 +61,7 @@ function TeamMemberCard(props:any) {
                 <img onMouseEnter={() => setImageHovered(true)} onMouseLeave={() => setImageHovered(false)}  className="transition-all" src={imageHovered ? props.Obj.image:props.Obj.image}></img>
                 <div>
                     <h2 className="font-medium">{props.Obj.name}</h2>
-                    <p className="font-extralight text-sm text-gray-600">{props.Obj.title}</p>
+                    <p className="font-light text-sm text-gray-600">{props.Obj.title}</p>
                 </div>
             </Link>
         </Reveal>
