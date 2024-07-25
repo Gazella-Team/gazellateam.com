@@ -26,18 +26,18 @@ export default function BlogCategoryPage({
 			<div className="mt-12">
 				<div className="max-w-[1300px] w-[90%] mx-auto">
 					<Reveal delayTime={0.3}>
-						<h1 className="text-5xl font-medium mb-6 text-main">
+						<h1 className="text-5xl font-semibold mb-6 text-main">
 							Blog
 						</h1>
 					</Reveal>
 					<Reveal delayTime={0.5}>
-						<h2 className="text-xl font-light paragraph text-gray-600">
+						<h2 className="text-xl font-light text-gray-600">
 							Seneste nyheder og opslag fra Gazella Team
 						</h2>
 					</Reveal>
 					<Reveal delayTime={0.6}>
 						<div className="mt-8 mb-10 flex">
-							<div className="bg-white border w-full sm:w-fit border-gray-600/10 paragraph rounded-3xl sm:rounded-full px-3 py-2 flex flex-col sm:flex-row gap-2">
+							<div className="bg-white border w-full sm:w-fit border-gray-600/10 rounded-3xl sm:rounded-full px-3 py-2 flex flex-col sm:flex-row gap-2">
 								{
 									// Tabs
 									getCategoriesList().map((category) => (

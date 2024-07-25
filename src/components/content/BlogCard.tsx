@@ -27,15 +27,15 @@ export default function BlogCard({ post }: BlogCardProps) {
 				<div className="flex flex-col gap-6">
 					<BlogBadge category={post.category} />
 					<div>
-						<h2 className="line-clamp-2 font-display text-xl font-[300] text-main">
+						<h2 className="line-clamp-2 font-display text-xl font-semibold text-main">
 							{post.title}
 						</h2>
-						<p className="mt-2 paragraph line-clamp-2 text-sm text-gray-600">
+						<p className="mt-2 line-clamp-2 font-base text-sm text-gray-600">
 							{post.description}
 						</p>
 					</div>
 				</div>
-				<div className="mt-8 paragraph flex items-center justify-between">
+				<div className="mt-8 flex items-center justify-between">
 					<time
 						dateTime={format(
 							new Date(post.publishedAt),

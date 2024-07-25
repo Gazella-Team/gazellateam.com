@@ -10,10 +10,10 @@ import { Reveal } from '../Animations/Reveal'
 
 export function Article({ post }: { post: Post }) {
 	return (
-		<Reveal>
+		<Reveal delayTime={0.3}>
 			<article className="relative mx-auto flex max-w-3xl w-[90%] py-12  md:mb-24 bg-white flex-col gap-8">
 				<div className="grid md:max-w-2xl mx-auto w-full gap-5">
-					<div className="mb-3 paragraph text-gray-400 text-sm gap-2">
+					<div className="mb-3 text-gray-400 text-sm gap-2">
 						<Link
 							className="flex gap-2 items-center"
 							href={`/blog`}
@@ -28,11 +28,11 @@ export function Article({ post }: { post: Post }) {
 							<BlogBadge category={post.category} />
 						</Link>
 					</div>
-					<h1 className="text-main text-3xl">{post.title}</h1>
-					<h2 className="text-gray-600 paragraph">
+					<h1 className="text-main font-semibold text-3xl">{post.title}</h1>
+					<h2 className="text-gray-600 ">
 						{post.description}
 					</h2>
-					<div className="flex items-center gap-3 paragraph mb-5">
+					<div className="flex items-center gap-3 mb-5">
 						<div className="flex gap-4">
 							<AuthorAvatars authors={post.authors} />
 							<div>

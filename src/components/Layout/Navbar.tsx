@@ -18,7 +18,7 @@ export default function Navbar() {
 						></img>
 					</Link>
 					<div className="hidden items-center gap-[30px] md:flex">
-						<div className="text-main text-[15px] flex items-center gap-[24px] font-normal">
+						<div className="text-main text-[15px] flex items-center gap-[24px] font-medium">
 							<Link
 								className="hover:text-gray-600"
 								href={'/hjemmeside'}

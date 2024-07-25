@@ -81,10 +81,6 @@
   
 
 body {
-	font-family: 'Plain', sans-serif;
+	font-family: 'Ubuntu Sans', sans-serif;
 	overflow-x: hidden;
-}
-
-.paragraph {
-	font-family: 'Hind Siliguri';
 }
