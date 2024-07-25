@@ -6,7 +6,7 @@ import Team from '@/components/team'
 
 export default function People() {
 	return (
-		<Layout>
+		<Layout cta={true}>
 			<Meta title={`Teamet - Gazella Team`} />
 			<PageIntro
 				starter="theteam"

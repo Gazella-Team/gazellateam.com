@@ -11,7 +11,7 @@ export default function Contact() {
 			<Meta title={`Kontakt os - Gazella Team`} />
 			<PageIntro
 				smallWidth={true}
-				heading="Lad os snakke"
+				heading="Kontakt os"
 				description="Vi er altid klar til en god snak om software og forretning. Kom i kontakt med vores team i dag."
 			/>
 			<CalEmbed />

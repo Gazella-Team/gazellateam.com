@@ -7,9 +7,11 @@ import Script from 'next/script'
 export default function Layout({
 	className,
 	children,
+	cta,
 }: {
 	className?: string
 	children: React.ReactNode
+	cta?:boolean
 }) {
 	return (
 		<div className="flex flex-col justify-between min-h-screen">
@@ -26,7 +28,7 @@ export default function Layout({
 						<Navbar />
 						<div className="pt-[80px] bg-cover bg-center flex flex-col justify-between min-h-screen text-main">
 							{children}
-							<Footer />
+							<Footer noCta={cta} />
 						</div>
 					</div>
 				</div>

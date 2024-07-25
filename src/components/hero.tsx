@@ -15,15 +15,15 @@ export default function Hero() {
 					<div className='w-full flex flex-col gap-4 items-end justify-center'>
 						<Reveal delayTime={0.3}>
 							<div>
-								<p className="text-2xl justify-end max-w-xl font-light md:text-2xl mb-[40px]">
-									Vi er et hjemmeside- og app bureau med øje for detalje. Vi har +10 års samlet erfaring indenfor software og skrædersyet kundearbejde.								
+								<p className="text-xl text-main justify-end max-w-xl font-light md:text-2xl mb-[40px]">
+									Vi er et hjemmeside- og app bureau med øje for detalje. Vi har +10 års samlet erfaring indenfor software og skrædersyede løsninger.								
 								</p>
 								<div className='flex items-center gap-4'>
-									<Link className='bg-main font-medium px-5 py-2 text-white rounded-full' href={"/cases"}>
+									<Link className='bg-main border-2 border-main font-medium px-5 py-2 text-white rounded-full' href={"/kontakt"}>
 										Kontakt os
 									</Link>
-									<Link className='bg-main font-medium px-5 py-2 text-white rounded-full' href={"/cases"}>
-										Se vores cases
+									<Link className='bg-transparent border-2 border-main font-medium px-5 py-2 text-main rounded-full hover:bg-main hover:text-white transition-all' href={"/teamet"}>
+										Om os
 									</Link>
 								</div>
 							</div>
