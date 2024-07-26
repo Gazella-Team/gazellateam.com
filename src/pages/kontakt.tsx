@@ -7,7 +7,7 @@ import Cal from '@calcom/embed-react'
 
 export default function Contact() {
 	return (
-		<Layout>
+		<Layout cta={true}>
 			<Meta title={`Kontakt os - Gazella Team`} />
 			<PageIntro
 				smallWidth={true}

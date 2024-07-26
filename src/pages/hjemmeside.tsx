@@ -16,6 +16,12 @@ export default function People() {
 			<Meta
 				title={`Hjemmeside: Er du klar til at få flere kunder og mere kendskab? Det starter med en performance hjemmeside. - Gazella Team`}
 			/>
+			<PageIntro
+				headingSize="sm"
+				starter="theteam"
+				heading="Er du klar til at få flere kunder og mere kendskab? Det starter med en performance hjemmeside"
+				description="Vi er et lille team af udviklere, designere og kommunikationsansvarlige, som hver dag stræber efter at inspirere og løfte virksomheder med software."
+			/>
 			<ImageHero
 				heading="Er du klar til at få flere kunder og mere kendskab? Det starter med en performance hjemmeside"
 				paragraph="Vi garanterer dig en fordobling i unikke månedlige besøgende med en ny hjemmeside indenfor 2 måneder - Ellers betaler vi alle pengene tilbage."
