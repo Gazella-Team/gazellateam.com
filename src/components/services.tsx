@@ -7,7 +7,7 @@ export default function Services() {
 				<div className="max-w-2xl">
 					<Reveal>
 						<div className="mb-14 flex flex-col gap-4">
-							<h2 className="text-2xl font-[300] text-main">
+							<h2 className="text-2xl font-semibold text-main">
 								App udvikling
 							</h2>
 							<p className="font-light text-[18px] paragraph text-gray-600">
@@ -24,7 +24,7 @@ export default function Services() {
 					</Reveal>
 					<Reveal>
 						<div className="mb-14 flex flex-col gap-4">
-							<h2 className="text-2xl font-[300] text-main">
+							<h2 className="text-2xl font-semibold text-main">
 								Design og brugeroplevelse
 							</h2>
 							<p className="font-light text-[18px] paragraph text-gray-600">
@@ -39,7 +39,7 @@ export default function Services() {
 					</Reveal>
 					<Reveal>
 						<div className="flex flex-col gap-4">
-							<h2 className="text-2xl font-[300] text-main">
+							<h2 className="text-2xl font-semibold text-main">
 								Shopify udvikling
 							</h2>
 							<p className="font-light text-[18px] paragraph text-gray-600">

@@ -9,6 +9,7 @@ import Kompetencer from '@/components/hjemmeside/kompetencer'
 import TrustBar from '@/components/hjemmeside/trust-bar'
 import ServiceSlider from '@/components/service-slider'
 import Link from 'next/link'
+import { Reveal } from '@/components/Animations/Reveal'
 
 export default function People() {
 	return (
@@ -16,17 +17,23 @@ export default function People() {
 			<Meta
 				title={`Hjemmeside: Er du klar til at få flere kunder og mere kendskab? Det starter med en performance hjemmeside. - Gazella Team`}
 			/>
-			<PageIntro
-				headingSize="sm"
-				starter="theteam"
-				heading="Er du klar til at få flere kunder og mere kendskab? Det starter med en performance hjemmeside"
-				description="Vi er et lille team af udviklere, designere og kommunikationsansvarlige, som hver dag stræber efter at inspirere og løfte virksomheder med software."
-			/>
-			<ImageHero
-				heading="Er du klar til at få flere kunder og mere kendskab? Det starter med en performance hjemmeside"
-				paragraph="Vi garanterer dig en fordobling i unikke månedlige besøgende med en ny hjemmeside indenfor 2 måneder - Ellers betaler vi alle pengene tilbage."
-				imagePath="/hjemmeside/hjemmeside.webp"
-			/>
+			<section className="py-12 pb-20">
+				<div className={"w-[90%] max-w-[1400px] mx-auto"}>
+					<Reveal delayTime={0.3}>
+						<h1 className={"font-semibold max-w-3xl text-3xl tracking-tight md:text-4xl xl:text-6xl text-main leading-[120%] mb-8"}>Er du klar til at få flere kunder og mere kendskab? Det starter med en performance hjemmeside.</h1>
+					</Reveal>
+					<Reveal delayTime={0.5}>
+						<p className="font-light text-[16px] md:text-[18px] xl:text-[20px] leading-[150%] max-w-[500px] text-gray-600">Vi er et lille team af udviklere, designere og kommunikationsansvarlige, som hver dag stræber efter at inspirere og løfte virksomheder med software.</p>
+					</Reveal>
+					<Reveal delayTime={0.5}>
+						<div className='mt-12'>
+							<Link className='bg-main text-white py-2 px-5 font-semibold rounded-full' href={"/kontakt"}>
+								Kom i gang for kun 899 kr. /måneden
+							</Link>
+						</div>
+					</Reveal>
+				</div>
+			</section>
 			<TrustBar />
 			<Kompetencer />
 			<ServiceSlider />
