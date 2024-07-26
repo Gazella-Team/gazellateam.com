@@ -13,7 +13,7 @@ export default function BlogList({
 	post,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
 	return (
-		<Layout>
+		<Layout cta={true}>
 			<Meta
 				title={`${post.title} | Toolbird`}
 				description={post.description}
