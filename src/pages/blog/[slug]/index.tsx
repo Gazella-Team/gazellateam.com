@@ -15,7 +15,7 @@ export default function BlogList({
 	return (
 		<Layout cta={true}>
 			<Meta
-				title={`${post.title} | Toolbird`}
+				title={`${post.title} | Gazella Team`}
 				description={post.description}
 				banner={post.image}
 				authors={post.authors.map((author) => author.name)}
