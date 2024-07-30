@@ -8,7 +8,7 @@ export default function Hero() {
 			<div className="w-[90%] mb-10 max-w-[1400px] relative mx-auto flex flex-col ">
 				<div className="flex flex-col">
 					<Reveal delayTime={0.3}>
-						<h1 className="text-4xl max-w-3xl font-semibold md:text-7xl xl:leading-[120%] mb-[40px]">
+						<h1 className="text-4xl max-w-3xl font-light md:text-7xl xl:leading-[120%] mb-[40px]">
 							Vi løfter projekter og virksomheder med software udvikling.
 						</h1>
 					</Reveal>
