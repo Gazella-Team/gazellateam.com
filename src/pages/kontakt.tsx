@@ -13,7 +13,7 @@ export default function Contact() {
 			<section className="py-12 pb-20">
 				<div className="w-[90%] max-w-[1300px] mx-auto">
 					<Reveal delayTime={0.3}>
-						<h1 className="font-light max-w-3xl text-3xl tracking-tight md:text-4xl xl:text-6xl text-main leading-[120%] mb-8">Interesseret i at høre mere? Book 30 minutter med os.</h1>
+						<h1 className="font-light max-w-3xl text-3xl md:text-4xl xl:text-6xl text-main mb-8">Interesseret i at høre mere? Book 30 minutter med os.</h1>
 					</Reveal>
 					<Reveal delayTime={0.5}>
 						<p className="font-light text-[16px] md:text-[18px] xl:text-[20px] leading-[150%] max-w-[500px] text-gray-600">hey</p>

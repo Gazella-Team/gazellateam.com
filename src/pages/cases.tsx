@@ -8,8 +8,9 @@ export default function Solutions() {
 	return (
 		<Layout>
 			<PageIntro
+				headingSize="sm"
 				starter="madewithlove"
-				heading="Cases"
+				heading="Mere end 10.000 samlede udviklingstimer i baggagen"
 				description="Dyk ned i vores forskellige cases og interne projekter, som vi udvikler for at inspirere og forbedre virksomheder."
 			/>
 			<CaseComponent />
