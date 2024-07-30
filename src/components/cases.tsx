@@ -22,7 +22,7 @@ const caseDataFirst = [
 export default function Cases() {
 	return (
 		<section>
-			<div className="w-[90%] max-w-[1400px] pb-24 gap-16 mx-auto">
+			<div className="w-[90%] max-w-[1300px] pb-24 gap-16 mx-auto">
 				<div className="grid grid-cols-2 gap-12">
 					{caseDataFirst.map((v, index) => (
 						<CaseCard key={index} Obj={v} />

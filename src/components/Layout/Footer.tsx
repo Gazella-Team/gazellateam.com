@@ -87,7 +87,7 @@ export default function Footer(props: FooterProps) {
 								src="/logos/logofill.svg"
 							></img>
 							<p className="text-gray-500 paragraph text-sm max-w-xs font-normal">
-								Et hjemmeside- og app bureau med øje for
+								Et digitalt bureau med øje for
 								detalje. Vi har +10 års samlet erfaring indenfor
 								software.
 							</p>
