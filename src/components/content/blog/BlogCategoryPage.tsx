@@ -23,7 +23,7 @@ export default function BlogCategoryPage({
 				title={`Blog | ${category.name} | Gazella Team`}
 				description="Latest news and updates from Toolbird aswell as guides."
 			/>
-			<div className="mt-12">
+			<div className="mt-24">
 				<div className="max-w-6xl w-[90%] mx-auto">
 					<Reveal delayTime={0.3}>
 						<h1 className="text-5xl font-semibold tracking-tighter mb-6 text-black">

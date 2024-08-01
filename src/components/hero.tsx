@@ -10,7 +10,7 @@ export default function Hero() {
 				<div className="flex flex-col">
 					<Reveal delayTime={0.3}>
 						<h1 className="text-4xl max-w-4xl font-semibold tracking-tighter text-black md:text-6xl xl:leading-[120%] mb-[40px]">
-							<span><RevealWild delayTime={0.2}><p>Hey 👋</p></RevealWild></span><br></br><span><Reveal delayTime={0.5}><p>Vi er Gazella Team. Et ungt digitalt bureau med øje for detalje.</p></Reveal></span>
+							<span><RevealWild delayTime={0.2}><p className='mb-10'>Hey 👋</p></RevealWild></span><span><Reveal delayTime={0.5}><p>Vi er Gazella Team. Et ungt digitalt bureau med øje for detalje.</p></Reveal></span>
 						</h1>
 					</Reveal>
 					<div className='w-full flex flex-col gap-4'>

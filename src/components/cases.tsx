@@ -22,7 +22,7 @@ const caseDataFirst = [
 export default function Cases() {
 	return (
 		<section>
-			<div className="w-[90%] max-w-[1300px] pb-24 gap-16 mx-auto">
+			<div className="w-[90%] max-w-7xl pb-24 gap-16 mx-auto">
 				<div className="grid grid-cols-2 gap-12">
 					{caseDataFirst.map((v, index) => (
 						<CaseCard key={index} Obj={v} />
@@ -38,7 +38,7 @@ function CaseCard(props: any) {
 		<Link href={props.Obj.link}>
 			<div className="flex flex-col gap-8">
 				<img
-					className="h-[560px] object-cover"
+					className="h-[560px] rounded-3xl object-cover"
 					src={props.Obj.image}
 				></img>
 				<div className="absolute m-8 bg-white border border-gray-600/20 rounded-full p-1 px-5">
