@@ -1,28 +1,29 @@
 import Link from 'next/link'
 import { Reveal } from './Animations/Reveal'
 import TpWidget from './TpWidget'
+import { RevealWild } from './Animations/RevealWild'
 
 export default function Hero() {
 	return (
 		<section className="py-24 pb-16 relative bg-white bg-cover bg-center">
-			<div className="w-[90%] mb-10 max-w-[1400px] relative mx-auto flex flex-col ">
+			<div className="w-[90%] mb-10 max-w-6xl relative mx-auto flex flex-col ">
 				<div className="flex flex-col">
 					<Reveal delayTime={0.3}>
-						<h1 className="text-4xl max-w-3xl font-light md:text-7xl xl:leading-[120%] mb-[40px]">
-							Vi løfter projekter og virksomheder med software udvikling.
+						<h1 className="text-4xl max-w-4xl font-semibold tracking-tighter text-black md:text-6xl xl:leading-[120%] mb-[40px]">
+							<span><RevealWild delayTime={0.2}><p>Hey 👋</p></RevealWild></span><br></br><span><Reveal delayTime={0.5}><p>Vi er Gazella Team. Et ungt digitalt bureau med øje for detalje.</p></Reveal></span>
 						</h1>
 					</Reveal>
-					<div className='w-full flex flex-col gap-4 items-end justify-center'>
-						<Reveal delayTime={0.3}>
+					<div className='w-full flex flex-col gap-4'>
+						<Reveal delayTime={0.5}>
 							<div>
-								<p className="text-xl text-main justify-end max-w-xl font-light md:text-2xl mb-[40px]">
-									Vi er et hjemmeside- og app bureau med øje for detalje. Vi har +10 års samlet erfaring indenfor software og skrædersyede løsninger.								
+								<p className="text-xl text-gray-600 justify-end max-w-xl font-light md:text-2xl mb-[40px]">
+									Vi skaber værdiskabende app- og web løsninger ved kombination af tekniske, salgspsykologiske og designmæssige kompetencer.					
 								</p>
 								<div className='flex items-center gap-4'>
-									<Link className='bg-main border-2 border-main font-medium px-5 py-2 text-white rounded-full' href={"/kontakt"}>
+									<Link className='bg-black border-2 border-black font-medium px-5 py-2 text-white rounded-full' href={"/kontakt"}>
 										Kontakt os
 									</Link>
-									<Link className='bg-transparent border-2 border-main font-medium px-5 py-2 text-main rounded-full hover:bg-main hover:text-white transition-all' href={"/teamet"}>
+									<Link className='bg-transparent border-2 border-black font-medium px-5 py-2 text-black rounded-full hover:bg-black hover:text-white transition-all' href={"/teamet"}>
 										Om os
 									</Link>
 								</div>
