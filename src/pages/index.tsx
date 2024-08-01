@@ -2,6 +2,7 @@ import Layout from '@/components/Layout'
 import Meta from '@/components/Layout/Meta'
 import Hero from '@/components/hero'
 import PageIntro from '@/components/reused/PageIntro'
+import Testimonials from '@/components/testimonials'
 import VideoPlayer from '@/components/video'
 
 export default function Home() {

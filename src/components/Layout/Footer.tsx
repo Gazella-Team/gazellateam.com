@@ -76,7 +76,7 @@ export default function Footer(props: FooterProps) {
 	return (
 		<>
 			<footer
-                className='bg-main rounded-t-[100px] text-white'
+                className='bg-black rounded-t-[100px] text-white'
 			>
 				<div className="w-[90%] max-w-[1300px] mx-auto min-h-[570px] grid grid-cols-1 md:grid-cols-[35%_1fr] pt-16 gap-20">
 					<div className="flex flex-col gap-6">
