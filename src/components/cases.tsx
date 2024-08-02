@@ -12,6 +12,13 @@ const caseDataFirst = [
 		link: '/minecraft-buzz-auctions',
 	},
 	{
+		heading: 'Toolbird',
+		domain: 'toolbird.io',
+		description: 'Seamless platform for slot bidding for minecraft servers',
+		image: '/cases/toolbird.webp',
+		link: '/minecraft-buzz-auctions',
+	},
+	{
 		heading: 'Planmates',
 		description: 'Seamless platform for slot bidding for minecraft servers',
 		image: '/blog-images/how-much-does-an-app-cost/main.webp',
