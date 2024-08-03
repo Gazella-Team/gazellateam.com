@@ -8,7 +8,7 @@ import VideoPlayer from '@/components/video'
 export default function Home() {
   return (
     <Layout >
-      <Meta title={`Et hjemmeside- og app bureau med øje for detalje. Vi har +10 års samlet erfaring indenfor software. - Gazella Team`} />
+      <Meta title={`Gazella Team: Et digitalt bureau med øje for detalje. Vi har +10 års samlet erfaring indenfor software.`} />
       <Hero />
     </Layout>
 )}

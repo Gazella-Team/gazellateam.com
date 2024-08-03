@@ -13,7 +13,7 @@ export function Mdx({ code, className }: MdxProps) {
 	return (
 		<div
 			className={cn(
-				'text-gray-600 prose-headings:font-[500] prose-headings:text-gray-800 paragraph prose mx-auto prose-slate prose-pre:border prose-pre:border-gray-600/10 prose-pre:rounded-lg',
+				'text-gray-600 prose-headings:font-[500] prose-headings:text-black paragraph prose mx-auto prose-slate prose-pre:border prose-pre:border-gray-600/10 prose-pre:rounded-lg',
 				className
 			)}
 		>
