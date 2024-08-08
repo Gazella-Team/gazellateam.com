@@ -13,8 +13,8 @@ export default function Navbar() {
 				<div className="w-[90%] flex-1 max-w-7xl mx-auto flex items-center justify-between">
 					<Link href={'/'}>
 						<img
-							className="w-[45px]"
-							src="/seo/favicon.png"
+							className="w-[85px]"
+							src="/logos/1.png"
 						></img>
 					</Link>
 					<div className="hidden items-center gap-[30px] md:flex">
