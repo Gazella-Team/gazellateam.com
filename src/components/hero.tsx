@@ -6,7 +6,7 @@ import { RevealWild } from './Animations/RevealWild'
 export default function Hero() {
 	return (
 		<section className="py-24 pb-16 relative bg-white bg-cover bg-center">
-			<div className="w-[90%] mb-10 max-w-4xl relative mx-auto flex flex-col ">
+			<div className="w-[90%] mb-10 max-w-7xl relative mx-auto flex flex-col ">
 				<div className="flex flex-col">
 					<RevealWild delayTime={0.3}>
 						<h1 className="text-4xl max-w-4xl font-semibold tracking-tight text-black md:text-6xl xl:leading-[120%] mb-[30px]">

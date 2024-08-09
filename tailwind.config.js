@@ -23,8 +23,9 @@ module.exports = {
 				clean: 'rgba(149, 157, 165, 0.2) 0px 8px 24px',
 			},
 			colors: {
-				main: '#051D40',
-				second: '#f7f7f7',
+				main: '#1c1a38',
+				second: '#ff4d5b',
+				third: "#6666ff",
 			},
 			maxWidth: {
 				main: '1400px',
