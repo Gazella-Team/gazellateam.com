@@ -26,8 +26,8 @@ export default function BlogCategoryPage({
 			<div className="mt-20">
 				<div className="max-w-7xl w-[90%] mx-auto">
 					<Reveal delayTime={0.3}>
-						<h1 className="text-5xl font-semibold tracking-tighter mb-6 text-main">
-							Blog
+						<h1 className="text-5xl font-semibold mb-6 text-main">
+							Nyheder og læring<span className='text-second'>.</span>
 						</h1>
 					</Reveal>
 					<Reveal delayTime={0.5}>
@@ -65,7 +65,7 @@ export default function BlogCategoryPage({
 				</div>
 				<div className="py-8 pb-24 min-h-[490px] bg-white flex items-center justify-center  border-gray-600/10">
 					{posts.length > 0 ? (
-						<div className="max-w-7xl w-[90%] gap-8 md:gap-10 mx-auto grid grid-cols-1 md:grid-cols-2">
+						<div className="max-w-7xl w-[90%] gap-8 md:gap-12 mx-auto grid grid-cols-1 md:grid-cols-2">
 							{posts.map((post) => (
 								<Reveal delayTime={0.6} key={post.slug}>
 									<BlogCard post={post} />
