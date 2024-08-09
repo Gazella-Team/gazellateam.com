@@ -3,15 +3,18 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import localFont from 'next/font/local'
 import Script from 'next/script'
+import { cn } from '@/lib/utils'
 
 export default function Layout({
 	className,
 	children,
 	cta,
+	transparentNav,
 }: {
 	className?: string
 	children: React.ReactNode
 	cta?:boolean
+	transparentNav?: boolean,
 }) {
 	return (
 		<div className="flex flex-col justify-between min-h-screen">
@@ -25,8 +28,8 @@ export default function Layout({
 				<div>
 					<div className={`${className}`}>
 						<Meta />
-						<Navbar />
-						<div className="pt-[80px] bg-cover bg-center flex flex-col justify-between min-h-screen text-main">
+						<Navbar transparent={transparentNav} />
+						<div className={cn("pt-[80px] bg-cover bg-center flex flex-col justify-between min-h-screen text-main", transparentNav && "pt-0")}>
 							{children}
 							<Footer noCta={cta} />
 						</div>

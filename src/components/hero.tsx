@@ -9,7 +9,7 @@ export default function Hero() {
 			<div className="w-[90%] mb-10 max-w-4xl relative mx-auto flex flex-col ">
 				<div className="flex flex-col">
 					<RevealWild delayTime={0.3}>
-						<h1 className="text-4xl max-w-4xl font-semibold tracking-tighter text-black md:text-6xl xl:leading-[120%] mb-[30px]">
+						<h1 className="text-4xl max-w-4xl font-semibold tracking-tight text-black md:text-6xl xl:leading-[120%] mb-[30px]">
 							<p>Hey 👋 Vi er Gazella Team. Et ungt digitalt bureau med øje for detalje.</p>
 						</h1>
 					</RevealWild>

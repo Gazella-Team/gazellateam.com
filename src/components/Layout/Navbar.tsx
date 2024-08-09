@@ -3,78 +3,151 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { useRouter } from 'next/router'
 import EstimateSheet from '../modals/EstimateSheet'
+import useScroll from '@/hooks/use-scroll'
+import { cn } from '@/lib/utils'
 
-export default function Navbar() {
+type Navbar = {
+	transparent?: boolean,
+}
+
+export default function Navbar(props:Navbar) {
 	const currentPath = useRouter().pathname.slice(0, 3)
 	const [menuClicked, setMenuClicked] = useState(false)
+	const scrolled = useScroll(50)
 	return (
 		<>
-			<nav className="h-[80px] fixed bg-white w-full flex flex-col z-[10]">
-				<div className="w-[90%] flex-1 max-w-7xl mx-auto flex items-center justify-between">
+			{
+			props.transparent ?
+			<nav className={cn("h-[80px] fixed bg-transparent w-full flex flex-col z-[10] transition-all", scrolled && "bg-white")}>
+			<div className="w-[94%] flex-1 max-w-8xl mx-auto flex items-center justify-between">
+				<div className='w-[100px] flex items-center justify-start'>
 					<Link href={'/'}>
 						<img
-							className="w-[85px]"
-							src="/logos/1.png"
+							className="w-[80px] transition-all"
+							src={scrolled ? "/logos/1.png":"/logos/2.png"}
 						></img>
 					</Link>
-					<div className="hidden items-center gap-[30px] md:flex">
-						<div className="text-black text-[15px] flex items-center gap-[24px] font-medium">
-							<Link
-								className="hover:text-gray-600"
-								href={'/cases'}
-							>
-								Cases
-							</Link>
-							<Link
-								className="hover:text-gray-600"
-								href={'/teamet'}
-							>
-								Teamet
-							</Link>
-							<Link
-								className="hover:text-gray-600"
-								href={'/blog'}
-							>
-								Blog
-							</Link>
-							<EstimateSheet>
-								<div className="hidden md:flex cursor-pointer">
-									<p>Få et gratis prisestimat</p>
-									<ArrowUpRight size={16} />
-								</div>
-							</EstimateSheet>
-						</div>
-						<Link className='bg-black border-2 border-black text-sm font-medium px-5 py-2 text-white rounded-full' href={"/kontakt"}>
-							Kontakt os
+				</div>
+				<div className="hidden flex-1 justify-center items-center gap-[30px] md:flex">
+					<div className={cn("text-white text-base flex items-center gap-[30px] font-medium", scrolled && "text-black")}>
+						<Link
+							className={cn("hover:text-gray-200", scrolled && "hover:text-gray-600")}
+							href={'/cases'}
+						>
+							Ydelser
+						</Link>
+						<Link
+							className={cn("hover:text-gray-200", scrolled && "hover:text-gray-600")}
+							href={'/cases'}
+						>
+							Cases
+						</Link>
+						<Link
+							className={cn("hover:text-gray-200", scrolled && "hover:text-gray-600")}
+							href={'/teamet'}
+						>
+							Teamet
+						</Link>
+						<Link
+							className={cn("hover:text-gray-200", scrolled && "hover:text-gray-600")}
+							href={'/blog'}
+						>
+							Nyheder og læring
 						</Link>
 					</div>
-					<div className="flex md:hidden cursor-pointer">
-						{menuClicked ? (
-							<X
-								size={26}
-								onClick={() => setMenuClicked(!menuClicked)}
-							/>
-						) : (
-							<svg
-								onClick={() => setMenuClicked(!menuClicked)}
-								xmlns="http://www.w3.org/2000/svg"
-								fill="none"
-								viewBox="0 0 24 24"
-								strokeWidth="1.5"
-								stroke="currentColor"
-								className="w-8 h-8"
-							>
-								{' '}
-								<path
-									strokeLinecap="round"
-									strokeLinejoin="round"
-									d="M3.75 9h16.5m-16.5 6.75h16.5"
-								/>{' '}
-							</svg>
-						)}
-					</div>
 				</div>
-			</nav>
+				<div className='flex items-center justify-end'>
+					<Link className={cn('bg-white border-2 border-white text-sm font-medium px-5 py-2 text-black rounded-full transition-all', scrolled && "text-white transition-all border-black bg-black")} href={"/kontakt"}>
+							Kontakt os
+					</Link>
+				</div>
+				<div className="flex md:hidden cursor-pointer">
+					{menuClicked ? (
+						<X
+							size={26}
+							onClick={() => setMenuClicked(!menuClicked)}
+						/>
+					) : (
+						<svg
+							onClick={() => setMenuClicked(!menuClicked)}
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 24 24"
+							strokeWidth="1.5"
+							stroke="currentColor"
+							className="w-8 h-8"
+						>
+							{' '}
+							<path
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								d="M3.75 9h16.5m-16.5 6.75h16.5"
+							/>{' '}
+						</svg>
+					)}
+				</div>
+			</div>
+		</nav>
+		:
+		<nav className="h-[80px] fixed bg-white w-full flex flex-col z-[10]">
+		<div className="w-[94%] flex-1 max-w-8xl mx-auto flex items-center justify-between">
+			<div className='w-[100px] flex items-center justify-start'>
+				<Link href={'/'}>
+					<img
+						className="w-[80px]"
+						src="/logos/1.png"
+					></img>
+				</Link>
+			</div>
+			<div className="hidden flex-1 justify-center items-center gap-[30px] md:flex">
+				<div className="text-black text-base flex items-center gap-[30px] font-medium">
+					<Link
+						className="hover:text-gray-600"
+						href={'/teamet'}
+					>
+						Teamet
+					</Link>
+					<Link
+						className="hover:text-gray-600"
+						href={'/blog'}
+					>
+						Nyheder og læring
+					</Link>
+				</div>
+			</div>
+			<div className='flex items-center justify-end'>
+				<Link className='bg-black border-2 border-black text-sm font-medium px-5 py-2 text-white rounded-full' href={"/kontakt"}>
+						Kontakt os
+				</Link>
+			</div>
+			<div className="flex md:hidden cursor-pointer">
+				{menuClicked ? (
+					<X
+						size={26}
+						onClick={() => setMenuClicked(!menuClicked)}
+					/>
+				) : (
+					<svg
+						onClick={() => setMenuClicked(!menuClicked)}
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						strokeWidth="1.5"
+						stroke="currentColor"
+						className="w-8 h-8"
+					>
+						{' '}
+						<path
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							d="M3.75 9h16.5m-16.5 6.75h16.5"
+						/>{' '}
+					</svg>
+				)}
+			</div>
+		</div>
+	</nav>
+			}
 			{menuClicked ? (
 				<div className="flex md:hidden fixed w-full bg-white top-[80px] bottom-0 py-[45px] z-20 overflow-auto">
 					<style jsx>{`
