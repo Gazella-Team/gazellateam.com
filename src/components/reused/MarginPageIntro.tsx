@@ -3,7 +3,7 @@ import { RevealWild } from '../Animations/RevealWild'
 
 export default function MarginPageIntro(props:any) {
     return (
-        <section className="py-40 bg-main">
+        <section className="py-40 relative bg-main">
             <div className="w-[90%] max-w-6xl mx-auto">
                 <RevealWild delayTime={0.3}>
                     <h1 className="font-semibold text-white tracking-tight max-w-3xl text-4xl md:text-4xl xl:text-6xl leading-[120%] mb-8">{props.heading}.</h1>

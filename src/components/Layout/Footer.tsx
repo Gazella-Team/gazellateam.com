@@ -13,52 +13,48 @@ const FOOTER_LINKS: {
 	links: { label: string; href: string; target?: string }[]
 }[] = [
 	{
-		title: 'Kategori',
+		title: 'Ydelser',
 		links: [
 			{
-				label: 'Link',
+				label: 'Hjemmeside',
 				href: '/',
 			},
 			{
-				label: 'Link',
+				label: 'App udvikling',
+				href: '/',
+			},
+			{
+				label: 'Design og brugeroplevelse',
 				href: '/',
 			},
 		],
 	},
 	{
-		title: 'Kategori',
+		title: 'Firma',
 		links: [
 			{
-				label: 'Link',
+				label: 'Teamet',
 				href: '/',
 			},
 			{
-				label: 'Link',
-				href: '/',
-			},
-			{
-				label: 'Link',
-				href: '/',
-			},
-			{
-				label: 'Link',
+				label: 'Tilgang',
 				href: '/',
 			},
 		],
 	},
 	{
-		title: 'Kategori',
+		title: 'Ekstra',
 		links: [
 			{
-				label: 'Link',
+				label: 'Nyheder',
 				href: '/',
 			},
 			{
-				label: 'Link',
+				label: 'Læring',
 				href: '/',
 			},
 			{
-				label: 'Link',
+				label: 'Karriere',
 				href: '/',
 			},
 		],
@@ -72,27 +68,19 @@ export default function Footer(props: FooterProps) {
 		<>
 			{!props.noCta && <Cta />}
 			<footer
-				className='py-[10px] mx-auto border-t relative border-t-gray-600/10 bg-white'
+				className='py-[10px] mx-auto border-t text-main relative border-t-gray-600/10 bg-white'
 			>
 				<div className="w-[86%] mx-auto min-h-[370px] max-w-7xl grid grid-cols-1 md:grid-cols-[35%_1fr] pt-14 gap-20">
 					<div className="flex flex-col gap-6">
-						<div className="flex flex-col">
+						<div className="flex flex-col gap-4">
 							<img
 								className="w-[80px]"
 								src="/logos/1.png"
 								alt="Gazella Team Logo"
 							/>
-							<p className="text-gray-500 paragraph text-sm max-w-xs font-regular">
-							Hvor investorer og iværksættere mødes
+							<p className="text-gray-600 paragraph text-sm max-w-xs font-regular">
+								Et digitalt bureau med øje for detalje. Vi har +10 års samlet erfaring indenfor software.				
 							</p>
-						</div>
-						<div className="flex">
-							<Link
-								href={'/'}
-								className="bg-first border-[3px] border-gray-800 font-normal paragraph text-xs flex text-white px-6 py-1 rounded-full"
-							>
-								Kom i gang
-							</Link>
 						</div>
 						<div className="flex items-center gap-2 mt-3">
 							<Link
@@ -114,7 +102,7 @@ export default function Footer(props: FooterProps) {
 					<div className="grid grid-cols-2 mb-24 lg:grid-cols-3 paragraph gap-16">
 						{FOOTER_LINKS.map((group) => (
 							<div key={group.title}>
-								<h2 className="text-base mb-5 font-semibold text-gray-800">
+								<h2 className="text-base mb-5 font-semibold text-main">
 									{group.title}
 								</h2>
 								<div className="text-gray-500 text-base flex flex-col gap-5 font-normal">
@@ -122,7 +110,7 @@ export default function Footer(props: FooterProps) {
 										<Link
 											href={link.href}
 											key={link.href}
-											className="hover:text-gray-800 transition-all"
+											className="hover:text-main transition-all"
 										>
 											{link.label}
 										</Link>
