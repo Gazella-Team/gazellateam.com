@@ -100,7 +100,7 @@ export default function Navbar(props:Navbar) {
 				</Link>
 			</div>
 			<div className="hidden flex-1 justify-center items-center gap-[30px] md:flex">
-				<div className="text-black text-base flex items-center gap-[30px] font-medium">
+				<div className="text-main text-base flex items-center gap-[30px] font-medium">
 					<Link
 						className="hover:text-gray-600"
 						href={'/teamet'}
@@ -116,7 +116,7 @@ export default function Navbar(props:Navbar) {
 				</div>
 			</div>
 			<div className='flex items-center justify-end'>
-				<Link className='bg-black border-2 border-black text-sm font-medium px-5 py-2 text-white rounded-full' href={"/kontakt"}>
+				<Link className='bg-main border-2 border-main text-sm font-medium px-5 py-2 text-white rounded-full' href={"/kontakt"}>
 						Kontakt os
 				</Link>
 			</div>

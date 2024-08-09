@@ -23,10 +23,10 @@ export default function BlogCategoryPage({
 				title={`Blog | ${category.name} | Gazella Team`}
 				description="Latest news and updates from Toolbird aswell as guides."
 			/>
-			<div className="mt-24">
-				<div className="max-w-6xl w-[90%] mx-auto">
+			<div className="mt-20">
+				<div className="max-w-7xl w-[90%] mx-auto">
 					<Reveal delayTime={0.3}>
-						<h1 className="text-5xl font-semibold tracking-tighter mb-6 text-black">
+						<h1 className="text-5xl font-semibold tracking-tighter mb-6 text-main">
 							Blog
 						</h1>
 					</Reveal>
@@ -51,8 +51,8 @@ export default function BlogCategoryPage({
 											className={cn(
 												'text-sm cursor-pointer font-medium px-3 py-1.5 rounded-full',
 												category.tag == activeTab
-													? 'text-white bg-black'
-													: 'text-gray-500 hover:text-black hover:bg-gray-50'
+													? 'text-white bg-main'
+													: 'text-gray-500 hover:text-main hover:bg-gray-50'
 											)}
 										>
 											{category.name}
@@ -65,7 +65,7 @@ export default function BlogCategoryPage({
 				</div>
 				<div className="py-8 pb-24 min-h-[490px] bg-white flex items-center justify-center  border-gray-600/10">
 					{posts.length > 0 ? (
-						<div className="max-w-6xl w-[90%] gap-8 md:gap-10 mx-auto grid grid-cols-1 md:grid-cols-2">
+						<div className="max-w-7xl w-[90%] gap-8 md:gap-10 mx-auto grid grid-cols-1 md:grid-cols-2">
 							{posts.map((post) => (
 								<Reveal delayTime={0.6} key={post.slug}>
 									<BlogCard post={post} />
