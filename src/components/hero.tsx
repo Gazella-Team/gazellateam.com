@@ -11,6 +11,13 @@ export default function Hero() {
 		<section className="py-24 gap-16 flex flex-col justify-center relative bg-cover bg-center">
 			<div className="w-[90%] max-w-7xl relative mx-auto flex flex-col ">
 				<div className="flex flex-col">
+					<Reveal delayTime={0.6}>
+						<div className='flex items-center mb-[40px]'>
+							<img className='w-20 rounded-full border border-gray-600/10' src='/team/lasseosmann.webp'></img>
+							<img className='w-20 rounded-full border border-gray-600/10 ml-[-25px]' src='/team/simonmaribo.webp'></img>
+							<img className='w-20 rounded-full border border-gray-600/10 ml-[-25px]' src='/team/miklonborg.webp'></img>
+						</div>
+					</Reveal>
 					<RevealWild delayTime={0.3}>
 						<h1 className="text-4xl max-w-[700px] font-semibold tracking-tight text-main md:text-5xl xl:leading-[120%] mb-[30px]">
 							<p>Vi er et ungt digitalt bureau med passion for salgsfremmende og kreative web- og app løsninger<span className='text-second'>.</span></p>
