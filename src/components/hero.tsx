@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Reveal } from './Animations/Reveal'
 import TpWidget from './TpWidget'
 import { RevealWild } from './Animations/RevealWild'
+import CaseSwiper from './cases-swiper'
 
 export default function Hero() {
 	return (
@@ -24,7 +25,7 @@ export default function Hero() {
 					</div>
 				</div>
 			</div>
-			<img className='max-w-[1500px] w-[94%] mx-auto rounded-3xl' src='/bgs/app.png'></img>
+			<CaseSwiper />		
 		</section>
 	)
 }

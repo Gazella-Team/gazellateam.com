@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import { FaTwitter } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
-import Cta from './Cta'
 import { useRouter } from 'next/router'
+import Cta from '../cta'
 type FooterProps = {
 	fullWidth?: boolean
 	noCta?: boolean
@@ -70,7 +70,7 @@ export default function Footer(props: FooterProps) {
 			<footer
 				className='py-[10px] mx-auto border-t text-main relative border-t-gray-600/10 bg-white'
 			>
-				<div className="w-[86%] mx-auto min-h-[370px] max-w-7xl grid grid-cols-1 md:grid-cols-[35%_1fr] pt-14 gap-20">
+				<div className="w-[90%] mx-auto min-h-[370px] max-w-7xl grid grid-cols-1 md:grid-cols-[35%_1fr] pt-14 gap-20">
 					<div className="flex flex-col gap-6">
 						<div className="flex flex-col gap-4">
 							<img

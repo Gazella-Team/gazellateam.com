@@ -44,6 +44,12 @@ export default function Navbar(props:Navbar) {
 						</Link>
 						<Link
 							className={cn("hover:text-gray-200", scrolled && "hover:text-gray-600")}
+							href={'/cases'}
+						>
+							Tilgang
+						</Link>
+						<Link
+							className={cn("hover:text-gray-200", scrolled && "hover:text-gray-600")}
 							href={'/teamet'}
 						>
 							Teamet
@@ -115,7 +121,7 @@ export default function Navbar(props:Navbar) {
 					</Link>
 					<Link
 						className="hover:text-gray-600"
-						href={'/blog'}
+						href={'/tilgang'}
 					>
 						Tilgang
 					</Link>
