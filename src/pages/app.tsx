@@ -10,12 +10,12 @@ export default function App() {
 	return (
 		<Layout cta={true}>
 			<Meta title={`App - Gazella Team`} />
-			<section className="py-24 bg-cover bg-center flex flex-col items-end">
+			<section className="py-16 md:py-24 bg-cover bg-center flex flex-col items-end">
 				<div className="w-[90%] mx-auto max-w-[700px] flex flex-col">
 					<div className="max-w-2xl">
 						<Reveal>
-							<div className="mb-14 flex flex-col gap-16">
-								<h2 className="text-5xl font-semibold text-main">
+							<div className="mb-14 flex flex-col gap-10 md:gap-16">
+								<h2 className="text-4xl md:text-5xl xl:text-6xl font-semibold text-main">
 									App udvikling i <span className='text-second'>særklasse</span>
 								</h2>
 								<p className="font-light text-[18px] paragraph text-gray-600">
