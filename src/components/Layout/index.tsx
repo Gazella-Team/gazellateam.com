@@ -4,6 +4,7 @@ import Footer from './Footer'
 import localFont from 'next/font/local'
 import Script from 'next/script'
 import { cn } from '@/lib/utils'
+import SalesModal from './SalesModal'
 
 export default function Layout({
 	className,
@@ -26,6 +27,7 @@ export default function Layout({
 				/>
 				<Meta />
 				<div>
+				<SalesModal />
 					<div className={`${className}`}>
 						<Meta />
 						<Navbar transparent={transparentNav} />

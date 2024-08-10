@@ -17,15 +17,15 @@ const FOOTER_LINKS: {
 		links: [
 			{
 				label: 'Hjemmeside',
-				href: '/',
+				href: '/hjemmeside',
 			},
 			{
 				label: 'App udvikling',
-				href: '/',
+				href: '/app',
 			},
 			{
 				label: 'Design og brugeroplevelse',
-				href: '/',
+				href: '/design',
 			},
 		],
 	},

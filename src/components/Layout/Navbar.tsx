@@ -32,15 +32,9 @@ export default function Navbar(props:Navbar) {
 					<div className={cn("text-white text-base flex items-center gap-[30px] font-medium", scrolled && "text-black")}>
 						<Link
 							className={cn("hover:text-gray-200", scrolled && "hover:text-gray-600")}
-							href={'/cases'}
+							href={'/ydelser'}
 						>
 							Ydelser
-						</Link>
-						<Link
-							className={cn("hover:text-gray-200", scrolled && "hover:text-gray-600")}
-							href={'/cases'}
-						>
-							Cases
 						</Link>
 						<Link
 							className={cn("hover:text-gray-200", scrolled && "hover:text-gray-600")}
@@ -109,15 +103,9 @@ export default function Navbar(props:Navbar) {
 				<div className="text-main text-base flex items-center gap-[30px] font-medium">
 					<Link
 						className="hover:text-gray-600"
-						href={'/teamet'}
+						href={'/ydelser'}
 					>
 						Ydesler
-					</Link>
-					<Link
-						className="hover:text-gray-600"
-						href={'/cases'}
-					>
-						Cases
 					</Link>
 					<Link
 						className="hover:text-gray-600"

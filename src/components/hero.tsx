@@ -3,6 +3,7 @@ import { Reveal } from './Animations/Reveal'
 import TpWidget from './TpWidget'
 import { RevealWild } from './Animations/RevealWild'
 import CaseSwiper from './cases-swiper'
+import HeroSlider from './hero-slider'
 
 export default function Hero() {
 	return (

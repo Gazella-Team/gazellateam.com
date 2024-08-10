@@ -17,7 +17,7 @@ export default function BlogCategoryPage({
 }: BlogCategoryPageProps) {
 	const category = categories[activeTab]
 	return (
-		<Layout>
+		<Layout cta={true}>
 			{/* TODO: Create SEO banner from image.social when we have 3 blogs */}
 			<Meta
 				title={`Blog | ${category.name} | Gazella Team`}
