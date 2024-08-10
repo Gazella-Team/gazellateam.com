@@ -10,8 +10,8 @@ export default function Hero() {
 			<div className="w-[90%] max-w-7xl relative mx-auto flex flex-col ">
 				<div className="flex flex-col">
 					<RevealWild delayTime={0.3}>
-						<h1 className="text-4xl max-w-4xl font-semibold tracking-tight text-main md:text-7xl xl:leading-[120%] mb-[30px]">
-							<p>Hjemmeside- og app udvikling med detalje<span className='text-second'>.</span></p>
+						<h1 className="text-4xl max-w-5xl font-semibold tracking-tight text-main md:text-8xl xl:leading-[120%] mb-[30px]">
+							<p>Digitalt bureau med 20 års samlet erfaring<span className='text-second'>.</span></p>
 						</h1>
 					</RevealWild>
 					<div className='w-full flex flex-col gap-4'>
@@ -25,7 +25,6 @@ export default function Hero() {
 					</div>
 				</div>
 			</div>
-			<CaseSwiper />		
 		</section>
 	)
 }
