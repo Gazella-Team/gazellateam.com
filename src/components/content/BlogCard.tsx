@@ -23,7 +23,7 @@ export default function BlogCard({ post }: BlogCardProps) {
 				src={post.image}
 				style={{ color: 'transparent' }}
 			/>
-			<div className="flex flex-1 flex-col mt-5 justify-between rounded-b-lg bg-white ">
+			<div className="flex flex-1 flex-col mt-5 justify-between rounded-b-lg ">
 				<div className="flex flex-col gap-6">
 					<BlogBadge category={post.category} />
 					<div>

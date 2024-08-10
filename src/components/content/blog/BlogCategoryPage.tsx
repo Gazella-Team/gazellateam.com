@@ -37,7 +37,7 @@ export default function BlogCategoryPage({
 					</Reveal>
 					<Reveal delayTime={0.6}>
 						<div className="mt-8 mb-10 flex">
-							<div className="bg-white border w-full sm:w-fit border-gray-600/10 rounded-3xl sm:rounded-full px-3 py-2 flex flex-col sm:flex-row gap-2">
+							<div className="border w-full sm:w-fit border-gray-600/10 rounded-3xl sm:rounded-full px-3 py-2 flex flex-col sm:flex-row gap-2">
 								{
 									// Tabs
 									getCategoriesList().map((category) => (
@@ -63,7 +63,7 @@ export default function BlogCategoryPage({
 						</div>
 					</Reveal>
 				</div>
-				<div className="py-8 pb-24 min-h-[490px] bg-white flex items-center justify-center  border-gray-600/10">
+				<div className="py-8 pb-24 min-h-[490px] flex items-center justify-center  border-gray-600/10">
 					{posts.length > 0 ? (
 						<div className="max-w-7xl w-[90%] gap-8 md:gap-12 mx-auto grid grid-cols-1 md:grid-cols-2">
 							{posts.map((post) => (

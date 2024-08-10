@@ -6,7 +6,7 @@ import ServicesComponent from '@/components/services'
 import { ArrowRight } from 'lucide-react'
 import Link from 'next/link'
 
-export default function App() {
+export default function Hjemmeside() {
 	return (
 		<Layout cta={true}>
 			<Meta title={`App - Gazella Team`} />
@@ -16,7 +16,7 @@ export default function App() {
 						<Reveal>
 							<div className="mb-14 flex flex-col gap-16">
 								<h2 className="text-5xl font-semibold text-main">
-									App udvikling i <span className='text-second'>særklasse</span>
+									Vi skaber hjemmesider, der øger <span className='text-second'>salg og konverteringer</span>
 								</h2>
 								<p className="font-light text-[18px] paragraph text-gray-600">
 									Fremtiden er mobil. Vi specialiserer os i native

@@ -66,7 +66,6 @@ export default function Footer(props: FooterProps) {
 
 	return (
 		<>
-			{!props.noCta && <Cta />}
 			<footer
 				className='py-[10px] mx-auto border-t text-main relative border-t-gray-600/10 bg-white'
 			>
