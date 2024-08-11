@@ -29,6 +29,7 @@ export default function Hjemmeside() {
 									passer til din vision.{' '}
 									<br></br>
 									<br></br>
+									<h3 className='font-semibold text-main text-xl my-5'>Salgsoptimeret udvikling</h3>
 									En software uden brugervenligt design og en
 									brugeroplevelse, der er svær at navigere, er
 									ingenting. Når vi arbejder på et projekt, sørger
@@ -37,6 +38,7 @@ export default function Hjemmeside() {
 									brugeroplevelse, baseret på din målgruppe.
 									<br></br>
 									<br></br>
+									<h3 className='font-semibold text-main text-xl my-5'>Responsivt til alle enheder</h3>
 									En software uden brugervenligt design og en
 									brugeroplevelse, der er svær at navigere, er
 									ingenting. Når vi arbejder på et projekt, sørger
@@ -45,6 +47,7 @@ export default function Hjemmeside() {
 									brugeroplevelse, baseret på din målgruppe.
 									<br></br>
 									<br></br>
+									<h3 className='font-semibold text-main text-xl my-5'>Fri support</h3>
 									En software uden brugervenligt design og en
 									brugeroplevelse, der er svær at navigere, er
 									ingenting. Når vi arbejder på et projekt, sørger
@@ -68,7 +71,7 @@ export default function Hjemmeside() {
 							<div className="p-4 border hi rounded-full hover:bg-third hover:border-third hover:text-white transition-all text-main border-main">
 								<ArrowRight strokeWidth={1.5} />
 							</div>
-							<p className="text-xl">Skriv til os</p>
+							<p className="text-xl">Kom i gang for kun 899 kr.</p>
 						</Link>
 						<Link href={"tel:50695272"} className="flex items-center gap-5">
 							<div className="p-4 border hi rounded-full hover:bg-third hover:border-third hover:text-white transition-all text-main border-main">

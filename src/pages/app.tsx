@@ -16,7 +16,7 @@ export default function App() {
 						<Reveal>
 							<div className="mb-14 flex flex-col gap-10 md:gap-16">
 								<h2 className="text-4xl md:text-5xl xl:text-5xl font-semibold text-main">
-									Skalerbar app udvikling til <span className='text-second'>iOS og Android</span>
+									Moderne og skalerbar app udvikling til <span className='text-second'>iOS og Android</span>
 								</h2>
 								<p className="font-light text-[18px] paragraph text-gray-600">
 									Fremtiden er mobil. Vi specialiserer os i native
@@ -29,6 +29,7 @@ export default function App() {
 									passer til din vision.{' '}
 									<br></br>
 									<br></br>
+									<h3 className='font-semibold text-main text-xl my-5'>Cross-platform udvikling</h3>
 									En software uden brugervenligt design og en
 									brugeroplevelse, der er svær at navigere, er
 									ingenting. Når vi arbejder på et projekt, sørger
@@ -37,6 +38,7 @@ export default function App() {
 									brugeroplevelse, baseret på din målgruppe.
 									<br></br>
 									<br></br>
+									<h3 className='font-semibold text-main text-xl my-5'>Cross-platform udvikling</h3>
 									En software uden brugervenligt design og en
 									brugeroplevelse, der er svær at navigere, er
 									ingenting. Når vi arbejder på et projekt, sørger
@@ -45,6 +47,7 @@ export default function App() {
 									brugeroplevelse, baseret på din målgruppe.
 									<br></br>
 									<br></br>
+									<h3 className='font-semibold text-main text-xl my-5'>Cross-platform udvikling</h3>
 									En software uden brugervenligt design og en
 									brugeroplevelse, der er svær at navigere, er
 									ingenting. Når vi arbejder på et projekt, sørger

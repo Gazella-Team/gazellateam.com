@@ -11,9 +11,9 @@ import { Reveal } from '../Animations/Reveal'
 export function Article({ post }: { post: Post }) {
 	return (
 		<Reveal delayTime={0.3}>
-			<article className="relative mx-auto flex max-w-3xl w-[90%] py-24  md:mb-12 flex-col gap-8">
+			<article className="relative mx-auto flex max-w-3xl w-[90%] py-12 md:py-24 md:mb-12 flex-col gap-8">
 				<div className="grid md:max-w-2xl mx-auto w-full gap-5">
-					<div className="mb-3 text-third text-sm gap-2">
+					<div className="mb-5 text-third text-sm gap-2">
 						<Link
 							className="flex gap-2 items-center"
 							href={`/blog`}
@@ -23,16 +23,18 @@ export function Article({ post }: { post: Post }) {
 							Tilbage til alle opslag
 						</Link>
 					</div>
+					{/*
 					<div className="flex items-center gap-2">
 						<Link href={`/blog/category/${post.category}`} passHref>
 							<BlogBadge category={post.category} />
 						</Link>
 					</div>
-					<h1 className="text-main font-semibold text-5xl">{post.title}</h1>
-					<h2 className="text-gray-600">
+					 */}
+					<h1 className="text-main font-semibold text-4xl md:text-5xl mb-2">{post.title}</h1>
+					<h2 className="text-gray-600 mb-5">
 						{post.description}
 					</h2>
-					<div className="flex items-center gap-3 mb-5">
+					<div className="flex items-center gap-3 mb-6">
 						<div className="flex gap-4">
 							<AuthorAvatars authors={post.authors} />
 							<div>

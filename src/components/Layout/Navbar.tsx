@@ -121,12 +121,6 @@ export default function Navbar(props:Navbar) {
 						</Link>
 					<Link
 							className="hover:text-third transition-all"
-							href={'/tilgang'}
-					>
-						Tilgang
-					</Link>
-					<Link
-							className="hover:text-third transition-all"
 							href={'/teamet'}
 					>
 						Teamet
