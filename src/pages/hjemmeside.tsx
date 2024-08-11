@@ -15,8 +15,8 @@ export default function Hjemmeside() {
 					<div className="max-w-2xl">
 						<Reveal>
 							<div className="mb-14 flex flex-col gap-10 md:gap-16">
-								<h2 className="text-4xl md:text-5xl xl:text-6xl font-semibold text-main">
-									App udvikling i <span className='text-second'>særklasse</span>
+								<h2 className="text-4xl md:text-5xl xl:text-5xl font-semibold text-main">
+									Få flere kunder og mere kendskab med en ny <span className='text-second'>performance hjemmeside</span>
 								</h2>
 								<p className="font-light text-[18px] paragraph text-gray-600">
 									Fremtiden er mobil. Vi specialiserer os i native
@@ -64,13 +64,13 @@ export default function Hjemmeside() {
 						</Reveal>
 					</div>
 					<div className="flex flex-col sm:flex-row mt-5 sm:items-center gap-6 sm:gap-10">
-						<Link href={"/kontakt"} className="flex items-center gap-5">
+						<Link href={"mailto:hey@gazellateam.com"} className="flex items-center gap-5">
 							<div className="p-4 border hi rounded-full hover:bg-main hover:text-white transition-all text-main border-main">
 								<ArrowRight strokeWidth={1.5} />
 							</div>
 							<p className="text-xl">Skriv til os</p>
 						</Link>
-						<Link href={"/kontakt"} className="flex items-center gap-5">
+						<Link href={"tel:50695272"} className="flex items-center gap-5">
 							<div className="p-4 border hi rounded-full hover:bg-main hover:text-white transition-all text-main border-main">
 								<ArrowRight strokeWidth={1.5} />
 							</div>

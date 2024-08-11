@@ -1,8 +1,9 @@
 import Link from 'next/link'
-import { FaTwitter } from 'react-icons/fa'
+import { FaMailBulk, FaTwitter } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 import { useRouter } from 'next/router'
 import Cta from '../cta'
+import { Mail } from 'lucide-react'
 type FooterProps = {
 	fullWidth?: boolean
 	noCta?: boolean
@@ -94,7 +95,7 @@ export default function Footer(props: FooterProps) {
 								href={'/'}
 								className="border p-3 rounded-full border-gray-600/10 hover:bg-slate-50 transition-all"
 							>
-								<FaTwitter color="rgb(31 41 55)" />
+								<Mail size={18} className='text-white' fill="rgb(31 41 55)" />
 							</Link>
 						</div>
 					</div>
