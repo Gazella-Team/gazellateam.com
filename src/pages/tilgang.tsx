@@ -11,10 +11,9 @@ export default function People() {
 			<Meta title={`Tilgang - Gazella Team`} />
 			<PageIntro 
 				starter="theteam"
-				heading="Fra ide til produkt"
+				heading="Kompetent udvikling og forretningsforståelse er kernen af vores arbejde"
 				description="Vi er et lille team af udviklere, designere og kommunikationsansvarlige, som hver dag stræber efter at inspirere og løfte virksomheder med software."
 			/>
-			<Team />
 		</Layout>
 	)
 }
