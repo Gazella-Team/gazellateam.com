@@ -11,12 +11,24 @@ export default function Contact() {
 			<PageIntro
 				headingSize="sm"
 				starter="madewithlove"
-				heading="Interesseret i at høre mere? Book 30 minutter med os"
+				heading="Kontakt os"
 				description="Dyk ned i vores forskellige cases og interne projekter, som vi udvikler for at inspirere og forbedre virksomheder."
 			/>
-			<div className='w-[90%] mx-auto max-w-4xl'>
-				<CalEmbed />
-			</div>
+			<section className='py-16 border-t bg-white  border-gray-600/10'>
+				<div className='w-[90%] mx-auto flex items-center justify-end max-w-7xl'>
+					<h2 className='text-5xl font-semibold text-main'>hey@gazellateam.com</h2>
+				</div>
+			</section>
+			<section className='py-16 border-t bg-white  border-gray-600/10'>
+				<div className='w-[90%] mx-auto max-w-7xl flex items-center justify-end'>
+					<h2 className='text-5xl font-semibold text-main'>+45 50 69 52 72</h2>
+				</div>
+			</section>
+			<section className='py-16 border-t bg-white  border-gray-600/10'>
+				<div className='w-[90%] mx-auto max-w-7xl flex items-center justify-end'>
+					<h2 className='text-5xl font-semibold text-main'>CVR: 45036956</h2>
+				</div>
+			</section>
 		</Layout>
 	)
 }
