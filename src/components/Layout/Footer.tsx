@@ -35,11 +35,11 @@ const FOOTER_LINKS: {
 		links: [
 			{
 				label: 'Teamet',
-				href: '/',
+				href: '/teamet',
 			},
 			{
 				label: 'Tilgang',
-				href: '/',
+				href: '/tilgang',
 			},
 		],
 	},
@@ -48,11 +48,11 @@ const FOOTER_LINKS: {
 		links: [
 			{
 				label: 'Nyheder',
-				href: '/',
+				href: '/blog',
 			},
 			{
 				label: 'Læring',
-				href: '/',
+				href: '/blog',
 			},
 			{
 				label: 'Karriere',

@@ -11,16 +11,9 @@ export default function Hero() {
 		<section className="py-24 gap-16 flex flex-col justify-center relative bg-cover bg-center">
 			<div className="w-[90%] max-w-7xl relative mx-auto flex flex-col ">
 				<div className="flex flex-col">
-					<Reveal delayTime={0.6}>
-						<div className='flex items-center mb-[40px]'>
-							<img className='w-20 rounded-full border border-gray-600/10' src='/team/lasseosmann.webp'></img>
-							<img className='w-20 rounded-full border border-gray-600/10 ml-[-25px]' src='/team/simonmaribo.webp'></img>
-							<img className='w-20 rounded-full border border-gray-600/10 ml-[-25px]' src='/team/miklonborg.webp'></img>
-						</div>
-					</Reveal>
 					<RevealWild delayTime={0.3}>
 						<h1 className="text-4xl max-w-[700px] font-semibold tracking-tight text-main md:text-5xl xl:leading-[120%] mb-[30px]">
-							<p>Vi er et ungt digitalt bureau med passion for salgsfremmende og kreative web- og app løsninger<span className='text-second'>.</span></p>
+							<p>Vi er et ungt digitalt bureau med passion for <span className='text-second'>salgsfremmende</span> og <span className='text-second'>kreative</span> web- og app løsninger<span className='text-second'>.</span></p>
 						</h1>
 					</RevealWild>
 					<div className='w-full flex flex-col gap-4'>
@@ -35,13 +28,13 @@ export default function Hero() {
 					<Reveal delayTime={0.6}>
 						<div className="flex flex-col sm:flex-row mt-5 sm:items-center gap-6 sm:gap-10">
 							<Link href={"/kontakt"} className="flex items-center gap-5">
-								<div className="p-4 border hi rounded-full hover:bg-main hover:text-white transition-all text-main border-main">
+								<div className="p-4 border hi rounded-full hover:bg-third hover:border-third hover:text-white transition-all text-main border-main">
 									<ArrowRight strokeWidth={1.5} />
 								</div>
 								<p className="text-xl">Kom i kontakt</p>
 							</Link>
-							<Link href={"/kontakt"} className="flex items-center gap-5">
-								<div className="p-4 border hi rounded-full hover:bg-main hover:text-white transition-all text-main border-main">
+							<Link href={"/tilgang"} className="flex items-center gap-5">
+								<div className="p-4 border hi rounded-full hover:bg-third hover:border-third hover:text-white transition-all text-main border-main">
 									<ArrowRight strokeWidth={1.5} />
 								</div>
 								<p className="text-xl">Læs mere om os</p>

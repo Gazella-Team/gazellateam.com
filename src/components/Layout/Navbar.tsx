@@ -102,37 +102,37 @@ export default function Navbar(props:Navbar) {
 			<div className="hidden flex-1 justify-center items-center gap-[30px] lg:flex">
 				<div className="text-main text-base flex items-center gap-[30px] font-medium">
 						<Link
-							className="hover:text-second transition-all"
+							className="hover:text-third transition-all"
 							href={'/hjemmeside'}
 						>
 							Hjemmeside
 						</Link>
 						<Link
-							className="hover:text-second transition-all"
+							className="hover:text-third transition-all"
 							href={'/app'}
 						>
 							App
 						</Link>
 						<Link
-							className="hover:text-second transition-all"
+							className="hover:text-third transition-all"
 							href={'/design'}
 						>
 							Design
 						</Link>
 					<Link
-							className="hover:text-second transition-all"
+							className="hover:text-third transition-all"
 							href={'/tilgang'}
 					>
 						Tilgang
 					</Link>
 					<Link
-							className="hover:text-second transition-all"
+							className="hover:text-third transition-all"
 							href={'/teamet'}
 					>
 						Teamet
 					</Link>
 					<Link
-							className="hover:text-second transition-all"
+							className="hover:text-third transition-all"
 							href={'/blog'}
 					>
 						Nyheder og læring
