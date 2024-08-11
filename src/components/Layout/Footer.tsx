@@ -38,8 +38,8 @@ const FOOTER_LINKS: {
 				href: '/teamet',
 			},
 			{
-				label: 'Tilgang',
-				href: '/tilgang',
+				label: 'Karriere',
+				href: '/',
 			},
 		],
 	},
@@ -53,10 +53,6 @@ const FOOTER_LINKS: {
 			{
 				label: 'Læring',
 				href: '/blog',
-			},
-			{
-				label: 'Karriere',
-				href: '/',
 			},
 		],
 	},
@@ -84,15 +80,16 @@ export default function Footer(props: FooterProps) {
 						</div>
 						<div className="flex items-center gap-2 mt-3">
 							<Link
+								target='_blank'
 								href={
-									'/'
+									'https://www.linkedin.com/company/gazellateam'
 								}
 								className="border p-3 rounded-full border-gray-600/10 hover:bg-slate-50 transition-all"
 							>
 								<FaLinkedin color="rgb(31 41 55)" />
 							</Link>
 							<Link
-								href={'/'}
+								href={"mailto:hey@gazellateam.com"}
 								className="border p-3 rounded-full border-gray-600/10 hover:bg-slate-50 transition-all"
 							>
 								<Mail size={18} className='text-white' fill="rgb(31 41 55)" />
@@ -126,7 +123,7 @@ export default function Footer(props: FooterProps) {
 					</p>
 					<div className="flex items-center gap-4">
 						<p>
-							Stiftet i København, Danmark.
+							CVR: 348573423
 						</p>
 					</div>
 				</div>
