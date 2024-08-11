@@ -14,8 +14,8 @@ export default function App() {
 				<div className="w-[90%] mx-auto max-w-[700px] flex flex-col">
 					<div className="max-w-2xl">
 						<Reveal>
-							<div className="mb-14 flex flex-col gap-10 md:gap-16">
-								<h2 className="text-4xl md:text-5xl xl:text-5xl font-semibold text-main">
+							<div className="mb-14 flex flex-col gap-10 md:gap-12">
+								<h2 className="text-4xl md:text-5xl xl:text-5xl leading-[120%] md:leading-[120%] xl:leading-[120%] font-semibold text-main">
 									Moderne og skalerbar app udvikling til <span className='text-second'>iOS og Android</span>
 								</h2>
 								<p className="font-light text-[18px] paragraph text-gray-600">
