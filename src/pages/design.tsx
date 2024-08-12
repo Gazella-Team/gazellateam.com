@@ -16,7 +16,7 @@ export default function Design() {
 						<Reveal>
 							<div className="mb-14 flex flex-col gap-10 md:gap-11">
 								<h2 className="text-4xl md:text-5xl xl:text-5xl leading-[120%] md:leading-[120%] xl:leading-[120%] font-semibold text-main">
-									Få et design som dine kunder og besøgende husker <span className='text-second'>dig for</span>
+									Design og brugeroplevelse<span className='text-second'>.</span>
 								</h2>
 								<p className="font-light text-[18px] paragraph text-gray-600">
 									Fremtiden er mobil. Vi specialiserer os i native
