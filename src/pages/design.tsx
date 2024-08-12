@@ -9,7 +9,7 @@ import Link from 'next/link'
 export default function Design() {
 	return (
 		<Layout cta={true}>
-			<Meta title={`App - Gazella Team`} />
+			<Meta title={`Gazella Team: Vi `} />
 			<section className="py-16 md:py-24 bg-cover bg-center flex flex-col items-end">
 				<div className="w-[90%] mx-auto max-w-[700px] flex flex-col">
 					<div className="max-w-2xl">
