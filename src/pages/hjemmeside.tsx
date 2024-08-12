@@ -19,14 +19,11 @@ export default function Hjemmeside() {
 									Få flere kunder og mere kendskab med en ny <span className='text-second'>performance hjemmeside</span>
 								</h2>
 								<p className="font-light text-[18px] paragraph text-gray-600">
-									Fremtiden er mobil. Vi specialiserer os i native
-									app-udvikling på tværs af platforme for at
-									levere unikke mobiloplevelser til både iOS og
-									Anroid. Gennem hele udviklingsprocessen sørger
-									vi for kontinuerlig iteration og feedback,
-									efterfulgt af post-lancering support for at
-									sikre en fremtidssikret skalerbar løsning, der
-									passer til din vision.{' '}
+									Hos Gazella Team forstår vi, at en hjemmeside er meget mere end blot
+									et online visitkort. Vi specialiserer os i at skrædersy hjemmesider til
+									forrentinger med formål om at øge online traffiken og hermed salg og omsætning.
+									Ved at kombinere hastighedsoptimering, søgemaskineoptimering, design og 
+									salgspsykologisk hjemmesidestruktur, skaber vi vindende hjemmesider for vores kunder.
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Salgsoptimeret udvikling</h3>
@@ -39,21 +36,19 @@ export default function Hjemmeside() {
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Responsivt til alle enheder</h3>
-									En software uden brugervenligt design og en
-									brugeroplevelse, der er svær at navigere, er
-									ingenting. Når vi arbejder på et projekt, sørger
-									vi for at designe, teste og implementere et
-									unikt design sammen med en struktureret
-									brugeroplevelse, baseret på din målgruppe.
+									Alle hjemmesider vi udvikler er kompatible med både mobil, tablet, laptop og desktop. 
+									Vi sørger for en gennemarbejdet brugeroplevelse på tværs af alle enheder, så dine besøgende
+									får den bedst mulige oplevelse, når de besøger din hjemmeside.
+									<br></br>
+									<br></br>
+									<h3 className='font-semibold text-main text-xl my-5'>Skræddersyet design</h3>
+									Med brugeroplevelse og 
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Fri support</h3>
-									En software uden brugervenligt design og en
-									brugeroplevelse, der er svær at navigere, er
-									ingenting. Når vi arbejder på et projekt, sørger
-									vi for at designe, teste og implementere et
-									unikt design sammen med en struktureret
-									brugeroplevelse, baseret på din målgruppe.
+									Når du får din hjemmeside udviklet hos os, kan du føle dig tryg med vores frie support
+									alle ugens hverdage. Vi sidder klar til at hjælpe med alle spørgsmål eller problemer
+									du måtte have med din hjemmeside.
 									<br></br>
 									<br></br>
 									En software uden brugervenligt design og en

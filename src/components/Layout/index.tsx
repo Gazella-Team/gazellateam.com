@@ -27,7 +27,6 @@ export default function Layout({
 				/>
 				<Meta />
 				<div>
-				<SalesModal />
 					<div className={`${className}`}>
 						<Meta />
 						<Navbar transparent={transparentNav} />
