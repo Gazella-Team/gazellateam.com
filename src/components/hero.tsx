@@ -27,13 +27,13 @@ export default function Hero() {
 					</div>
 					<Reveal delayTime={0.6}>
 						<div className="flex flex-col sm:flex-row mt-5 sm:items-center gap-6 sm:gap-10">
-							<Link href={"/kontakt"} className="flex items-center gap-5">
+							<Link target="_blank" href={"https://cal.com/lasseosmann/discoverycall"} className="flex items-center gap-5">
 								<div className="p-4 border hi rounded-full hover:bg-third hover:border-third hover:text-white transition-all text-main border-main">
 									<ArrowRight strokeWidth={1.5} />
 								</div>
 								<p className="text-xl">Kom i kontakt</p>
 							</Link>
-							<Link href={"/tilgang"} className="flex items-center gap-5">
+							<Link href={"/teamet"} className="flex items-center gap-5">
 								<div className="p-4 border hi rounded-full hover:bg-third hover:border-third hover:text-white transition-all text-main border-main">
 									<ArrowRight strokeWidth={1.5} />
 								</div>

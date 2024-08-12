@@ -90,7 +90,7 @@ export default function Navbar(props:Navbar) {
 		</nav>
 		:
 		<nav className="h-[80px] fixed bg-white w-full flex flex-col z-[10]">
-		<div className="w-[94%] flex-1 max-w-8xl mx-auto flex items-center justify-between">
+		<div className="w-[90%] flex-1 max-w-7xl mx-auto flex items-center justify-between">
 			<div className='flex items-center justify-start'>
 				<Link href={'/'}>
 					<img
@@ -192,12 +192,6 @@ export default function Navbar(props:Navbar) {
 							href={'/design'}
 						>
 							Design
-						</Link>
-						<Link
-							className="hover:text-gray-600"
-							href={'/tilgang'}
-						>
-							Tilgang
 						</Link>
 						<Link
 							className="hover:text-gray-600"

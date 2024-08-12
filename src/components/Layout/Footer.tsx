@@ -47,11 +47,11 @@ const FOOTER_LINKS: {
 		title: 'Ekstra',
 		links: [
 			{
-				label: 'Nyheder',
+				label: 'Læring',
 				href: '/blog',
 			},
 			{
-				label: 'Læring',
+				label: 'Nyheder',
 				href: '/blog',
 			},
 		],
