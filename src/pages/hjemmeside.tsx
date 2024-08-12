@@ -36,13 +36,15 @@ export default function Hjemmeside() {
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Responsivt til alle enheder</h3>
-									Alle hjemmesider vi udvikler er kompatible med både mobil, tablet, laptop og desktop. 
+									Alle hjemmesider, vi udvikler, er kompatible med både mobil, tablet, laptop og desktop. 
+									Det betyder, at hjemmesiden automatisk tilpasser sig alle enheder.
 									Vi sørger for en gennemarbejdet brugeroplevelse på tværs af alle enheder, så dine besøgende
 									får den bedst mulige oplevelse, når de besøger din hjemmeside.
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Skræddersyet design</h3>
-									Med brugeroplevelse og 
+									Vi står for at skrædersy et unikt design, som matcher din virksomheds værdier og visioner. 
+									Med et design, som appelerer til din målgruppe, formår vi
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Fri support</h3>
@@ -51,12 +53,8 @@ export default function Hjemmeside() {
 									du måtte have med din hjemmeside.
 									<br></br>
 									<br></br>
-									En software uden brugervenligt design og en
-									brugeroplevelse, der er svær at navigere, er
-									ingenting. Når vi arbejder på et projekt, sørger
-									vi for at designe, teste og implementere et
-									unikt design sammen med en struktureret
-									brugeroplevelse, baseret på din målgruppe.
+									Vi sørger for løbende drift, opdatering og optimering af din hjemmeside, så 
+									du konstant står skarpt sammenlignet med dine konkurrenter.
 								</p>
 							</div>
 						</Reveal>
