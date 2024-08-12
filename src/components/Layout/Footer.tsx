@@ -123,7 +123,7 @@ export default function Footer(props: FooterProps) {
 					</p>
 					<div className="flex items-center gap-4">
 						<p>
-							CVR: 348573423
+							CVR: 45003639
 						</p>
 					</div>
 				</div>
