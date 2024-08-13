@@ -19,46 +19,7 @@ export default function Design() {
 									Design og brugeroplevelse<span className='text-second'>.</span>
 								</h2>
 								<p className="font-light text-[18px] paragraph text-gray-600">
-									Fremtiden er mobil. Vi specialiserer os i native
-									app-udvikling på tværs af platforme for at
-									levere unikke mobiloplevelser til både iOS og
-									Anroid. Gennem hele udviklingsprocessen sørger
-									vi for kontinuerlig iteration og feedback,
-									efterfulgt af post-lancering support for at
-									sikre en fremtidssikret skalerbar løsning, der
-									passer til din vision.{' '}
-									<br></br>
-									<br></br>
-									En software uden brugervenligt design og en
-									brugeroplevelse, der er svær at navigere, er
-									ingenting. Når vi arbejder på et projekt, sørger
-									vi for at designe, teste og implementere et
-									unikt design sammen med en struktureret
-									brugeroplevelse, baseret på din målgruppe.
-									<br></br>
-									<br></br>
-									En software uden brugervenligt design og en
-									brugeroplevelse, der er svær at navigere, er
-									ingenting. Når vi arbejder på et projekt, sørger
-									vi for at designe, teste og implementere et
-									unikt design sammen med en struktureret
-									brugeroplevelse, baseret på din målgruppe.
-									<br></br>
-									<br></br>
-									En software uden brugervenligt design og en
-									brugeroplevelse, der er svær at navigere, er
-									ingenting. Når vi arbejder på et projekt, sørger
-									vi for at designe, teste og implementere et
-									unikt design sammen med en struktureret
-									brugeroplevelse, baseret på din målgruppe.
-									<br></br>
-									<br></br>
-									En software uden brugervenligt design og en
-									brugeroplevelse, der er svær at navigere, er
-									ingenting. Når vi arbejder på et projekt, sørger
-									vi for at designe, teste og implementere et
-									unikt design sammen med en struktureret
-									brugeroplevelse, baseret på din målgruppe.
+								Vi tilbyder skræddersyede løsninger inden for design og brugeroplevelse, som sigter mod at maksimere konverteringen af dine besøgende til loyale kunder.<br></br><br></br>Vi forstår, at en imponerende digital tilstedeværelse er essentiel i dagens konkurrenceprægede marked, og derfor er vores mål at skabe unikke og effektive designs, der engagerer og inspirerer dine brugere. Vores erfarne team af designere arbejder tæt sammen med dig for at udvikle visuelle identiteter og grænseflader, der afspejler din virksomheds unikke værdier og mål.<br></br><br></br>Vi tror på, at et veludført design ikke kun ser godt ud, men også fungerer optimalt. Fra logodesign og branding til web- og applikationsdesign, sikrer vi, at alle elementer taler sammen i en harmonisk enhed, der styrker dit brand.<br></br><br></br>En god brugeroplevelse er kernen i vores tilgang. Vi anvender en brugercentreret designproces, der inkluderer research, brugerrejser, wireframes og prototyper for at sikre, at hver løsning er intuitiv og brugervenlig.<br></br><br></br>Vores mål er at forbedre kunderejsen, reducere friktion og gøre det nemt for dine besøgende at nå frem til de ønskede handlinger, hvilket i sidste ende øger konverteringsraten.
 								</p>
 							</div>
 						</Reveal>

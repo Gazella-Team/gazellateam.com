@@ -125,12 +125,14 @@ export default function Navbar(props:Navbar) {
 					>
 						Teamet
 					</Link>
+					{/*
 					<Link
 							className="hover:text-third transition-all"
 							href={'/blog'}
 					>
 						Nyheder og læring
 					</Link>
+					 */}
 				</div>
 			</div>
 			<div className='lg:flex hidden items-center justify-end'>
@@ -199,6 +201,7 @@ export default function Navbar(props:Navbar) {
 						>
 							Teamet
 						</Link>
+						{/*
 						<Link
 							className="hover:text-gray-600"
 							href={'/blog'}
@@ -211,6 +214,7 @@ export default function Navbar(props:Navbar) {
 						>
 							Nyheder
 						</Link>
+						 */}
 						</div>
 					</div>
 				</div>

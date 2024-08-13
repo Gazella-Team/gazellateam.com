@@ -65,12 +65,15 @@ export default function App() {
 									brugeroplevelse, baseret på din målgruppe.
 									<br></br>
 									<br></br>
-									En software uden brugervenligt design og en
-									brugeroplevelse, der er svær at navigere, er
-									ingenting. Når vi arbejder på et projekt, sørger
-									vi for at designe, teste og implementere et
-									unikt design sammen med en struktureret
-									brugeroplevelse, baseret på din målgruppe.
+
+									<h3 className='font-semibold text-main text-xl my-5'>Kontinuerlig support og drift</h3>
+									Når du får din app udviklet hos os, kan du føle dig tryg med vores frie support
+									alle ugens hverdage. Vi sidder klar til at hjælpe med alle spørgsmål eller problemer
+									du måtte have med din app.
+									<br></br>
+									<br></br>
+									Vi sørger for løbende drift, opdatering og optimering af din hjemmeside, så 
+									du konstant står skarpt sammenlignet med dine konkurrenter.
 								</p>
 							</div>
 						</Reveal>

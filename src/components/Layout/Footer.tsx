@@ -31,6 +31,15 @@ const FOOTER_LINKS: {
 		],
 	},
 	{
+		title: 'Interne projekter',
+		links: [
+			{
+				label: 'Toolbird',
+				href: 'https://toolbird.io/',
+			},
+		],
+	},
+	{
 		title: 'Firma',
 		links: [
 			{
@@ -43,7 +52,8 @@ const FOOTER_LINKS: {
 			},
 		],
 	},
-	{
+	/*
+		{
 		title: 'Ekstra',
 		links: [
 			{
@@ -56,6 +66,7 @@ const FOOTER_LINKS: {
 			},
 		],
 	},
+	 */
 ]
 
 export default function Footer(props: FooterProps) {
