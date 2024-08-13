@@ -19,8 +19,8 @@ export default function App() {
 									Moderne og skalerbar app udvikling til <span className='text-second'>iOS og Android</span>
 								</h2>
 								<p className="font-light text-[18px] paragraph text-gray-600">
-									Fremtiden er mobil. Vi specialiserer os i native
-									app-udvikling på tværs af platforme for at
+									Fremtiden er mobil. Vi specialiserer os i cross-platform
+									app-udvikling for at
 									levere unikke mobiloplevelser til både iOS og
 									Anroid. Gennem hele udviklingsprocessen sørger
 									vi for kontinuerlig iteration og feedback,
@@ -29,7 +29,7 @@ export default function App() {
 									passer til din vision.{' '}
 									<br></br>
 									<br></br>
-									<h3 className='font-semibold text-main text-xl my-5'>Cross-platform udvikling</h3>
+									<h3 className='font-semibold text-main text-xl my-5'>Intuitivt design og brugeroplevelse</h3>
 									En software uden brugervenligt design og en
 									brugeroplevelse, der er svær at navigere, er
 									ingenting. Når vi arbejder på et projekt, sørger
@@ -38,7 +38,7 @@ export default function App() {
 									brugeroplevelse, baseret på din målgruppe.
 									<br></br>
 									<br></br>
-									<h3 className='font-semibold text-main text-xl my-5'>Cross-platform udvikling</h3>
+									<h3 className='font-semibold text-main text-xl my-5'>Samspil med andre services</h3>
 									En software uden brugervenligt design og en
 									brugeroplevelse, der er svær at navigere, er
 									ingenting. Når vi arbejder på et projekt, sørger
@@ -47,7 +47,16 @@ export default function App() {
 									brugeroplevelse, baseret på din målgruppe.
 									<br></br>
 									<br></br>
-									<h3 className='font-semibold text-main text-xl my-5'>Cross-platform udvikling</h3>
+									<h3 className='font-semibold text-main text-xl my-5'>Fast kompetent udviklingsteam</h3>
+									En software uden brugervenligt design og en
+									brugeroplevelse, der er svær at navigere, er
+									ingenting. Når vi arbejder på et projekt, sørger
+									vi for at designe, teste og implementere et
+									unikt design sammen med en struktureret
+									brugeroplevelse, baseret på din målgruppe.
+									<br></br>
+									<br></br>
+									<h3 className='font-semibold text-main text-xl my-5'>Nyeste teknologier</h3>
 									En software uden brugervenligt design og en
 									brugeroplevelse, der er svær at navigere, er
 									ingenting. Når vi arbejder på et projekt, sørger
