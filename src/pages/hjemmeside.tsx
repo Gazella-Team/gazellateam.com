@@ -27,16 +27,14 @@ export default function Hjemmeside() {
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Salgsoptimeret udvikling</h3>
-									En software uden brugervenligt design og en
-									brugeroplevelse, der er svær at navigere, er
-									ingenting. Når vi arbejder på et projekt, sørger
-									vi for at designe, teste og implementere et
-									unikt design sammen med en struktureret
-									brugeroplevelse, baseret på din målgruppe.
+									Med højere konkurrence på internettet som aldrig før, er det nødvendigt med et salgsoptimeret setup
+									til sin hjemmeside. Vi sørger for at gennemarbejde en komplet <span className='text-third'>hastighedsoptimering </span> 
+									af din hjemmeside, så brugeroplevelsen bliver så god som muligt. I relation til god hastighed udarbejder vi en skræddersyet 
+									SEO strategi, så i øger jeres <span className='text-third'>synlighed på Google</span> og tiltrækker flere organiske kunder.
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Responsivt til alle enheder</h3>
-									Alle hjemmesider, vi udvikler, er kompatible med både mobil, tablet, laptop og desktop. 
+									Alle hjemmesider, vi udvikler, er <span className='text-third'>kompatible med både mobil, tablet, laptop og desktop.</span>{" "}
 									Det betyder, at hjemmesiden automatisk tilpasser sig alle enheder.
 									Vi sørger for en gennemarbejdet brugeroplevelse på tværs af alle enheder, så dine besøgende
 									får den bedst mulige oplevelse, når de besøger din hjemmeside.
@@ -44,7 +42,8 @@ export default function Hjemmeside() {
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Skræddersyet design</h3>
 									Vi står for at skrædersy et unikt design, som matcher din virksomheds værdier og visioner. 
-									Med et design, som appelerer til din målgruppe, formår vi
+									Med et design, som appelerer til din målgruppe, formår vi effektivt at kommunikerer den
+									rette værdi til dine kunder.
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Fri support</h3>

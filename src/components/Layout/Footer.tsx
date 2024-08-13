@@ -25,7 +25,7 @@ const FOOTER_LINKS: {
 				href: '/app',
 			},
 			{
-				label: 'Design og brugeroplevelse',
+				label: 'Design',
 				href: '/design',
 			},
 		],
