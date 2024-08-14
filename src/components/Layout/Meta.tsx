@@ -1,9 +1,9 @@
 import Head from 'next/head'
 
 const Meta = ({
-	title = 'Gazella Team',
-	keywords = 'Software With Impact',
-	description = 'Software With Impact',
+	title = 'Gazella Team: Et ungt digitalt bureau med passion for salgsfremmende og kreative web- og app løsninger.',
+	keywords = 'digital, bureau, hjemmeside, app, design, erfaring, software, salg, kreativ',
+	description = 'Ved at kombinere tekniske, salgspsykologiske og designmæssige kompetencer sikrer vi brancheførende resultater for vores kunder.',
 	icon = '/seo/favicon.png',
 	banner = '/seo/banner.png',
 	url = 'https://gazellateam.com',

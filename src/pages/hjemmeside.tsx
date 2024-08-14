@@ -9,7 +9,7 @@ import Link from 'next/link'
 export default function Hjemmeside() {
 	return (
 		<Layout cta={true}>
-			<Meta title={`Gazella Team: Vi er specialister i udvikling af performance hjemmesider.`} />
+			<Meta keywords='hjemmeside, konverteringer, performance, website, salg, omsætning' description='Hos Gazella Team forstår vi, at en hjemmeside er meget mere end blot et online visitkort. Vi specialiserer os i at skrædersy hjemmesider til forrentinger med formål om at øge online traffiken og hermed salg og omsætning.' title={`Gazella Team: Vi er specialister i udvikling af performance hjemmesider.`} />
 			<section className="py-16 md:py-24 bg-cover bg-center flex flex-col items-end">
 				<div className="w-[90%] mx-auto max-w-[700px] flex flex-col">
 					<div className="max-w-2xl">
@@ -41,13 +41,13 @@ export default function Hjemmeside() {
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Skræddersyet design</h3>
-									Vi står for at skrædersy et unikt design, som matcher din virksomheds værdier og visioner. 
+									Vi står for at skrædersy et <span className='text-third'>unikt design</span>, som matcher din virksomheds værdier og visioner. 
 									Med et design, som appelerer til din målgruppe, formår vi effektivt at kommunikerer den
 									rette værdi til dine kunder.
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Fri support</h3>
-									Når du får din hjemmeside udviklet hos os, kan du føle dig tryg med vores frie support
+									Når du får din hjemmeside udviklet hos os, kan du <span className='text-third'>føle dig tryg</span> med vores frie support
 									alle ugens hverdage. Vi sidder klar til at hjælpe med alle spørgsmål eller problemer
 									du måtte have med din hjemmeside.
 									<br></br>

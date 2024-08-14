@@ -9,7 +9,7 @@ import Link from 'next/link'
 export default function App() {
 	return (
 		<Layout cta={true}>
-			<Meta title={`Gazella Team: Vi er specialister i udvikling af apps til iOS og Android.`} />
+			<Meta keywords='app, iOS, Android, cross-platform, udvikling, mobil' description='Fremtiden er mobil. Vi specialiserer os i cross-platform app-udvikling for at levere unikke mobiloplevelser til både iOS og Anroid. Gennem hele udviklingsprocessen sørger vi for kontinuerlig iteration og feedback, efterfulgt af post-lancering support for at sikre en fremtidssikret skalerbar løsning, der passer til din vision.' title={`Gazella Team: Vi er specialister i udvikling af apps til iOS og Android.`} />
 			<section className="py-16 md:py-24 bg-cover bg-center flex flex-col items-end">
 				<div className="w-[90%] mx-auto max-w-[700px] flex flex-col">
 					<div className="max-w-2xl">
