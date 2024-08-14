@@ -39,36 +39,32 @@ export default function App() {
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Samspil med andre services</h3>
-									En software uden brugervenligt design og en
-									brugeroplevelse, der er svær at navigere, er
-									ingenting. Når vi arbejder på et projekt, sørger
-									vi for at designe, teste og implementere et
-									unikt design sammen med en struktureret
-									brugeroplevelse, baseret på din målgruppe.
+									Vores app-udviklingsservice fokuserer på at skabe løsninger, der er fuldt integreret med din 
+									virksomheds øvrige systemer og tjenester. Vi sikrer, at den nye app fungerer problemfrit sammen 
+									med eksisterende teknologier, hvilket optimerer arbejdsgange og øger effektiviteten. Vores erfarne 
+									udviklere arbejder tæt sammen med dit team for at sikre, at appen opfylder alle jeres krav og 
+									forventninger.<br></br><br></br>Med en stærk integration mellem appen og andre vigtige forretningsværktøjer kan I 
+									nemt styre data, processer og analyser
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Fast kompetent udviklingsteam</h3>
-									En software uden brugervenligt design og en
-									brugeroplevelse, der er svær at navigere, er
-									ingenting. Når vi arbejder på et projekt, sørger
-									vi for at designe, teste og implementere et
-									unikt design sammen med en struktureret
-									brugeroplevelse, baseret på din målgruppe.
+									Når du får din app udviklet hos os, kan du være sikker på
+									et kompetent in-house udviklerteam siddende i København.
+									Vi er let tilgængelige gennem hele udviklingsprocessen, og vi supplerer
+									med løbende faglig erfaring og sparring for at danne det bedste grundlag
+									for et enestående slut-resultat.
+
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Nyeste teknologier</h3>
-									En software uden brugervenligt design og en
-									brugeroplevelse, der er svær at navigere, er
-									ingenting. Når vi arbejder på et projekt, sørger
-									vi for at designe, teste og implementere et
-									unikt design sammen med en struktureret
-									brugeroplevelse, baseret på din målgruppe.
+									Hos os bruger vi de nyeste app- teknologier og frameworks indefor software, for
+									at sikre en hurtig, skalerbar og konkurrencedygtig løsning til alle projekter.
 									<br></br>
 									<br></br>
 
 									<h3 className='font-semibold text-main text-xl my-5'>Kontinuerlig support og drift</h3>
-									Når du får din app udviklet hos os, kan du føle dig tryg med vores frie support
-									alle ugens hverdage. Vi sidder klar til at hjælpe med alle spørgsmål eller problemer
+									Efter lanceringen af din app kan du føle dig tryg og fortsat konkurrencedygtig med vores dedikerede
+									support og drift. Vi sidder klar til at hjælpe med alle spørgsmål eller problemer
 									du måtte have med din app.
 									<br></br>
 									<br></br>
