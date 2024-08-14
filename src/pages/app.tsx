@@ -30,39 +30,39 @@ export default function App() {
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Intuitivt design og brugeroplevelse</h3>
-									Design er altafgørende for dine brugeres opfattelse af din app. For at din kommende app udlever sit fulde potentiale, sørger vi for et intuitivt design passende
-									til din ide og forretning i sammenspil med en strategisk gennemtænkt brugeroplevelse, som sørger
+									Design er altafgørende for dine brugeres opfattelse af din app. For at din kommende app udlever sit <span className='text-third'>fulde potentiale</span>, sørger vi for et intuitivt design passende
+									til din ide og forretning i sammenspil med en <span className='text-third'>strategisk gennemtænkt brugeroplevelse</span>, som sørger
 									for let navigation, lav ventetid og gladere brugere.
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Samspil med andre services</h3>
 									Vores app-udviklingsservice fokuserer på at skabe løsninger, der er fuldt integreret med din 
 									virksomheds øvrige systemer og tjenester. Vi sikrer, at din nye app fungerer problemfrit sammen 
-									med eksisterende teknologier, hvilket optimerer arbejdsgange og øger effektiviteten. Med en stærk integration mellem appen og andre vigtige forretningsværktøjer kan vi
-									nemt styre data, processer og analyser.
+									med <span className='text-third'>eksisterende teknologier</span>, hvilket optimerer arbejdsgange og <span className='text-third'>øger effektiviteten</span>. Med en stærk integration mellem appen og andre vigtige forretningsværktøjer kan vi
+									nemt styre <span className='text-third'>data, processer og analyser.</span>
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Fast kompetent udviklingsteam</h3>
 									Når du får din app udviklet hos os, kan du være sikker på
-									et kompetent in-house udviklerteam siddende i København.
+									et <span className='text-third'>kompetent in-house</span> udviklerteam siddende i København.
 									Vi er let tilgængelige gennem hele udviklingsprocessen, og vi supplerer
-									med løbende faglig erfaring og sparring for at danne det bedste grundlag
+									med løbende <span className='text-third'>faglig erfaring og sparring</span> for at danne det bedste grundlag
 									for et enestående slut-resultat.
 
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Nyeste teknologier</h3>
 									Hos os bruger vi de nyeste app- teknologier og frameworks indefor software, for
-									at sikre en hurtig, skalerbar og konkurrencedygtig løsning til alle projekter.
+									at sikre en <span className='text-third'>hurtig, skalerbar og konkurrencedygtig løsning</span> til alle projekter.
 									Vi forstår at skabe vindende app-løsninger ved sammenspil af tekniske kompetencer,
-									gennemtænkt brugeroplevelse og udviklingsteknologier fra øverste hylde.
+									gennemtænkt brugeroplevelse og <span className='text-third'>udviklingsteknologier fra øverste hylde.</span>
 
 									<br></br>
 									<br></br>
 
 									<h3 className='font-semibold text-main text-xl my-5'>Kontinuerlig support og drift</h3>
-									Efter lanceringen af din app kan du føle dig tryg og fortsat konkurrencedygtig med vores dedikerede
-									support og drift. Vi står for yderligere bug-fixes, ændringer og opdateringer, så din app holdes ved lige året rundt.
+									Efter lanceringen af din app kan du føle dig tryg og fortsat konkurrencedygtig med vores <span className='text-third'>dedikerede
+									support og drift.</span> Vi står for yderligere bug-fixes, ændringer og opdateringer, så din app holdes ved lige året rundt.
 								</p>
 							</div>
 						</Reveal>
