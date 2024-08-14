@@ -30,21 +30,16 @@ export default function App() {
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Intuitivt design og brugeroplevelse</h3>
-									En software uden brugervenligt design og en
-									brugeroplevelse, der er svær at navigere, er
-									ingenting. Når vi arbejder på et projekt, sørger
-									vi for at designe, teste og implementere et
-									unikt design sammen med en struktureret
-									brugeroplevelse, baseret på din målgruppe.
+									Design er altafgørende for dine brugeres opfattelse af din app. For at din kommende app udlever sit fulde potentiale, sørger vi for et intuitivt design passende
+									til din ide og forretning i sammenspil med en strategisk gennemtænkt brugeroplevelse, som sørger
+									for let navigation, lav ventetid og gladere brugere.
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Samspil med andre services</h3>
 									Vores app-udviklingsservice fokuserer på at skabe løsninger, der er fuldt integreret med din 
-									virksomheds øvrige systemer og tjenester. Vi sikrer, at den nye app fungerer problemfrit sammen 
-									med eksisterende teknologier, hvilket optimerer arbejdsgange og øger effektiviteten. Vores erfarne 
-									udviklere arbejder tæt sammen med dit team for at sikre, at appen opfylder alle jeres krav og 
-									forventninger.<br></br><br></br>Med en stærk integration mellem appen og andre vigtige forretningsværktøjer kan I 
-									nemt styre data, processer og analyser
+									virksomheds øvrige systemer og tjenester. Vi sikrer, at din nye app fungerer problemfrit sammen 
+									med eksisterende teknologier, hvilket optimerer arbejdsgange og øger effektiviteten. Med en stærk integration mellem appen og andre vigtige forretningsværktøjer kan vi
+									nemt styre data, processer og analyser.
 									<br></br>
 									<br></br>
 									<h3 className='font-semibold text-main text-xl my-5'>Fast kompetent udviklingsteam</h3>
@@ -59,27 +54,25 @@ export default function App() {
 									<h3 className='font-semibold text-main text-xl my-5'>Nyeste teknologier</h3>
 									Hos os bruger vi de nyeste app- teknologier og frameworks indefor software, for
 									at sikre en hurtig, skalerbar og konkurrencedygtig løsning til alle projekter.
+									Vi forstår at skabe vindende app-løsninger ved sammenspil af tekniske kompetencer,
+									gennemtænkt brugeroplevelse og udviklingsteknologier fra øverste hylde.
+
 									<br></br>
 									<br></br>
 
 									<h3 className='font-semibold text-main text-xl my-5'>Kontinuerlig support og drift</h3>
 									Efter lanceringen af din app kan du føle dig tryg og fortsat konkurrencedygtig med vores dedikerede
-									support og drift. Vi sidder klar til at hjælpe med alle spørgsmål eller problemer
-									du måtte have med din app.
-									<br></br>
-									<br></br>
-									Vi sørger for løbende drift, opdatering og optimering af din hjemmeside, så 
-									du konstant står skarpt sammenlignet med dine konkurrenter.
+									support og drift. Vi står for yderligere bug-fixes, ændringer og opdateringer, så din app holdes ved lige året rundt.
 								</p>
 							</div>
 						</Reveal>
 					</div>
 					<div className="flex flex-col sm:flex-row mt-5 sm:items-center gap-6 sm:gap-10">
-						<Link href={"mailto:hey@gazellateam.com"} className="flex items-center gap-5">
+						<Link target="_blank" href={"https://cal.com/lasseosmann/discoverycall"} className="flex items-center gap-5">
 							<div className="p-4 border hi rounded-full hover:bg-third hover:border-third hover:text-white transition-all text-main border-main">
 								<ArrowRight strokeWidth={1.5} />
 							</div>
-							<p className="text-xl">Skriv til os</p>
+							<p className="text-xl">Kontakt os</p>
 						</Link>
 						<Link href={"tel:50695272"} className="flex items-center gap-5">
 							<div className="p-4 border hi rounded-full hover:bg-third hover:border-third hover:text-white transition-all text-main border-main">

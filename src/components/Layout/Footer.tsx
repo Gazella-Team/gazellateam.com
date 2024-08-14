@@ -79,14 +79,14 @@ export default function Footer(props: FooterProps) {
 			>
 				<div className="w-[90%] mx-auto min-h-[370px] max-w-7xl grid grid-cols-1 md:grid-cols-[35%_1fr] pt-14 gap-20">
 					<div className="flex flex-col gap-6">
-						<div className="flex flex-col gap-4">
+						<div className="flex flex-col gap-5">
 							<img
 								className="w-[80px]"
 								src="/logos/1.png"
 								alt="Gazella Team Logo"
 							/>
-							<p className="text-gray-600 paragraph text-sm max-w-xs font-regular">
-								Et digitalt bureau med øje for detalje. Vi har +10 års samlet erfaring indenfor software.				
+							<p className="text-gray-600 paragraph text-sm max-w-[220px] font-regular">
+							Vi er et ungt digitalt bureau med passion for salgsfremmende og kreative web- og app løsninger.
 							</p>
 						</div>
 						<div className="flex items-center gap-2 mt-3">

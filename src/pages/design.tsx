@@ -30,11 +30,11 @@ export default function Design() {
 						</Reveal>
 					</div>
 					<div className="flex flex-col sm:flex-row mt-5 sm:items-center gap-6 sm:gap-10">
-						<Link href={"mailto:hey@gazellateam.com"} className="flex items-center gap-5">
+						<Link target="_blank" href={"https://cal.com/lasseosmann/discoverycall"} className="flex items-center gap-5">
 							<div className="p-4 border hi rounded-full hover:bg-third hover:border-third hover:text-white transition-all text-main border-main">
 								<ArrowRight strokeWidth={1.5} />
 							</div>
-							<p className="text-xl">Skriv til os</p>
+							<p className="text-xl">Kontakt os</p>
 						</Link>
 						<Link href={"tel:50695272"} className="flex items-center gap-5">
 							<div className="p-4 border hi rounded-full hover:bg-third hover:border-third hover:text-white transition-all text-main border-main">
