@@ -2,7 +2,6 @@ import { ArrowUpRight, Menu, X } from 'lucide-react'
 import Link from 'next/link'
 import { useState } from 'react'
 import { useRouter } from 'next/router'
-import EstimateSheet from '../modals/EstimateSheet'
 import useScroll from '@/hooks/use-scroll'
 import { cn } from '@/lib/utils'
 
