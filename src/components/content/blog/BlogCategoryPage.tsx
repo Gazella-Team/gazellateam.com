@@ -6,6 +6,7 @@ import categories, { getCategoriesList } from '@/contentlayer/lib/categories'
 import { cn } from '@/helpers/utils'
 import Link from 'next/link'
 import { Reveal } from '@/components/Animations/Reveal'
+
 type BlogCategoryPageProps = {
 	activeTab: keyof typeof categories
 	posts: Post[]
@@ -27,7 +28,7 @@ export default function BlogCategoryPage({
 				<div className="max-w-7xl w-[90%] mx-auto">
 					<Reveal delayTime={0.3}>
 						<h1 className="text-5xl font-semibold mb-6 text-main">
-							Nyheder og læring<span className='text-second'>.</span>
+							Gazella Team Blog<span className='text-second'>.</span>
 						</h1>
 					</Reveal>
 					<Reveal delayTime={0.5}>
@@ -36,9 +37,9 @@ export default function BlogCategoryPage({
 						</h2>
 					</Reveal>
 				</div>
-				<div className="py-24 pb-24 min-h-[490px] flex items-center justify-center  border-gray-600/10">
+				<div className="py-24  min-h-[490px] flex items-center justify-center  border-gray-600/10">
 					{posts.length > 0 ? (
-						<div className="max-w-7xl w-[90%] gap-20 md:gap-16 mx-auto grid grid-cols-1 md:grid-cols-2">
+						<div className="max-w-7xl w-[90%] gap-20 md:gap-10 mx-auto grid grid-cols-1 md:grid-cols-3">
 							{posts.map((post) => (
 								<Reveal delayTime={0.6} key={post.slug}>
 									<BlogCard post={post} />
