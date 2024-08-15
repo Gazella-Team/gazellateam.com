@@ -16,7 +16,7 @@ export default function Design() {
 						<Reveal>
 							<div className="mb-14 flex flex-col gap-10 md:gap-11">
 								<h2 className="text-4xl md:text-5xl xl:text-5xl leading-[120%] md:leading-[120%] xl:leading-[120%] font-semibold text-main">
-									Design og brugeroplevelse<span className='text-second'>.</span>
+									Kreativ design <span className='text-second'>identitet</span> og <span className='text-second'>strategisk</span> brugeroplevelse
 								</h2>
 								<p className="font-light text-[18px] paragraph text-gray-600">
 								Vi tilbyder skræddersyede løsninger inden for design og brugeroplevelse, som sigter mod at <span className='text-third'>maksimere konverteringen af dine besøgende</span> til loyale kunder.
