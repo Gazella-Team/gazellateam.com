@@ -48,7 +48,7 @@ const FOOTER_LINKS: {
 			},
 			{
 				label: 'Karriere',
-				href: '/',
+				href: 'https://thehub.io/startups/gazella-team',
 			},
 		],
 	},
