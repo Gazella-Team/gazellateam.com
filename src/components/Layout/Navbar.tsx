@@ -88,7 +88,7 @@ export default function Navbar(props:Navbar) {
 			</div>
 		</nav>
 		:
-		<nav className="h-[80px] fixed bg-white w-full flex flex-col z-[10]">
+		<nav className={cn("h-[80px] fixed bg-transparent w-full flex flex-col z-[10]", scrolled && "bg-white")}>
 		<div className="w-[90%] flex-1 max-w-7xl mx-auto flex items-center justify-between">
 			<div className='flex items-center justify-start'>
 				<Link href={'/'}>
