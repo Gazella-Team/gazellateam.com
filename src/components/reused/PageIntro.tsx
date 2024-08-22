@@ -3,6 +3,11 @@ import { RevealWild } from '../Animations/RevealWild'
 import SectionStarter from './SectionStarter'
 
 export default function PageIntro(props:any) {
+    
+    function IdentifyMarkedWord(word:any) {
+        // make code work
+    }
+
     return (
         <section className="py-16 md:py-24">
             <div className="w-[90%] max-w-7xl mx-auto">
