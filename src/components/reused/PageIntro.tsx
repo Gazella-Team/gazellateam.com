@@ -1,11 +1,12 @@
+import { cn } from '@/lib/utils'
 import { Reveal } from '../Animations/Reveal'
 import { RevealWild } from '../Animations/RevealWild'
 import SectionStarter from './SectionStarter'
 
 export default function PageIntro(props:any) {
     
-    function IdentifyMarkedWord(word:any) {
-        // make code work
+    function IdentifyMarkedWord({word, markedWords}:{word:string, markedWords:any}) {
+        return markedWords.includes(word)
     }
 
     return (
@@ -15,7 +16,7 @@ export default function PageIntro(props:any) {
                     <h1 className="font-semibold text-main tracking-tight max-w-3xl text-[40px] md:text-5xl xl:text-6xl leading-[120%] mb-8">{props.heading}<span className='text-second'>.</span></h1>
                 </Reveal>
                 <Reveal>
-                    <p className="font-light text-[16px] md:text-[18px] xl:text-[20px] leading-[150%] max-w-xl text-gray-600">{props.description}</p>
+                    <p className="font-light text-[16px] md:text-[18px] xl:text-[20px] leading-[150%] max-w-xl text-gray-600">{(props.description.split(" ")).map((word:string) => <span className={cn("", IdentifyMarkedWord(word, props.marked))}>{word}{" "}</span>)}</p>
                 </Reveal>
             </div>
         </section>
