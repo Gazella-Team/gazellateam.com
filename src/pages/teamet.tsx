@@ -10,6 +10,7 @@ export default function People() {
 		<Layout cta={true}>
 			<Meta keywords='team, udviklere, designere, kommunikationsansvarlige, inspirere' description='Vi er et lille team af udviklere, designere og kommunikationsansvarlige, som hver dag stræber efter at inspirere og løfte virksomheder med software.' title={`Mød vores engagerede team - Gazella Team`} />
 			<PageIntro 
+				marked={["udviklere, designere, kommunikationsansvarlige"]}
 				starter="theteam"
 				heading="Et ungt nørdet team"
 				description="Vi er et lille team af udviklere, designere og kommunikationsansvarlige, som hver dag stræber efter at inspirere og løfte virksomheder med software."
