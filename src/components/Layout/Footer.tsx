@@ -21,7 +21,11 @@ const FOOTER_LINKS: {
 				href: '/hjemmeside',
 			},
 			{
-				label: 'App udvikling',
+				label: 'Udvikling',
+				href: '/udvikling',
+			},
+			{
+				label: 'Mobil App',
 				href: '/app',
 			},
 			{
@@ -74,9 +78,7 @@ export default function Footer(props: FooterProps) {
 
 	return (
 		<>
-			<footer
-				className='py-[10px] mx-auto border-t text-main relative border-t-gray-600/10 bg-white'
-			>
+			<footer className="py-[10px] mx-auto border-t text-main relative border-t-gray-600/10 bg-white">
 				<div className="w-[90%] mx-auto min-h-[370px] max-w-7xl grid grid-cols-1 md:grid-cols-[35%_1fr] pt-14 gap-20">
 					<div className="flex flex-col gap-6">
 						<div className="flex flex-col gap-5">
@@ -86,12 +88,14 @@ export default function Footer(props: FooterProps) {
 								alt="Gazella Team Logo"
 							/>
 							<p className="text-gray-600 paragraph text-sm max-w-[220px] font-regular">
-							Vi er et ungt digitalt bureau med passion for salgsfremmende og kreative web- og app løsninger.
+								Vi er et ungt digitalt bureau med passion for
+								salgsfremmende og kreative web- og app
+								løsninger.
 							</p>
 						</div>
 						<div className="flex items-center gap-2 mt-3">
 							<Link
-								target='_blank'
+								target="_blank"
 								href={
 									'https://www.linkedin.com/company/gazellateam'
 								}
@@ -100,10 +104,14 @@ export default function Footer(props: FooterProps) {
 								<FaLinkedin color="rgb(31 41 55)" />
 							</Link>
 							<Link
-								href={"mailto:hey@gazellateam.com"}
+								href={'mailto:hey@gazellateam.com'}
 								className="border p-3 rounded-full border-gray-600/10 hover:bg-slate-50 transition-all"
 							>
-								<Mail size={18} className='text-white' fill="rgb(31 41 55)" />
+								<Mail
+									size={18}
+									className="text-white"
+									fill="rgb(31 41 55)"
+								/>
 							</Link>
 						</div>
 					</div>
@@ -129,13 +137,9 @@ export default function Footer(props: FooterProps) {
 					</div>
 				</div>
 				<div className="text-center pb-6 text-gray-400 text-sm gap-4 md:gap-0 flex flex-col md:flex-row items-center justify-between paragraph w-[86%] mx-auto max-w-7xl">
-					<p>
-						© {new Date().getFullYear()} Gazella Team
-					</p>
+					<p>© {new Date().getFullYear()} Gazella Team</p>
 					<div className="flex items-center gap-4">
-						<p>
-							CVR: 45003639
-						</p>
+						<p>CVR: 45003639</p>
 					</div>
 				</div>
 			</footer>
