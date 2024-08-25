@@ -104,7 +104,7 @@ export default function Navbar(props:Navbar) {
 							className="hover:text-third transition-all"
 							href={'/hjemmeside'}
 						>
-							Hjemmeside
+							Web & Marketing
 						</Link>
 						<Link
 							className="hover:text-third transition-all"
