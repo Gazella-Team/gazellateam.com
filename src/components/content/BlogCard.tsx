@@ -23,7 +23,7 @@ export default function BlogCard({ post }: BlogCardProps) {
 				src={post.image}
 				style={{ color: 'transparent' }}
 			/>
-			<div className="flex flex-1 flex-col mt-5 justify-between rounded-b-lg ">
+			<div className="flex flex-1 flex-col mt-10 justify-between rounded-b-lg ">
 				<div className="flex flex-col gap-6">
 					{/*<BlogBadge category={post.category} /> */}
 					<div>
@@ -35,6 +35,7 @@ export default function BlogCard({ post }: BlogCardProps) {
 						</p>
 					</div>
 				</div>
+				{/*
 				<div className="mt-4 flex items-center justify-between">
 					<time
 						dateTime={format(
@@ -46,6 +47,7 @@ export default function BlogCard({ post }: BlogCardProps) {
 						{format(new Date(post.publishedAt), 'MMMM dd, yyyy')}
 					</time>
 				</div>
+				 */}
 			</div>
 		</Link>
 	)

@@ -35,7 +35,7 @@ export function Article({ post }: { post: Post }) {
 						{post.description}
 					</h2>
 					<div className="flex items-center gap-3 mb-6">
-						<div className="flex gap-4">
+						<div className="flex items-center gap-4">
 							<AuthorAvatars authors={post.authors} />
 							<div>
 								<AuthorNames authors={post.authors} />

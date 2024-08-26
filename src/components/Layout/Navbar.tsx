@@ -118,12 +118,12 @@ export default function Navbar(props:Navbar) {
 						>
 							Design
 						</Link>
-					<Link
-							className="hover:text-third transition-all"
-							href={'/teamet'}
-					>
-						Teamet
-					</Link>
+						<Link
+								className="hover:text-third transition-all"
+								href={'/teamet'}
+						>
+							Teamet
+						</Link>
 					{/*
 					<Link
 							className="hover:text-third transition-all"
