@@ -14,8 +14,8 @@ export default function App() {
 				<div className="w-[90%] mx-auto max-w-[700px] flex flex-col">
 					<div className="max-w-2xl">
 						<Reveal>
-							<div className="mb-14 flex flex-col gap-10 md:gap-12">
-								<h2 className="text-4xl md:text-5xl xl:text-5xl leading-[120%] md:leading-[120%] xl:leading-[120%] font-semibold text-main">
+							<div className="mb-14 flex flex-col gap-10 md:gap-7">
+								<h2 className="text-4xl md:mb-6 md:text-5xl xl:text-5xl font-semibold leading-[120%] md:leading-[120%] xl:leading-[120%] text-main">
 									Moderne og skalerbar app udvikling til <span className='text-second'>iOS og Android</span>
 								</h2>
 								<p className="font-light text-[18px] paragraph text-gray-600">
@@ -27,43 +27,60 @@ export default function App() {
 									efterfulgt af post-lancering support for at
 									sikre en fremtidssikret skalerbar løsning, der
 									passer til din vision.{' '}
-									<br></br>
-									<br></br>
-									<h3 className='font-semibold text-main text-xl my-5'>Intuitivt design og brugeroplevelse</h3>
-									Design er altafgørende for dine brugeres opfattelse af din app. For at din kommende app udlever sit <span className='text-third'>fulde potentiale</span>, sørger vi for et intuitivt design passende
-									til din ide og forretning i sammenspil med en <span className='text-third'>strategisk gennemtænkt brugeroplevelse</span>, som sørger
-									for let navigation, lav ventetid og gladere brugere.
-									<br></br>
-									<br></br>
-									<h3 className='font-semibold text-main text-xl my-5'>Samspil med andre services</h3>
-									Vores app-udviklingsservice fokuserer på at skabe løsninger, der er fuldt integreret med din 
-									virksomheds øvrige systemer og tjenester. Vi sikrer, at din nye app fungerer problemfrit sammen 
-									med <span className='text-third'>eksisterende teknologier</span>, hvilket optimerer arbejdsgange og <span className='text-third'>øger effektiviteten</span>. Med en stærk integration mellem appen og andre vigtige forretningsværktøjer kan vi
-									nemt styre <span className='text-third'>data, processer og analyser.</span>
-									<br></br>
-									<br></br>
-									<h3 className='font-semibold text-main text-xl my-5'>Fast kompetent udviklingsteam</h3>
-									Når du får din app udviklet hos os, kan du være sikker på
-									et <span className='text-third'>kompetent in-house</span> udviklerteam siddende i København.
-									Vi er let tilgængelige gennem hele udviklingsprocessen, og vi supplerer
-									med løbende <span className='text-third'>faglig erfaring og sparring</span> for at danne det bedste grundlag
-									for et enestående slut-resultat.
-
-									<br></br>
-									<br></br>
-									<h3 className='font-semibold text-main text-xl my-5'>Nyeste teknologier</h3>
-									Hos os bruger vi de nyeste app- teknologier og frameworks indefor software, for
-									at sikre en <span className='text-third'>hurtig, skalerbar og konkurrencedygtig løsning</span> til alle projekter.
-									Vi forstår at skabe vindende app-løsninger ved sammenspil af tekniske kompetencer,
-									gennemtænkt brugeroplevelse og <span className='text-third'>udviklingsteknologier fra øverste hylde.</span>
-
-									<br></br>
-									<br></br>
-
-									<h3 className='font-semibold text-main text-xl my-5'>Kontinuerlig support og drift</h3>
-									Efter lanceringen af din app kan du føle dig tryg og fortsat konkurrencedygtig med vores <span className='text-third'>dedikerede
-									support og drift.</span> Vi står for yderligere bug-fixes, ændringer og opdateringer, så din app holdes ved lige året rundt.
 								</p>
+								<div className="font-light text-[18px] paragraph text-gray-600">
+									<h3 className='font-semibold text-main text-xl my-5'>Intuitivt design og brugeroplevelse</h3>
+									<div className='flex flex-col gap-6'>
+										<p>
+											Design er altafgørende for dine brugeres opfattelse af din app. For at din kommende app udlever sit <span className='text-third'>fulde potentiale</span>, sørger vi for et intuitivt design passende
+											til din ide og forretning i sammenspil med en <span className='text-third'>strategisk gennemtænkt brugeroplevelse</span>, som sørger
+											for let navigation, lav ventetid og gladere brugere.
+										</p>
+									</div>
+								</div>
+								<div className="font-light text-[18px] paragraph text-gray-600">
+									<h3 className='font-semibold text-main text-xl my-5'>Samspil med andre services</h3>
+									<div className='flex flex-col gap-6'>
+										<p>
+											Vores app-udviklingsservice fokuserer på at skabe løsninger, der er fuldt integreret med din 
+											virksomheds øvrige systemer og tjenester. Vi sikrer, at din nye app fungerer problemfrit sammen 
+											med <span className='text-third'>eksisterende teknologier</span>, hvilket optimerer arbejdsgange og <span className='text-third'>øger effektiviteten</span>. Med en stærk integration mellem appen og andre vigtige forretningsværktøjer kan vi
+											nemt styre <span className='text-third'>data, processer og analyser.</span>
+										</p>
+									</div>
+								</div>
+								<div className="font-light text-[18px] paragraph text-gray-600">
+									<h3 className='font-semibold text-main text-xl my-5'>Fast kompetent udviklingsteam</h3>
+									<div className='flex flex-col gap-6'>
+										<p>
+											Når du får din app udviklet hos os, kan du være sikker på
+											et <span className='text-third'>kompetent in-house</span> udviklerteam siddende i København.
+											Vi er let tilgængelige gennem hele udviklingsprocessen, og vi supplerer
+											med løbende <span className='text-third'>faglig erfaring og sparring</span> for at danne det bedste grundlag
+											for et enestående slut-resultat.
+										</p>
+									</div>
+								</div>
+								<div className="font-light text-[18px] paragraph text-gray-600">
+									<h3 className='font-semibold text-main text-xl my-5'>Nyeste teknologier</h3>
+									<div className='flex flex-col gap-6'>
+										<p>
+											Hos os bruger vi de nyeste app- teknologier og frameworks indefor software, for
+											at sikre en <span className='text-third'>hurtig, skalerbar og konkurrencedygtig løsning</span> til alle projekter.
+											Vi forstår at skabe vindende app-løsninger ved sammenspil af tekniske kompetencer,
+											gennemtænkt brugeroplevelse og <span className='text-third'>udviklingsteknologier fra øverste hylde.</span>
+										</p>
+									</div>
+								</div>
+								<div className="font-light text-[18px] paragraph text-gray-600">
+									<h3 className='font-semibold text-main text-xl my-5'>Kontinuerlig support og drift</h3>
+									<div className='flex flex-col gap-6'>
+										<p>
+											Efter lanceringen af din app kan du føle dig tryg og fortsat konkurrencedygtig med vores <span className='text-third'>dedikerede
+											support og drift.</span> Vi står for yderligere bug-fixes, ændringer og opdateringer, så din app holdes ved lige året rundt.
+										</p>
+									</div>
+								</div>
 							</div>
 						</Reveal>
 					</div>

@@ -22,14 +22,14 @@ export default function BlogCategoryPage({
 		<Layout cta={true}>
 			{/* TODO: Create SEO banner from image.social when we have 3 blogs */}
 			<Meta
-				title={`Blog | Gazella Team`}
+				title={`Blog: Hold dig opdateret med vores seneste nyheder, refleksioner og læringer | Gazella Team`}
 				description="Latest news and updates from Toolbird aswell as guides."
 			/>
 			<div>
 				<PageIntro
 					marked={["udviklere, designere, kommunikationsansvarlige"]}
 					heading="Gazella Team Blog"
-					description="Hold dig opdateret med vores seneste nyheder, reflektioner og læringer, med vores ugentlige gratis blog opslag."
+					description="Hold dig opdateret med vores seneste nyheder, refleksioner og læringer, med vores ugentlige gratis blog opslag."
 				/>
 				<div className="pb-24 min-h-[490px] flex items-center justify-center  border-gray-600/10">
 					{posts.length > 0 ? (

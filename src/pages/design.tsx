@@ -14,18 +14,26 @@ export default function Design() {
 				<div className="w-[90%] mx-auto max-w-[700px] flex flex-col">
 					<div className="max-w-2xl">
 						<Reveal>
-							<div className="mb-14 flex flex-col gap-10 md:gap-11">
-								<h2 className="text-4xl md:text-5xl xl:text-5xl leading-[120%] md:leading-[120%] xl:leading-[120%] font-semibold text-main">
+							<div className="mb-14 flex flex-col gap-10 md:gap-7">
+								<h2 className="text-4xl md:mb-6 md:text-5xl xl:text-5xl font-semibold leading-[120%] md:leading-[120%] xl:leading-[120%] text-main">
 									Kreativ design <span className='text-second'>identitet</span> og <span className='text-second'>strategisk</span> brugeroplevelse
 								</h2>
-								<p className="font-light text-[18px] paragraph text-gray-600">
-								Vi tilbyder skræddersyede løsninger inden for design og brugeroplevelse, som sigter mod at <span className='text-third'>maksimere konverteringen af dine besøgende</span> til loyale kunder.
-								<br></br><br></br>
-								Vi forstår, at en imponerende digital tilstedeværelse er essentiel i dagens konkurrenceprægede marked, og derfor er vores mål at skabe unikke og effektive designs, der <span className='text-third'>engagerer og inspirerer</span> dine brugere. Vores erfarne team af designere arbejder tæt sammen med dig for at udvikle visuelle identiteter og grænseflader, der afspejler din virksomheds unikke værdier og mål.
-								<br></br><br></br>Vi tror på, at et veludført design ikke kun ser godt ud, men også fungerer optimalt. Fra logodesign og branding til web- og applikationsdesign, sikrer vi, at alle elementer taler sammen i en harmonisk enhed, der <span className='text-third'>styrker dit brand.</span>
-								<br></br><br></br>En god brugeroplevelse er kernen i vores tilgang. Vi anvender en brugercentreret designproces, der inkluderer research, brugerrejser, wireframes og prototyper for at sikre, at hver løsning er <span className='text-third'>intuitiv og brugervenlig.</span>
-								<br></br><br></br>Vores mål er at forbedre kunderejsen, reducere friktion og gøre det nemt for dine besøgende at nå frem til de ønskede handlinger, hvilket i sidste ende øger konverteringsraten.
-								</p>
+								<div className="flex flex-col gap-7 font-light text-[18px] paragraph text-gray-600">
+									<p>
+										Vi tilbyder skræddersyede løsninger inden for design og brugeroplevelse, som sigter mod at <span className='text-third'>maksimere konverteringen af dine besøgende</span> til loyale kunder.
+									</p>
+									<p>
+										Vi forstår, at en imponerende digital tilstedeværelse er essentiel i dagens konkurrenceprægede marked, og derfor er vores mål at skabe unikke og effektive designs, der <span className='text-third'>engagerer og inspirerer</span> dine brugere. Vores erfarne team af designere arbejder tæt sammen med dig for at udvikle visuelle identiteter og grænseflader, der afspejler din virksomheds unikke værdier og mål.
+									</p>
+									<p>
+										Vi tror på, at et veludført design ikke kun ser godt ud, men også fungerer optimalt. Fra logodesign og branding til web- og applikationsdesign, sikrer vi, at alle elementer taler sammen i en harmonisk enhed, der <span className='text-third'>styrker dit brand.</span>
+									</p>
+									<p>
+										En god brugeroplevelse er kernen i vores tilgang. Vi anvender en brugercentreret designproces, der inkluderer research, brugerrejser, wireframes og prototyper for at sikre, at hver løsning er <span className='text-third'>intuitiv og brugervenlig.</span>									
+									</p>
+									<p>
+										Vores mål er at forbedre kunderejsen, reducere friktion og gøre det nemt for dine besøgende at nå frem til de ønskede handlinger, hvilket i sidste ende øger konverteringsraten.									</p>
+								</div>
 							</div>
 						</Reveal>
 					</div>

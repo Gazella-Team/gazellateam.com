@@ -14,8 +14,8 @@ export default function Hjemmeside() {
 				<div className="w-[90%] mx-auto max-w-[700px] flex flex-col">
 					<div className="max-w-2xl">
 						<Reveal>
-							<div className="mb-14 flex flex-col gap-10 md:gap-11">
-								<h2 className="text-4xl md:text-5xl xl:text-5xl font-semibold leading-[120%] md:leading-[120%] xl:leading-[120%] text-main">
+							<div className="mb-14 flex flex-col gap-10 md:gap-7">
+								<h2 className="text-4xl md:mb-6 md:text-5xl xl:text-5xl font-semibold leading-[120%] md:leading-[120%] xl:leading-[120%] text-main">
 									Få flere kunder og mere kendskab med en ny <span className='text-second'>performance hjemmeside</span>
 								</h2>
 								<p className="font-light text-[18px] paragraph text-gray-600">
@@ -24,37 +24,54 @@ export default function Hjemmeside() {
 									forrentinger med formål om at øge online traffiken og hermed salg og omsætning.
 									Ved at kombinere hastighedsoptimering, søgemaskineoptimering, design og 
 									salgspsykologisk hjemmesidestruktur, skaber vi vindende hjemmesider for vores kunder.
-									<br></br>
-									<br></br>
-									<h3 className='font-semibold text-main text-xl my-5'>Salgsoptimeret udvikling</h3>
-									Med højere konkurrence på internettet som aldrig før, er det nødvendigt med et salgsoptimeret setup
-									til sin hjemmeside. Vi sørger for at gennemarbejde en komplet <span className='text-third'>hastighedsoptimering </span> 
-									af din hjemmeside, så brugeroplevelsen bliver så god som muligt. I relation til god hastighed udarbejder vi en skræddersyet 
-									SEO strategi, så i øger jeres <span className='text-third'>synlighed på Google</span> og tiltrækker flere organiske kunder.
-									<br></br>
-									<br></br>
-									<h3 className='font-semibold text-main text-xl my-5'>Responsivt til alle enheder</h3>
-									Alle hjemmesider, vi udvikler, er <span className='text-third'>kompatible med både mobil, tablet, laptop og desktop.</span>{" "}
-									Det betyder, at hjemmesiden automatisk tilpasser sig alle enheder.
-									Vi sørger for en gennemarbejdet brugeroplevelse på tværs af alle enheder, så dine besøgende
-									får den bedst mulige oplevelse, når de besøger din hjemmeside.
-									<br></br>
-									<br></br>
-									<h3 className='font-semibold text-main text-xl my-5'>Skræddersyet design</h3>
-									Vi står for at skrædersy et <span className='text-third'>unikt design</span>, som matcher din virksomheds værdier og visioner. 
-									Med et design, som appelerer til din målgruppe, formår vi effektivt at kommunikerer den
-									rette værdi til dine kunder.
-									<br></br>
-									<br></br>
-									<h3 className='font-semibold text-main text-xl my-5'>Fri support</h3>
-									Når du får din hjemmeside udviklet hos os, kan du <span className='text-third'>føle dig tryg</span> med vores frie support
-									alle ugens hverdage. Vi sidder klar til at hjælpe med alle spørgsmål eller problemer
-									du måtte have med din hjemmeside.
-									<br></br>
-									<br></br>
-									Vi sørger for løbende drift, opdatering og optimering af din hjemmeside, så 
-									du konstant står skarpt sammenlignet med dine konkurrenter.
+
 								</p>
+								<div className="font-light text-[18px] paragraph text-gray-600">
+									<h3 className='font-semibold text-main text-xl my-5'>Salgsoptimeret udvikling</h3>
+									<div className='flex flex-col gap-6'>
+										<p>
+											Med højere konkurrence på internettet som aldrig før, er det nødvendigt med et salgsoptimeret setup
+											til sin hjemmeside. Vi sørger for at gennemarbejde en komplet <span className='text-third'>hastighedsoptimering </span> 
+											af din hjemmeside, så brugeroplevelsen bliver så god som muligt. I relation til god hastighed udarbejder vi en skræddersyet 
+											SEO strategi, så i øger jeres <span className='text-third'>synlighed på Google</span> og tiltrækker flere organiske kunder.
+										</p>
+									</div>
+								</div>
+								<div className="font-light text-[18px] paragraph text-gray-600">
+									<h3 className='font-semibold text-main text-xl my-5'>Responsivt til alle enheder</h3>
+									<div className='flex flex-col gap-6'>
+										<p>
+										Alle hjemmesider, vi udvikler, er <span className='text-third'>kompatible med både mobil, tablet, laptop og desktop.</span>{" "}
+										Det betyder, at hjemmesiden automatisk tilpasser sig alle enheder.
+										Vi sørger for en gennemarbejdet brugeroplevelse på tværs af alle enheder, så dine besøgende
+										får den bedst mulige oplevelse, når de besøger din hjemmeside.
+										</p>
+									</div>
+								</div>
+								<div className="font-light text-[18px] paragraph text-gray-600">
+									<h3 className='font-semibold text-main text-xl my-5'>Skræddersyet design</h3>
+									<div className='flex flex-col gap-6'>
+										<p>
+											Vi står for at skrædersy et <span className='text-third'>unikt design</span>, som matcher din virksomheds værdier og visioner. 
+											Med et design, som appelerer til din målgruppe, formår vi effektivt at kommunikerer den
+											rette værdi til dine kunder.
+										</p>
+									</div>
+								</div>
+								<div className="font-light text-[18px] paragraph text-gray-600">
+									<h3 className='font-semibold text-main text-xl my-5'>Fri support</h3>
+									<div className='flex flex-col gap-6'>
+										<p>
+											Når du får din hjemmeside udviklet hos os, kan du <span className='text-third'>føle dig tryg</span> 
+											med vores frie support alle ugens hverdage. Vi sidder klar til at hjælpe med alle spørgsmål eller problemer
+											du måtte have med din hjemmeside.
+										</p>
+										<p>
+											Vi sørger for løbende drift, opdatering og optimering af din hjemmeside, så 
+											du konstant står skarpt sammenlignet med dine konkurrenter.
+										</p>
+									</div>
+								</div>
 							</div>
 						</Reveal>
 					</div>
