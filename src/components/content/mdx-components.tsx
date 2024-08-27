@@ -16,7 +16,7 @@ export const components = {
 		if (href.startsWith('http')) {
 			return (
 				<a
-					className="text-gray-800 underline underline-offset-4 hover:no-underline"
+					className="text-third font-normal underline underline-offset-4 hover:no-underline"
 					href={href}
 					target="_blank"
 					rel="noopener noreferrer"

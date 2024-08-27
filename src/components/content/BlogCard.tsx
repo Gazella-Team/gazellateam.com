@@ -27,7 +27,7 @@ export default function BlogCard({ post }: BlogCardProps) {
 				<div className="flex flex-col gap-6">
 					{/*<BlogBadge category={post.category} /> */}
 					<div>
-						<h2 className="line-clamp-2 font-display text-2xl font-semibold text-main">
+						<h2 className="line-clamp-2 font-display text-2xl max-w-sm font-semibold text-main">
 							{post.title}
 						</h2>
 						<p className="mt-2 line-clamp-2 font-base text-base text-gray-600">
