@@ -124,6 +124,12 @@ export default function Navbar(props:Navbar) {
 						>
 							Teamet
 						</Link>
+						<Link
+								className="hover:text-third transition-all"
+								href={'/blog'}
+						>
+							Blog
+						</Link>
 					{/*
 					<Link
 							className="hover:text-third transition-all"
@@ -199,6 +205,12 @@ export default function Navbar(props:Navbar) {
 							href={'/teamet'}
 						>
 							Teamet
+						</Link>
+						<Link
+							className="hover:text-gray-600"
+							href={'/blog'}
+						>
+							Blog
 						</Link>
 						{/*
 						<Link
