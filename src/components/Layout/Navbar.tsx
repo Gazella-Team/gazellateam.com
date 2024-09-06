@@ -174,7 +174,7 @@ export default function Navbar(props:Navbar) {
 	</nav>
 			}
 			{menuClicked ? (
-				<div className="flex lg:hidden fixed w-full bg-white top-[80px] bottom-0 py-[45px] z-20 overflow-auto">
+				<div className="flex lg:hidden bg-[url(/bgs/line.svg)] bg-cover bg-center fixed w-full bg-white top-[80px] bottom-0 py-[45px] z-20 overflow-auto">
 					<style jsx>{`
 						::-webkit-scrollbar {
 							display: none;

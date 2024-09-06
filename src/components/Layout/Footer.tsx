@@ -87,7 +87,7 @@ export default function Footer(props: FooterProps) {
 								src="/logos/1.png"
 								alt="Gazella Team Logo"
 							/>
-							<p className="text-gray-600 paragraph text-sm max-w-[220px] font-regular">
+							<p className="text-gray-600 paragraph text-sm max-w-[220px] font-normal">
 								Vi er et ungt digitalt bureau med passion for
 								salgsfremmende og kreative web- og app
 								løsninger.
