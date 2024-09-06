@@ -62,7 +62,7 @@ export default function Hjemmeside() {
 									<h3 className='font-semibold text-main text-xl my-5'>Fri support</h3>
 									<div className='flex flex-col gap-6'>
 										<p>
-											Når du får din hjemmeside udviklet hos os, kan du <span className='text-third'>føle dig tryg</span> 
+											Når du får din hjemmeside udviklet hos os, kan du <span className='text-third'>føle dig tryg</span>{" "}
 											med vores frie support alle ugens hverdage. Vi sidder klar til at hjælpe med alle spørgsmål eller problemer
 											du måtte have med din hjemmeside.
 										</p>
