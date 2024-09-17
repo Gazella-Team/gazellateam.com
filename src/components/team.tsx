@@ -19,13 +19,6 @@ const teamData = [
 		funImage: '/team/simonmaribo02.webp',
 	},
 	{
-		name: 'Mik Lønborg',
-		title: 'Salgsansvarlig',
-		image: '/team/miklonborg.webp',
-		linkedIn: 'https://www.linkedin.com/in/mik-l%C3%B8nborg/',
-		funImage: '/team/miklonborg02.webp',
-	},
-	{
 		name: 'Frederik Ferdinand',
 		title: 'Backend Lead',
 		image: '/team/emptymember.webp',
@@ -53,17 +46,28 @@ export default function Team() {
 	)
 }
 
-function TeamMemberCard(props:any) {
-    const [imageHovered, setImageHovered] = useState(false)
-    return (
-        <Reveal>
-            <Link target="_blank" href={props.Obj.linkedIn} className="flex flex-col gap-6">
-                <img onMouseEnter={() => setImageHovered(true)} onMouseLeave={() => setImageHovered(false)}  className="transition-all" src={imageHovered ? props.Obj.image:props.Obj.image}></img>
-                <div>
-                    <h2 className="font-medium">{props.Obj.name}</h2>
-                    <p className="font-light text-sm text-gray-600">{props.Obj.title}</p>
-                </div>
-            </Link>
-        </Reveal>
-    )
+function TeamMemberCard(props: any) {
+	const [imageHovered, setImageHovered] = useState(false)
+	return (
+		<Reveal>
+			<Link
+				target="_blank"
+				href={props.Obj.linkedIn}
+				className="flex flex-col gap-6"
+			>
+				<img
+					onMouseEnter={() => setImageHovered(true)}
+					onMouseLeave={() => setImageHovered(false)}
+					className="transition-all"
+					src={imageHovered ? props.Obj.image : props.Obj.image}
+				></img>
+				<div>
+					<h2 className="font-medium">{props.Obj.name}</h2>
+					<p className="font-light text-sm text-gray-600">
+						{props.Obj.title}
+					</p>
+				</div>
+			</Link>
+		</Reveal>
+	)
 }
