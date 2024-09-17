@@ -12,15 +12,13 @@ export default function Hero() {
 			<div className="w-[90%] max-w-7xl relative mx-auto flex flex-col ">
 				<div className="flex flex-col">
 					<RevealWild delayTime={0.3}>
-						<h1 className="text-4xl max-w-[700px] font-semibold tracking-tight text-main md:text-5xl xl:leading-[120%] mb-[30px]">
+						<h1 className="text-4xl max-w-[740px] font-semibold tracking-tight text-main md:text-5xl xl:leading-[120%] mb-[30px]">
 							<p>
-								Vi er et ungt digitalt bureau med passion for{' '}
-								<span className="text-second">
-									salgsfremmende
-								</span>{' '}
-								og <span className="text-second">kreative</span>{' '}
-								web- og app løsninger
-								<span className="text-second">.</span>
+								Vi gør din{' '}
+								<span className="text-second">vision</span> til
+								virkelighed med{' '}
+								<span className="text-second">skalerbare</span>{' '}
+								software-løsninger.
 							</p>
 						</h1>
 					</RevealWild>
